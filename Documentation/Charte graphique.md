@@ -10,6 +10,8 @@
 
 <u>Couleurs secondaires:</u> #FFFFFF ; #2E689B ; #0C2F4E
 
+<u>Background-color de la page principale</u>: couleur sobre à voir, hésitation entre #0c2f4e, gris, ou #0000
+
 <u>Police:</u> Friedrich sur Dafont
 
 Menu en haut à gauche en lien hypertexte dont:
@@ -20,4 +22,9 @@ Menu en haut à gauche en lien hypertexte dont:
 - Expériences => Mon expériences professionnelles
 - Projet => Les différents projets que j'ai réalisés au cours de mon cursus, en entreprise, personnels
 
-- Contact en footer
+- Contacts en pied de page
+
+<u>Caractéristiques du menu:</u>
+
+- Des menus rectangulaires défilantes de gauche à droite qui s'agrandira lorsque la souris sera sur le menu en question
+- Lorsque le menu sera sélectionné par la souris, il s'agrandira au fur et à mesure avec une image de fond représentant la thématique du menu => exemple sur à propos, une photo de moi + une brève description ...; de même sur projets qui représentera les différents projets que j'ai entamé en IT.

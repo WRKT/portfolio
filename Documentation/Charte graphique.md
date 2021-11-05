@@ -27,4 +27,34 @@ Menu en haut à gauche en lien hypertexte dont:
 <u>Caractéristiques du menu:</u>
 
 - Des menus rectangulaires défilantes de gauche à droite qui s'agrandira lorsque la souris sera sur le menu en question
-- Lorsque le menu sera sélectionné par la souris, il s'agrandira au fur et à mesure avec une image de fond représentant la thématique du menu => exemple sur à propos, une photo de moi + une brève description ...; de même sur projets qui représentera les différents projets que j'ai entamé en IT.
+- Lorsque le menu sera sélectionné par la souris, il s'agrandira au fur et à mesure avec une image de fond représentant la thématique du menu => exemple sur à propos, une photo de moi ; de même sur projets qui représentera les différents projets que j'ai entamé en IT.
+
+- En plus de tout cela, à chaque menu, il y aura une image qui définira le menu en question 
+
+- Dans la barre contact, mettre une icone pour chaque type de contacts: Enveloppe pour Mail, le logo de linkedIn, une icone de Téléphone, logo Discord, et Github. Ces contacts sont évidemment en lien hypertexte.
+
+  - <u>Les logos et icones utilisés en footer</u>
+
+    - Discord
+
+    ![Logo Discord](Logos&Icons\Logo Discord.png)
+
+    - Github
+
+    ![Logo github](Logos&Icons\Logo github.png)
+
+    - LinkedIn
+
+    
+
+    ![Logo Linkedin](Logos&Icons\Logo Linkedin.png)
+
+    - Mail
+
+    ![Logo mail](Logos&Icons\Logo mail.png)
+
+    - Téléphone
+
+    ![Logo téléphone](Logos&Icons\Logo téléphone.png)
+
+    <u>Caractéristiques des pages secondaires</u>

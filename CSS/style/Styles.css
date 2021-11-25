@@ -1,7 +1,22 @@
+@font-face {
+    font-family:'Friedrich';
+    src: url(../fonts/Friedrich.ttf) format('truetype'); ;
+}
+
+body {
+    font-family: 'Friedrich';
+}
+
 h1 {
     text-align: center;
 }
 
 #accroche {
     text-align: center;
+    font-family: fantasy;
+}
+
+h2 {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
 }

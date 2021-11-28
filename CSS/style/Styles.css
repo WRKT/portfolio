@@ -1,14 +1,19 @@
 @font-face {
     font-family:'Friedrich';
-    src: url(../fonts/Friedrich.ttf) format('truetype'); ;
+    src: url(../fonts/Friedrich-Condensed.ttf) format('truetype'); ;
+
+    font-family: 'Adventure';
+    src:url(../fonts/Adventure.otf) format('opentype'); ;
 }
 
 body {
-    font-family: 'Friedrich';
+    font-family: 'Adventure';
+    background-color: #0c2f4e;
 }
 
 h1 {
     text-align: center;
+    color: azure;
 }
 
 #accroche {
@@ -19,4 +24,12 @@ h1 {
 h2 {
     writing-mode: vertical-lr;
     text-orientation: upright;
+    word-spacing: 100%;
+    color: azure;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+    text-align: center;
 }

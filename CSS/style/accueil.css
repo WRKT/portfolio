@@ -32,6 +32,10 @@ h1 {
     font-family: fantasy;
 }
 
+body {
+    background-color: #EFF3F6;
+}
+
 .contact {
     list-style: none;
 }

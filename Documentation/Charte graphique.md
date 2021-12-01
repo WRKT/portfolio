@@ -28,9 +28,7 @@ Menu en haut à droite en lien vers d'autres pages dont:
 
 - Dans la barre contact, mettre une icone pour chaque type de contacts: Enveloppe pour Mail, le logo de LinkedIn, une icone de Téléphone, logo Discord, et Github. 
 
-  
-
-  
+  00
 
   - <u>Les logos utilisés en head</u>
 
@@ -51,7 +49,7 @@ Menu en haut à droite en lien vers d'autres pages dont:
     
 
     ![Logo Linkedin](./Logos&Icons/Logo_Linkedin.png)
-  
+
     - Mail
   
     ![Logo mail](./Logos&Icons/Logo_mail.png)

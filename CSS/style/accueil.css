@@ -11,16 +11,17 @@
 }
 
 /*Modification apportés pour le contenu HTML*/
+
 .menu {
     font-size: 3rem;
     font-family: 'GameofSquids';
     cursor: pointer;
-    padding: 1.85em 2em;
+    display:inline flex;
     list-style-type: none;
-    display: inline flex;
     writing-mode: vertical-lr;
     text-orientation: upright;
-    left: 20%;
+    justify-content: space-between;
+    
 }
 
 a , a:visited a:hover, a:active{
@@ -31,7 +32,7 @@ a:link {
 }
 
 .logoWR {
-    float:left;
+    float:top left;
     width: 10px;
     height: 10px; 
 }
@@ -47,31 +48,38 @@ h1 {
     font-family: fantasy;
 }
 
+#portfolio {
+    text-align: center;
+    font-family: ;
+}
 body {
     background-color: #EFF3F6;
 }
 
 .propos {
     background-color:#BFCEDC ;
-    text-align: right;
+    padding: 1.85em 2em;
 }
 
 .competences{
     background-color:#DAE8F2 ;
-    left: 15%;
+    padding: 1.85em 2em;
 }
 
 .experiences {
     background-color:#BFCEDC ;
+    padding: 1.85em 2em;
 }
 
 .projets {
     background-color:#DAE8F2 ;
+    padding: 1.85em 2em;
 }
 
 
 .contact {
     list-style-type: none;
+    padding: 1em;
 }
 
 footer {

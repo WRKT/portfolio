@@ -9,11 +9,33 @@
     src: url(../fonts/Game\ Of\ Squids.ttf) format('truetype'); ;
 }
 
-body{
-    background-image: url(../images/emoji_sysadmin.png);
-    background-color: antiquewhite;
+.menu {
+    text-align: right;
 }
 
+div ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color:#DAE8F2;
+}
+
+div li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 40px;
+    border-right: 1px solid gray;
+    text-align: center;
+    line-height: 40px;
+    color:#404040;
+    font-family: 'Adventure';
+}
+
+.logoWR {
+    position:; 
+}
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -25,37 +47,24 @@ h1 {
 }
 
 h2 {
-    writing-mode: vertical-lr;
-    text-orientation: upright;
     word-spacing: 80%;
-    font-family: 'GameofSquids'
-}
-
-#propos {
-    background-color: aqua;
-}
-
-#parcours {
-    background-color: blue;
-}
-
-#experiences {
-    background-color: blueviolet;
-}
-
-#competences {
-    background-color: brown;
-}
-
-#projets {
-    background-color: cadetblue;
+    font-family: 'GameofSquids';
+    background-color: #6C7D8C;
 }
 
 h3{
     font-family: 'Friedrich';
 }
+
+h3 p {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+
 footer {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #ffffff;
+    background-color:#238DC2;
     text-align: center;
 }

@@ -1,28 +1,22 @@
 ## Page principale
 
-### <u>Maquette</u>
+![Maquette_première_page](./Maquettes/Maquette_première_page.png)
 
+<u>Couleur principal:</u> 
 
+![palettes_couleurs](./Maquettes/palettes_couleurs.jpeg)
 
-![Maquette première page](./Maquettes/Maquette_première_page.png)
+<u>Background-color de la page principale</u>: couleur sobre à voir, hésitation entre #0C2F4E, ou #EFF3F6
 
-<u>Couleur principal:</u> #0c2f4e, privilégie la couleur bleu, qui pour moi définit un caractère sérieux.
+<u>Police:</u> Adventure sur Dafont, Verdana, Courrier New, Friedrich sur Dafont, GameofSquids sur Dafont à voir
 
-<u>Couleurs secondaires:</u> #FFFFFF ; #2E689B ; #0C2F4E
+Menu en haut à droite en lien vers d'autres pages dont:
 
-<u>Background-color de la page principale</u>: couleur sobre à voir, hésitation entre #0c2f4e, gris, ou #0000
-
-<u>Police:</u> Adventure sur Dafont, Verdana, Courrier New
-
-Menu en haut à gauche en lien hypertexte dont:
-
-- A propos => Présentation + Passion avec une photo de moi professionnelle avec un bon fond
-- Parcours => Mon parcours académiques
+- A propos =>  Présentation + Passion avec une photo de moi avec un bon fond à voir + Mon parcours.
 - Compétences => Mes principales compétences
-- Expériences => Mon expériences professionnelles
-- Projet => Les différents projets que j'ai réalisés au cours de mon cursus, en entreprise, personnels
-
-- Contacts en pied de page
+- Expériences => Une page énumérant mes expériences professionnelles
+- Projets => Les différents projets que j'ai réalisés au cours de mon cursus, en entreprise, personnels
+- Contacts => listant mes contacts réseaux dont Discord, Github, LinkedIn, Mail
 
 <u>Caractéristiques du menu:</u>
 
@@ -32,7 +26,7 @@ Menu en haut à gauche en lien hypertexte dont:
 
 - En plus de tout cela, à chaque menu, il y aura une image qui définira le menu en question 
 
-- Dans la barre contact, mettre une icone pour chaque type de contacts: Enveloppe pour Mail, le logo de linkedIn, une icone de Téléphone, logo Discord, et Github. 
+- Dans la barre contact, mettre une icone pour chaque type de contacts: Enveloppe pour Mail, le logo de LinkedIn, une icone de Téléphone, logo Discord, et Github. 
 
   
 

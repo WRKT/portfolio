@@ -8,6 +8,7 @@
 
     font-family: 'GameofSquids';
     src: url(../fonts/Game\ Of\ Squids.ttf) format('truetype'); ;
+
 }
 
 /*Modification apportés pour le contenu HTML*/
@@ -39,7 +40,7 @@ a:link {
 
 h1 {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Bit1 Normal';
     font-size: 2.5em;
 }
 
@@ -50,8 +51,9 @@ h1 {
 
 #portfolio {
     text-align: center;
-    font-family: ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 body {
     background-color: #EFF3F6;
 }

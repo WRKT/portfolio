@@ -8,7 +8,7 @@
 
 <u>Background-color de la page principale</u>: couleur sobre à voir, hésitation entre #0C2F4E, ou #EFF3F6
 
-<u>Police:</u> Adventure sur Dafont, Verdana, Courrier New, Friedrich sur Dafont, GameofSquids sur Dafont, StarJedi
+<u>Police:</u> Adventure sur Dafont, Verdana, Courrier New, Friedrich sur Dafont, GameofSquids sur Dafont, Minecraft
 
 Menu en haut à droite en lien vers d'autres pages dont:
 

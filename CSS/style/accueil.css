@@ -12,8 +12,22 @@
 
 /*Modification apportés pour le contenu HTML*/
 .menu {
-    text-align: center;
-    list-style: none;
+    font-size: 3rem;
+    font-family: 'GameofSquids';
+    cursor: pointer;
+    padding: 1.85em 2em;
+    list-style-type: none;
+    display: inline flex;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    left: 20%;
+}
+
+a , a:visited a:hover, a:active{
+    color: #003972
+}
+a:link {
+    text-decoration: none;
 }
 
 .logoWR {
@@ -25,6 +39,7 @@
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
 }
 
 #accroche {
@@ -36,8 +51,27 @@ body {
     background-color: #EFF3F6;
 }
 
+.propos {
+    background-color:#BFCEDC ;
+    text-align: right;
+}
+
+.competences{
+    background-color:#DAE8F2 ;
+    left: 15%;
+}
+
+.experiences {
+    background-color:#BFCEDC ;
+}
+
+.projets {
+    background-color:#DAE8F2 ;
+}
+
+
 .contact {
-    list-style: none;
+    list-style-type: none;
 }
 
 footer {

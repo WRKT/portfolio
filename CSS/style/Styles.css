@@ -4,16 +4,19 @@
 
     font-family: 'Adventure';
     src:url(../fonts/Adventure.otf) format('opentype'); ;
+
+    font-family: 'GameofSquids';
+    src: url(../fonts/Game\ Of\ Squids.ttf) format('truetype'); ;
 }
 
-body {
-    font-family: 'Adventure';
-    background-color: #0c2f4e;
+body{
+    background-image: url(../images/emoji_sysadmin.png);
+    background-color: antiquewhite;
 }
 
 h1 {
     text-align: center;
-    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #accroche {
@@ -24,10 +27,33 @@ h1 {
 h2 {
     writing-mode: vertical-lr;
     text-orientation: upright;
-    word-spacing: 100%;
-    color: azure;
+    word-spacing: 80%;
+    font-family: 'GameofSquids'
 }
 
+#propos {
+    background-color: aqua;
+}
+
+#parcours {
+    background-color: blue;
+}
+
+#experiences {
+    background-color: blueviolet;
+}
+
+#competences {
+    background-color: brown;
+}
+
+#projets {
+    background-color: cadetblue;
+}
+
+h3{
+    font-family: 'Friedrich';
+}
 footer {
     font-family: 'Courier New', Courier, monospace;
     background-color: #ffffff;

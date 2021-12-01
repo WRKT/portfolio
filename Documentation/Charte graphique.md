@@ -4,7 +4,7 @@
 
 
 
-![Maquette première page](Maquettes\Maquette première page.png)
+![Maquette première page](./Maquettes/Maquette_première_page.png)
 
 <u>Couleur principal:</u> #0c2f4e, privilégie la couleur bleu, qui pour moi définit un caractère sérieux.
 
@@ -12,7 +12,7 @@
 
 <u>Background-color de la page principale</u>: couleur sobre à voir, hésitation entre #0c2f4e, gris, ou #0000
 
-<u>Police:</u> Friedrich sur Dafont
+<u>Police:</u> Adventure sur Dafont, Verdana, Courrier New
 
 Menu en haut à gauche en lien hypertexte dont:
 
@@ -38,21 +38,21 @@ Menu en haut à gauche en lien hypertexte dont:
 
     - Discord
 
-    ![Logo Discord](Logos&Icons\Logo Discord.png)
+    ![Logo Discord](./Logos&Icons/Logo_Discord.png)
 
     - Github
 
-    ![Logo github](Logos&Icons\Logo github.png)
+    ![Logo github](./Logos&Icons/Logo_github.png)
 
     - LinkedIn
 
     
 
-    ![Logo Linkedin](Logos&Icons\Logo Linkedin.png)
+    ![Logo Linkedin](./Logos&Icons/Logo_Linkedin.png)
 
     - Mail
 
-    ![Logo mail](Logos&Icons\Logo mail.png)
+    ![Logo mail](./Logos&Icons/Logo_mail.png)
 
     
 

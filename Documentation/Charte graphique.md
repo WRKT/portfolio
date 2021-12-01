@@ -34,6 +34,14 @@ Menu en haut à gauche en lien hypertexte dont:
 
 - Dans la barre contact, mettre une icone pour chaque type de contacts: Enveloppe pour Mail, le logo de linkedIn, une icone de Téléphone, logo Discord, et Github. 
 
+  
+
+  
+
+  - <u>Les logos utilisés en head</u>
+
+    ![My_Logo](./Logos&Icons/My_Logo.png)
+
   - <u>Les logos et icones utilisés en footer</u>
 
     - Discord
@@ -49,11 +57,11 @@ Menu en haut à gauche en lien hypertexte dont:
     
 
     ![Logo Linkedin](./Logos&Icons/Logo_Linkedin.png)
-
+  
     - Mail
-
+  
     ![Logo mail](./Logos&Icons/Logo_mail.png)
-
+  
     
-
+  
     

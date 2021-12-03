@@ -11,31 +11,68 @@
 
 /*Modification apportés pour le contenu HTML*/
 
-#container ul {
-    display: flex;
+body {
+    background-color: #EFF3F6;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'Minecraft';
+    font-size: 3.5em;
+}
+
+#portf {
+    text-align: center;
+    font-family: 'Minecraft';
+    width: 100%;
+    font-size: 2.80em;
+}
+#MENU {
+    display: flex ;
     writing-mode: vertical-lr;
     text-orientation: upright;
     flex-direction: column;
-    flex: auto;
 }
 
 .first{
     text-align: right;
     background-color:#BFCEDC ;
+    padding: 1.85em 2em;
+    margin-right: 20%;
+    box-shadow: 10px 5px 5px #003972;
+
 }
 
 .second {
     text-align: left;
     background-color:#DAE8F2 ;
+    padding: 1.85em 2em;
+    margin-right: 20%;
+    box-shadow: 10px 5px 5px #003972;
 }
 
-.menu {
-    font-size: 3em;
-    font-family: 'GameofS';
-    cursor: pointer;
-    list-style-type: none;
+.third {
+    text-align: right;
+    background-color:#BFCEDC ;
     padding: 1.85em 2em;
-    height: 800px;
+    margin-right: 20%;
+    box-shadow: 10px 5px 5px #003972;
+}
+
+.fourth{
+    text-align: left;
+    background-color:#DAE8F2 ;
+    padding: 1.85em 2em;
+    box-shadow: 10px 5px 5px #003972;
+}
+
+#MENU li {
+    font-size: 2.5em;
+    font-family: 'GameofS';
+    list-style-type: none;
+    height: 780px;
+    border-radius: 1em;
 }
 
 a , a:visited a:hover, a:active{
@@ -48,41 +85,27 @@ a:link {
 
 img {
     float:left;
-    width: 200px;
-    height: 200px; 
+    width: 220px;
+    height: 220px; 
     margin-left: 2.5%;
-}
-
-h1 {
-    text-align: center;
-    width: 100%;
-    font-family: 'Minecraft';
-    font-size: 3.5em;
-}
-
-
-#Portfolio {
-    text-align: center;
-    width: 100%;
-    font-family: 'Minecraft';
-    font-size: 2.5em;
-}
-
-body {
-    background-color: #EFF3F6;
-}
-
-#propos {
-    right: 10%;
-}
-
-.contact {
-    list-style-type: none;
-    padding: 1em;
 }
 
 footer {
     font-family: 'Minecraft';
     background-color:#84B3D4;
 }
+
+#PIED {
+    display: flex;
+    text-align: center;
+}
+
+.contact {
+    list-style-type: none;
+    padding: 1em;
+    margin: 10px;
+    display: inline;
+    text-align: center;
+}
+
 

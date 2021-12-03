@@ -11,6 +11,21 @@
 
 /*Modification apportés pour le contenu HTML*/
 
+.logo {
+    float:left;
+    width: 200px;
+    height: 200px; 
+    margin-left: 2.5%;
+    margin-top: 2rem;
+}
+
+.imgpc {
+    float: right;
+    width: 200px;
+    height: 200px; 
+    margin-right: 2.5%;
+}
+
 body {
     background-color: #EFF3F6;
 }
@@ -81,13 +96,6 @@ a , a:visited a:hover, a:active{
 
 a:link {
     text-decoration: none;
-}
-
-img {
-    float:left;
-    width: 220px;
-    height: 220px; 
-    margin-left: 2.5%;
 }
 
 footer {

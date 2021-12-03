@@ -1,83 +1,80 @@
 /*Ajout des polices à utiliser*/
 @font-face {
-    font-family:'Friedrich';
-    src: url(../fonts/Friedrich-Condensed.ttf) format('truetype'); ;
+    font-family: 'GameofS';
+    src: url(../fonts/Game\ Of\ Squids.ttf) format('truetype');
+}
 
-    font-family: 'Adventure';
-    src:url(../fonts/Adventure.otf) format('opentype'); ;
-
-    font-family: 'GameofSquids';
-    src: url(../fonts/Game\ Of\ Squids.ttf) format('truetype'); ;
-
+@font-face {
+    font-family: 'Minecraft';
+    src: url(../fonts/Minecraft.ttf) format('truetype');
 }
 
 /*Modification apportés pour le contenu HTML*/
 
-.menu {
-    font-size: 3rem;
-    font-family: 'GameofSquids';
-    cursor: pointer;
-    display:inline flex;
-    list-style-type: none;
+#container ul {
+    display: flex;
     writing-mode: vertical-lr;
     text-orientation: upright;
-    justify-content: space-between;
-    
+    flex-direction: column;
+    flex: auto;
+}
+
+.first{
+    text-align: right;
+    background-color:#BFCEDC ;
+}
+
+.second {
+    text-align: left;
+    background-color:#DAE8F2 ;
+}
+
+.menu {
+    font-size: 3em;
+    font-family: 'GameofS';
+    cursor: pointer;
+    list-style-type: none;
+    padding: 1.85em 2em;
+    height: 800px;
 }
 
 a , a:visited a:hover, a:active{
-    color: #003972
+    color: #003972;
 }
+
 a:link {
     text-decoration: none;
 }
 
-.logoWR {
-    float:top left;
-    width: 10px;
-    height: 10px; 
+img {
+    float:left;
+    width: 200px;
+    height: 200px; 
+    margin-left: 2.5%;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Bit1 Normal';
+    width: 100%;
+    font-family: 'Minecraft';
+    font-size: 3.5em;
+}
+
+
+#Portfolio {
+    text-align: center;
+    width: 100%;
+    font-family: 'Minecraft';
     font-size: 2.5em;
-}
-
-#accroche {
-    text-align: center;
-    font-family: fantasy;
-}
-
-#portfolio {
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
     background-color: #EFF3F6;
 }
 
-.propos {
-    background-color:#BFCEDC ;
-    padding: 1.85em 2em;
+#propos {
+    right: 10%;
 }
-
-.competences{
-    background-color:#DAE8F2 ;
-    padding: 1.85em 2em;
-}
-
-.experiences {
-    background-color:#BFCEDC ;
-    padding: 1.85em 2em;
-}
-
-.projets {
-    background-color:#DAE8F2 ;
-    padding: 1.85em 2em;
-}
-
 
 .contact {
     list-style-type: none;
@@ -85,7 +82,7 @@ body {
 }
 
 footer {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Minecraft';
     background-color:#84B3D4;
 }
 

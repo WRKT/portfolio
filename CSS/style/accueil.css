@@ -13,16 +13,16 @@
 
 .logo {
     float:left;
-    width: 200px;
-    height: 200px; 
+    width: 180px;
+    height: 180px; 
     margin-left: 2.5%;
     margin-top: 2rem;
 }
 
 .imgpc {
     float: right;
-    width: 200px;
-    height: 200px; 
+    width: 150px;
+    height: 175px; 
     margin-right: 2.5%;
 }
 
@@ -34,15 +34,18 @@ h1 {
     text-align: center;
     width: 100%;
     font-family: 'Minecraft';
-    font-size: 3.5em;
+    font-size: 3em;
+    word-spacing: 1rem;
+    letter-spacing: .5rem;
 }
 
 #portf {
     text-align: center;
     font-family: 'Minecraft';
     width: 100%;
-    font-size: 2.80em;
+    font-size: 2.50em;
 }
+
 #MENU {
     display: flex ;
     writing-mode: vertical-lr;
@@ -83,10 +86,10 @@ h1 {
 }
 
 #MENU li {
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-family: 'GameofS';
     list-style-type: none;
-    height: 780px;
+    height: 755px;
     border-radius: 1em;
 }
 
@@ -98,20 +101,18 @@ a:link {
     text-decoration: none;
 }
 
-footer {
-    font-family: 'Minecraft';
-    background-color:#84B3D4;
-}
-
 #PIED {
     display: flex;
-    text-align: center;
+    font-family: 'Minecraft';
+    letter-spacing: .2rem;
+    background-color:#84B3D4;
+    align-content: center;
 }
 
 .contact {
     list-style-type: none;
-    padding: 1em;
-    margin: 10px;
+    padding: 0px;
+    margin: 20px;
     display: inline;
     text-align: center;
 }

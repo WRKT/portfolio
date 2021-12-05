@@ -34,7 +34,7 @@ h1 {
     text-align: center;
     width: 100%;
     font-family: 'Minecraft';
-    font-size: 3em;
+    font-size: 3rem;
     word-spacing: 1rem;
     letter-spacing: .5rem;
 }
@@ -53,44 +53,45 @@ h1 {
     flex-direction: column;
 }
 
+#MENU li {
+    font-size: 2.35rem;
+    font-family: 'GameofS';
+    list-style-type: none;
+    height: 45rem;
+    border-radius: 1rem;
+}
+
 .first{
-    text-align: right;
+    text-align: left;
     background-color:#BFCEDC ;
-    padding: 1.85em 2em;
+    padding: 5rem;
     margin-right: 20%;
     box-shadow: 10px 5px 5px #003972;
 
 }
 
 .second {
-    text-align: left;
+    text-align: right;
     background-color:#DAE8F2 ;
-    padding: 1.85em 2em;
+    padding: 5rem;
     margin-right: 20%;
     box-shadow: 10px 5px 5px #003972;
 }
 
 .third {
-    text-align: right;
+    text-align: left;
     background-color:#BFCEDC ;
-    padding: 1.85em 2em;
+    padding: 5rem;
     margin-right: 20%;
     box-shadow: 10px 5px 5px #003972;
 }
 
+/*Pas de margin-right pour le dernier bloc car nous voudrions center le menu au centre de la page */
 .fourth{
-    text-align: left;
+    text-align: right;
     background-color:#DAE8F2 ;
-    padding: 1.85em 2em;
+    padding: 5rem;
     box-shadow: 10px 5px 5px #003972;
-}
-
-#MENU li {
-    font-size: 2.2em;
-    font-family: 'GameofS';
-    list-style-type: none;
-    height: 755px;
-    border-radius: 1em;
 }
 
 a , a:visited a:hover, a:active{
@@ -101,20 +102,23 @@ a:link {
     text-decoration: none;
 }
 
-#PIED {
-    display: flex;
-    font-family: 'Minecraft';
-    letter-spacing: .2rem;
-    background-color:#84B3D4;
-    align-content: center;
+footer {
+    text-align: center;
+    background: 100% #84B3D4;
+    padding: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    /*letter-spacing: .2rem;*/
 }
 
-.contact {
-    list-style-type: none;
-    padding: 0px;
-    margin: 20px;
-    display: inline;
-    text-align: center;
+footer p {
+    font-weight: bolder;
 }
+
+#PIED ul li {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    /*letter-spacing: .2rem;*/
+}
+
 
 

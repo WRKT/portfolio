@@ -17,6 +17,10 @@
     height: 180px; 
     margin-left: 2.5%;
     margin-top: 2rem;
+    object-fit: fill;
+    transition-property: inherit;
+    transform: rotateZ(0deg);
+    transition-duration: 2.5s ;
 }
 
 .imgpc {
@@ -24,8 +28,15 @@
     width: 150px;
     height: 175px; 
     margin-right: 2.5%;
+    object-fit: cover;
+    transition-property: inherit;
+    transform: rotateZ(0deg);
+    transition-duration: 2.5s ;
 }
 
+.imgpc:hover, .logo:hover {
+    transform:rotateZ(-720deg);
+}
 body {
     background-color: #EFF3F6;
 }
@@ -67,7 +78,14 @@ h1 {
     padding: 5rem;
     margin-right: 20%;
     box-shadow: 10px 5px 5px #003972;
+    transform:scale(1);
+    transition-property: transform;
+    transition-duration: 1s;
+}
 
+/*Animation lorsque le menu sera pointé par la souris*/
+.first:hover, .second:hover, .third:hover, .fourth:hover{
+    transform: scale(1.15);
 }
 
 .second {
@@ -76,6 +94,9 @@ h1 {
     padding: 5rem;
     margin-right: 20%;
     box-shadow: 10px 5px 5px #003972;
+    transform:scale(1);
+    transition-property: transform;
+    transition-duration: 1s;
 }
 
 .third {
@@ -84,6 +105,9 @@ h1 {
     padding: 5rem;
     margin-right: 20%;
     box-shadow: 10px 5px 5px #003972;
+    transform:scale(1);
+    transition-property: transform;
+    transition-duration: 1s;
 }
 
 /*Pas de margin-right pour le dernier bloc car nous voudrions center le menu au centre de la page */
@@ -92,6 +116,9 @@ h1 {
     background-color:#DAE8F2 ;
     padding: 5rem;
     box-shadow: 10px 5px 5px #003972;
+    transform:scale(1);
+    transition-property: transform;
+    transition-duration: 1s;
 }
 
 a , a:visited a:hover, a:active{
@@ -118,6 +145,7 @@ footer p {
     display: inline;
     font-family: 'Courier New', Courier, monospace;
     /*letter-spacing: .2rem;*/
+    margin-right: 100px;
 }
 
 

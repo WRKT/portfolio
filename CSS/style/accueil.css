@@ -55,6 +55,11 @@ h1 {
     font-size: 3rem;
     word-spacing: 1rem;
     letter-spacing: .5rem;
+    animation: ease-in infinite;
+}
+
+h1:hover {
+    animation-play-state: paused;
 }
 
 #portf {
@@ -142,7 +147,6 @@ footer {
     background: 100% #84B3D4;
     padding: 2rem;
     font-family: 'Courier New', Courier, monospace;
-    /*letter-spacing: .2rem;*/
 }
 
 footer p {
@@ -152,7 +156,6 @@ footer p {
 #PIED ul li {
     display: inline;
     font-family: 'Courier New', Courier, monospace;
-    /*letter-spacing: .2rem;*/
     margin-right: 100px;
 }
 

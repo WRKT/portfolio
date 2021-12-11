@@ -139,7 +139,7 @@ a:link {
 
 footer {
     text-align: center;
-    background: 100% #84B3D4;
+    background-color:#84B3D4;
     padding: 2rem;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -153,11 +153,13 @@ footer p {
     display: inline;
     font-family: 'Courier New', Courier, monospace;
     margin-right: 100px;
+    font-size: large;
 }
 
 .discord {
     margin-right: 0px;
 }
 
-
-
+.fab, .fas {
+    font-size:x-large;
+}

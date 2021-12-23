@@ -1,165 +1,183 @@
 /*Ajout des polices à utiliser*/
 @font-face {
-    font-family: 'GameofS';
-    src: url(../fonts/Game\ Of\ Squids.ttf) format('truetype');
-}
-
-@font-face {
     font-family: 'Minecraft';
     src: url(../fonts/Minecraft.ttf) format('truetype');
 }
 
 /*Modification apportés pour le contenu HTML*/
-
 .logo {
     float:left;
-    width: 180px;
-    height: 180px; 
-    margin-left: 2.5%;
+    width: 135px;
+    height: 135px; 
+    margin-left: 2.5rem;
     margin-top: 2rem;
     object-fit: fill;
-    transition-property: inherit;
-    transform: rotate(0deg);
-    transition-duration: 2.5s ;
 }
-
 .imgpc {
     float: right;
-    width: 150px;
-    height: 175px; 
-    margin-right: 2.5%;
+    width: 100px;
+    height: 120px; 
+    margin-right:3rem;
     object-fit: cover;
-    transition-property: inherit;
-    transform: rotate(0deg);
-    transition-duration: 2.5s ;
 }
-
-/*Effets que quand la souris sera sur l'image ou le logo, ces images feront une rotation*/
-.imgpc:hover{
-    transform:rotate(-720deg);
-}
-
-.logo:hover {
-    transform:rotate(720deg);
-}
-
 
 body {
-    background-color: #EFF3F6;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
 }
-
 h1 {
     text-align: center;
-    width: 100%;
     font-family: 'Minecraft';
     font-size: 3rem;
     word-spacing: 1rem;
     letter-spacing: .5rem;
+    font-style: italic;
 }
-
 #portf {
     text-align: center;
     font-family: 'Minecraft';
-    width: 100%;
-    font-size: 2.50em;
+    font-size: 2rem;
+    word-spacing: .25rem;
+    letter-spacing: .15rem;
+    margin-bottom: 4.5rem;
+    padding:0;
 }
-
-#MENU {
-    display: flex ;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    flex-direction: column;
+#MENU ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-
 #MENU li {
-    font-size: 2.35rem;
-    font-family: 'GameofS';
-    list-style-type: none;
+    display: inline-block;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
     height: 45rem;
     border-radius: 1rem;
-    margin-bottom: 5rem;
+    max-width: 100%;
 }
-
+#MENU a {
+    text-align: center;
+    display: inline;
+    padding: 0 3.5rem;
+    color: #003972;
+}
 .first{
     text-align: left;
+    color: #003972;
     background-color:#BFCEDC ;
-    padding: 5rem;
-    margin-right: 20%;
+    background-image: none;
+    padding: 5.25rem;
     box-shadow: 10px 5px 5px #003972;
     transform:scale(1);
-    transition-property: transform;
-    transition-duration: 1s;
+    transition-property: all;
+    transition-duration: 1.5s;
 }
-
-/*Animation lorsque le menu sera pointé par la souris*/
-.first:hover, .second:hover, .third:hover, .fourth:hover{
-    transform: scale(1.15);
-}
-
 .second {
     text-align: right;
     background-color:#DAE8F2 ;
-    padding: 5rem;
-    margin-right: 20%;
+    background-image: none;
+    padding: 5.25rem;
     box-shadow: 10px 5px 5px #003972;
     transform:scale(1);
-    transition-property: transform;
-    transition-duration: 1s;
+    transition-property: all;
+    transition-duration: 1.5s;
 }
-
 .third {
     text-align: left;
     background-color:#BFCEDC ;
-    padding: 5rem;
-    margin-right: 20%;
+    background-image: none;
+    padding: 5.25rem;
     box-shadow: 10px 5px 5px #003972;
     transform:scale(1);
-    transition-property: transform;
-    transition-duration: 1s;
+    transition-property: all;
+    transition-duration: 1.5s;
 }
-
-/*Pas de margin-right pour le dernier bloc car nous voudrions center le menu au centre de la page */
 .fourth{
     text-align: right;
     background-color:#DAE8F2 ;
-    padding: 5rem;
+    background-image: none;
+    padding: 5.25rem;
     box-shadow: 10px 5px 5px #003972;
     transform:scale(1);
-    transition-property: transform;
-    transition-duration: 1s;
+    transition-property:all;
+    transition-duration: 1.5s;
 }
-
-a , a:visited a:hover, a:active{
-    color: #003972;
+.first:hover, .second:hover, .third:hover, .fourth:hover{
+    padding-right:10rem;
+    padding-left:7rem;
+    background-color: #EFF3F6;
+    box-shadow: none;
+    background-size: cover;
+    background-position:center;
+    background-clip: padding-box;
+    color: rgba(0, 0, 0, 0)
 }
-
+.first:hover {
+    background-image: url(../images/menu/a_propos.jpg);
+}
+.second:hover {
+    background-image: url(../images/menu/competences.jpg);
+}
+.third:hover {
+    background-image: url(../images/menu/experiences.jpg);
+}
+.fourth:hover {
+    background-image: url(../images/menu/projets.jpg);
+}
+a , a:visited, a:hover, a:active{
+    color: rgba(0, 0, 0, 0);
+}
 a:link {
     text-decoration: none;
 }
 
 footer {
-    text-align: center;
     background-color:#84B3D4;
     padding: 2rem;
-    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5rem;
 }
-
-footer p {
-    font-weight: bolder;
+#Titrepied {
     font-size: 1.5rem;
+    font-family: 'Minecraft';
+    letter-spacing: .25rem;
+    text-align: center;
+    padding:1.5rem;
+    padding-bottom: 0;
 }
-
-.contact {
+#PIED ul {
+    margin-top:2rem;
+    padding:0;
+    text-align: center;
+}
+#PIED li {
     display: inline;
-    font-family: 'Courier New', Courier, monospace;
-    margin-right: 100px;
-    font-size: large;
+    letter-spacing: 0.15rem;
+    font-size:0.92rem;
+    font-family: 'Minecraft';
+    padding:1.5rem;
 }
-
-.discord {
-    margin-right: 0px;
+.fa-envelope {
+    color: black;
 }
-
+.fa-linkedin {
+    color: rgb(36, 62, 206);
+}
+.fa-github {
+    color: black;
+}
+.fa-discord {
+    color: rgb(53, 124, 255);
+}
 .fab, .fas {
-    font-size:x-large;
+    font-size:1.85rem;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.fab:hover, .fas:hover {
+    color: whitesmoke;
 }

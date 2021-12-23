@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(../fonts/Minecraft.ttf) format('truetype');
+}
+
+body {
+    background-color: whitesmoke;
+    padding:0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo {
+    float:left;
+    width: 135px;
+    height: 135px; 
+    object-fit: fill;
+    margin-left: 2.5rem;
+}
+h1 {
+    text-align: center;
+    font-family: 'Minecraft';
+    margin-right: 2.5rem;
+}
+.Moi {
+    width: 20rem;
+    height: 25rem;
+    margin: auto;
+    display: flex;
+    border-radius: 15% 0%;
+}
+
+
+a , a:visited, a:hover, a:active{
+    color: rgba(0,0,0,0);
+}
+a:link {
+    text-decoration: none;
+}
+footer {
+    background-color:#84B3D4;
+    margin:0;
+    padding:1.5rem;
+}
+#Titrepied {
+    font-size: 1.5rem;
+    font-family: 'Minecraft';
+    letter-spacing: .25rem;
+    text-align: center;
+    margin-right: 2.5rem;
+    padding: 1.5rem;
+}
+#PIED ul {
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+#PIED li {
+    display: inline;
+    letter-spacing: 0.15rem;
+    font-size:0.92rem;
+    font-family: 'Minecraft';
+    padding: 1.5rem;
+}
+.fa-envelope {
+    color: black;
+}
+.fa-linkedin {
+    color: rgb(36, 62, 206);
+}
+.fa-github {
+    color: black;
+}
+.fa-discord {
+    color: rgb(53, 124, 255);
+}
+.fab, .fas {
+    font-size:1.85rem;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+.fab:hover, .fas:hover {
+    color: whitesmoke;
+}

@@ -4,7 +4,7 @@
 <!-- Définition des caractères utilisés par le site -->
     <meta charset="UTF-8">
 
-<!-- Liaison avec le fichier CSS -->
+<!-- Liaison avec les fichiers CSS -->
     <link rel="stylesheet" href="CSS/style/index.css" type="text/css">
 
 <!-- Ajout de l'icone sur le title => "Onglet"-->
@@ -20,37 +20,33 @@
 
 <!-- Code de tout ce qui contiendra la page en visuel-->
 <body>
-    <header>
 <!--Ajout du logo-->
-    <img class="logo" src="CSS/images/My_Logo.png">
+    <img alt="WR logo" class="logo" src="CSS/images/My_Logo.png">
     <br><br><br>
-    <img class="imgpc" src="CSS/images/image_pc.png">
+    <img alt="Man on a pc" class="imgpc" src="CSS/images/image_pc.png">
 <!--En tête de la page-->
     <h1><big>W</big><small>INNESS</small> <big>R</big><small>AKOTOZAFY</small></h1>
-    <p id="portf">------ P o r t f o l i o ------</p>
-    </header>
+    <p id="portf">---- Bienvenue sur mon Portfolio ----</p>
 <!--Menu principal de navigation-->
-    <center><nav id="MENU">
+    <div id="MENU">
         <ul>
-        <a href="HTML/A_propos.html"><li class="first"> A PROPOS </li></a>
-        <a href="HTML/Competences.html"><li class="second"> COMPETENCES </li></a>
-        <a href="HTML/Experiences.html"><li class="third"> EXPERIENCES </li></a>
-        <a href="HTML/Projets.html"><li class="fourth"> PROJETS </li></a>
+        <a href="HTML/A_propos.html"><li class="first">A PROPOS</li></a>
+        <a href="HTML/Competences.html"><li class="second">COMPETENCES</li></a>
+        <a href="HTML/Experiences.html"><li class="third">EXPERIENCES</li></a>
+        <a href="HTML/Projets.html"><li class="fourth">PROJETS</li></a>
         </ul>
-    </nav> </center>
+    </div>
 </body>
-<br><br>
 
 <!--Contenu du pied de la page-->
 <footer>
-    <p>Contacts</p>
-    <nav id="PIED">
+    <div id="Titrepied"><u>Contacts</u></div>
+    <div id="PIED">
         <ul>
-        <a href=""><li class="contact mail"> <i class="fas fa-envelope"></i>  Mail</li></a>
-        <a href="https://www.linkedin.com/in/winness-rakotozafy/"><li class="contact linkedIn"> <i class="fab fa-linkedin"></i>  LinkedIn</li></a>
-        <a href="https://github.com/WinnessRakotozafy"><li class="contact github"><i class="fab fa-github"></i>  Github</li></a>
-        <a href=""><li class="contact discord"><i class="fab fa-discord"></i>  Discord</li></a>
+        <li><a href=""><i class="fas fa-envelope"></i></a> Mail</li>
+        <li><a href="https://www.linkedin.com/in/winness-rakotozafy/"><i class="fab fa-linkedin"></i></a> LinkedIn</li>
+        <li><a href="https://github.com/WinnessRakotozafy"><i class="fab fa-github"></i></a> Github</li>
+        <li class="pasmarge"><a href=""><i class="fab fa-discord"></i></a> Discord</li>
         </ul> 
-    </nav> 
+    </div>
 </footer>
-

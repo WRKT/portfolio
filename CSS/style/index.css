@@ -29,15 +29,16 @@ body {
 h1 {
     text-align: center;
     font-family: 'Minecraft';
-    font-size: 3rem;
+    font-size: 2.5rem;
     word-spacing: 1rem;
     letter-spacing: .5rem;
     font-style: italic;
+    font-weight:100;
 }
 #portf {
     text-align: center;
     font-family: 'Minecraft';
-    font-size: 2rem;
+    font-size: 1.5rem;
     word-spacing: .25rem;
     letter-spacing: .15rem;
     margin-bottom: 4.5rem;
@@ -53,9 +54,9 @@ h1 {
     display: inline-block;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    font-size: 2.5rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    font-family: 'Minecraft';
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
     height: 45rem;
     border-radius: 1rem;
     max-width: 100%;
@@ -73,9 +74,8 @@ h1 {
     background-image: none;
     padding: 5.25rem;
     box-shadow: 10px 5px 5px #003972;
-    transform:scale(1);
     transition-property: all;
-    transition-duration: 1.5s;
+    transition-duration: 1.75s;
 }
 .second {
     text-align: right;
@@ -83,9 +83,8 @@ h1 {
     background-image: none;
     padding: 5.25rem;
     box-shadow: 10px 5px 5px #003972;
-    transform:scale(1);
     transition-property: all;
-    transition-duration: 1.5s;
+    transition-duration: 1.75s;
 }
 .third {
     text-align: left;
@@ -93,9 +92,8 @@ h1 {
     background-image: none;
     padding: 5.25rem;
     box-shadow: 10px 5px 5px #003972;
-    transform:scale(1);
     transition-property: all;
-    transition-duration: 1.5s;
+    transition-duration: 1.75s;
 }
 .fourth{
     text-align: right;
@@ -103,9 +101,8 @@ h1 {
     background-image: none;
     padding: 5.25rem;
     box-shadow: 10px 5px 5px #003972;
-    transform:scale(1);
     transition-property:all;
-    transition-duration: 1.5s;
+    transition-duration: 1.75s;
 }
 .first:hover, .second:hover, .third:hover, .fourth:hover{
     padding-right:10rem;
@@ -138,13 +135,12 @@ a:link {
 
 footer {
     background-color:#84B3D4;
-    padding: 2rem;
+    padding: 1.5rem;
     margin-top: 5rem;
 }
 #Titrepied {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Minecraft';
-    letter-spacing: .25rem;
     text-align: center;
     padding:1.5rem;
     padding-bottom: 0;
@@ -156,10 +152,9 @@ footer {
 }
 #PIED li {
     display: inline;
-    letter-spacing: 0.15rem;
-    font-size:0.92rem;
+    font-size:0.75rem;
     font-family: 'Minecraft';
-    padding:1.5rem;
+    padding:1.25rem;
 }
 .fa-envelope {
     color: black;
@@ -174,7 +169,7 @@ footer {
     color: rgb(53, 124, 255);
 }
 .fab, .fas {
-    font-size:1.85rem;
+    font-size:1.5rem;
     transition-duration: 0.5s;
     transition-property: all;
 }

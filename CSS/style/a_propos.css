@@ -7,28 +7,33 @@ body {
     background-color: whitesmoke;
     padding:0;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Minecraft';
+    font-weight: lighter;
 }
 .logo {
     float:left;
     width: 135px;
     height: 135px; 
     object-fit: fill;
-    margin-left: 2.5rem;
+    padding-left: 2.5rem;
+    display: block;
 }
 h1 {
     text-align: center;
     font-family: 'Minecraft';
-    margin-right: 2.5rem;
+    padding-top: 5rem;
+    padding-right: 10rem;
+}
+p {
+    font-size: 1rem;
 }
 .Moi {
     width: 20rem;
     height: 25rem;
+    border-radius: 15%;
     margin: auto;
     display: flex;
-    border-radius: 15% 0%;
 }
-
 
 a , a:visited, a:hover, a:active{
     color: rgba(0,0,0,0);
@@ -38,28 +43,26 @@ a:link {
 }
 footer {
     background-color:#84B3D4;
-    margin:0;
-    padding:1.5rem;
+    padding: 1.5rem;
+    margin-top: 5rem;
 }
 #Titrepied {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Minecraft';
-    letter-spacing: .25rem;
     text-align: center;
-    margin-right: 2.5rem;
-    padding: 1.5rem;
+    padding:1.5rem;
+    padding-bottom: 0;
 }
 #PIED ul {
+    margin-top:2rem;
     padding:0;
-    margin:0;
     text-align: center;
 }
 #PIED li {
     display: inline;
-    letter-spacing: 0.15rem;
-    font-size:0.92rem;
+    font-size:0.75rem;
     font-family: 'Minecraft';
-    padding: 1.5rem;
+    padding:1.25rem;
 }
 .fa-envelope {
     color: black;
@@ -74,11 +77,10 @@ footer {
     color: rgb(53, 124, 255);
 }
 .fab, .fas {
-    font-size:1.85rem;
+    font-size:1.5rem;
     transition-duration: 0.5s;
     transition-property: all;
 }
-
 .fab:hover, .fas:hover {
     color: whitesmoke;
 }

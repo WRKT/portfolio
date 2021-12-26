@@ -1,0 +1,1 @@
+Concernant la charte graphique, au lieu d'utiliser plusieurs polices de caractères, au final je me décide à vouloir utiliser qu'un seul police de caractère pour tout le contenu, et de jouer avec les effets comme la taille, l'espacement, le poids des caractères.

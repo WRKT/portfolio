@@ -1,23 +1,28 @@
 /*Ajout des polices à utiliser*/
 @font-face {
-    font-family: 'Minecraft';
-    src: url(../fonts/Minecraft.ttf) format('truetype');
+    font-family: 'Press2P';
+    src: url(../fonts/Press2P.ttf) format('truetype');
 }
 
 /*Modification apportés pour le contenu HTML*/
+/*html {
+    cursor: url(../cursors/cursor.cur), pointer;
+}*/
+
 .logo {
     float:left;
     width: 135px;
     height: 135px; 
-    margin-left: 2.5rem;
-    margin-top: 2rem;
+    padding-left: 2.5rem;
     object-fit: fill;
+
 }
 .imgpc {
     float: right;
     width: 100px;
     height: 120px; 
-    margin-right:3rem;
+    padding-right:3rem;
+    padding-top: 1rem;
     object-fit: cover;
 }
 
@@ -25,19 +30,19 @@ body {
     background-color: whitesmoke;
     margin: 0;
     padding: 0;
+    font-family: 'Press2P', cursive;
 }
 h1 {
     text-align: center;
-    font-family: 'Minecraft';
     font-size: 2.5rem;
     word-spacing: 1rem;
     letter-spacing: .5rem;
     font-style: italic;
     font-weight:100;
+    padding-top: 3.5rem;
 }
 #portf {
     text-align: center;
-    font-family: 'Minecraft';
     font-size: 1.5rem;
     word-spacing: .25rem;
     letter-spacing: .15rem;
@@ -54,7 +59,6 @@ h1 {
     display: inline-block;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    font-family: 'Minecraft';
     font-size: 2rem;
     letter-spacing: 0.5rem;
     height: 45rem;
@@ -73,42 +77,43 @@ h1 {
     background-color:#BFCEDC ;
     background-image: none;
     padding: 5.25rem;
-    box-shadow: 10px 5px 5px #003972;
+    box-shadow: 10px 7px 7px #003972;
     transition-property: all;
-    transition-duration: 1.75s;
+    transition-duration: 1.5s;
 }
 .second {
     text-align: right;
     background-color:#DAE8F2 ;
     background-image: none;
     padding: 5.25rem;
-    box-shadow: 10px 5px 5px #003972;
+    box-shadow: 10px 7px 7px #003972;
     transition-property: all;
-    transition-duration: 1.75s;
+    transition-duration: 1.5s;
 }
 .third {
     text-align: left;
     background-color:#BFCEDC ;
     background-image: none;
     padding: 5.25rem;
-    box-shadow: 10px 5px 5px #003972;
+    box-shadow: 10px 7px 7px #003972;
     transition-property: all;
-    transition-duration: 1.75s;
+    transition-duration: 1.5s;
 }
 .fourth{
     text-align: right;
     background-color:#DAE8F2 ;
     background-image: none;
     padding: 5.25rem;
-    box-shadow: 10px 5px 5px #003972;
+    box-shadow: 10px 7px 7px #003972;
     transition-property:all;
-    transition-duration: 1.75s;
+    transition-duration: 1.5s;
 }
+/*Effets pour augmenter la taille du menu pendant le hover et y mettre les images pour respecter le plus possible la charte*/
 .first:hover, .second:hover, .third:hover, .fourth:hover{
     padding-right:10rem;
     padding-left:7rem;
     background-color: #EFF3F6;
-    box-shadow: none;
+    box-shadow: 5px 5px 5px 5px #363636;
     background-size: cover;
     background-position:center;
     background-clip: padding-box;
@@ -133,14 +138,15 @@ a:link {
     text-decoration: none;
 }
 
+/*Effets pour le pied de page Contact */
 footer {
-    background-color:#84B3D4;
-    padding: 1.5rem;
+    background-color: #181818;
+    padding: 1.2rem;
     margin-top: 5rem;
+    color: white;
 }
 #Titrepied {
     font-size: 1rem;
-    font-family: 'Minecraft';
     text-align: center;
     padding:1.5rem;
     padding-bottom: 0;
@@ -153,26 +159,26 @@ footer {
 #PIED li {
     display: inline;
     font-size:0.75rem;
-    font-family: 'Minecraft';
-    padding:1.25rem;
+    margin:1.25rem;
 }
+
 .fa-envelope {
-    color: black;
+    color:#718ec5;
 }
 .fa-linkedin {
-    color: rgb(36, 62, 206);
+    color: #0e76a8;
 }
 .fa-github {
-    color: black;
+    color: white;
 }
 .fa-discord {
-    color: rgb(53, 124, 255);
+    color: #5865F2;
 }
 .fab, .fas {
-    font-size:1.5rem;
+    font-size:2rem;
     transition-duration: 0.5s;
     transition-property: all;
 }
 .fab:hover, .fas:hover {
-    color: whitesmoke;
+    color: darkslategrey;
 }

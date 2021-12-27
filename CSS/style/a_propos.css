@@ -1,14 +1,16 @@
 @font-face {
-    font-family: 'Minecraft';
-    src: url(../fonts/Minecraft.ttf) format('truetype');
+    font-family: 'Press2P';
+    src: url(../fonts/Press2P.ttf) format('truetype');
 }
 
 body {
     background-color: whitesmoke;
     padding:0;
     margin: 0;
-    font-family: 'Minecraft';
-    font-weight: lighter;
+    font-family: 'Press2P', cursive;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #242424;
 }
 .logo {
     float:left;
@@ -16,23 +18,30 @@ body {
     height: 135px; 
     object-fit: fill;
     padding-left: 2.5rem;
-    display: block;
+    padding-top: 0.5rem;
 }
 h1 {
     text-align: center;
-    font-family: 'Minecraft';
-    padding-top: 5rem;
-    padding-right: 10rem;
+    padding-top: 2rem;
+    color: black;
+    font-style: italic;
+    letter-spacing: 0.25rem;
+    display: block;
 }
 p {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0 0 0 25rem;
+    text-align: justify;
 }
 .Moi {
-    width: 20rem;
-    height: 25rem;
-    border-radius: 15%;
-    margin: auto;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 5%;
+    float: left;
+    margin: 0 4rem;
     display: flex;
+    border-style: double;
 }
 
 a , a:visited, a:hover, a:active{
@@ -42,13 +51,13 @@ a:link {
     text-decoration: none;
 }
 footer {
-    background-color:#84B3D4;
-    padding: 1.5rem;
+    background-color: #181818;
+    padding: 1.2rem;
     margin-top: 5rem;
+    color: white;
 }
 #Titrepied {
     font-size: 1rem;
-    font-family: 'Minecraft';
     text-align: center;
     padding:1.5rem;
     padding-bottom: 0;
@@ -61,26 +70,45 @@ footer {
 #PIED li {
     display: inline;
     font-size:0.75rem;
-    font-family: 'Minecraft';
-    padding:1.25rem;
+    margin:1.25rem;
 }
+
 .fa-envelope {
-    color: black;
+    color: #718ec5;
 }
 .fa-linkedin {
-    color: rgb(36, 62, 206);
+    color: #0e76a8;
 }
 .fa-github {
-    color: black;
+    color: white;
 }
 .fa-discord {
-    color: rgb(53, 124, 255);
+    color: #5865F2;
 }
 .fab, .fas {
-    font-size:1.5rem;
+    font-size:2rem;
     transition-duration: 0.5s;
     transition-property: all;
 }
 .fab:hover, .fas:hover {
-    color: whitesmoke;
+    color: darkslategrey;
+}
+#nav ul{
+    text-align: center;
+    background-color: #181818;
+    color: white;
+    margin: 0.2rem 15rem;
+    border-radius: 1rem;
+}
+#nav ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding:2rem ;
+    margin: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-size: larger;
+
 }

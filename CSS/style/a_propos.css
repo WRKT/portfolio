@@ -24,8 +24,7 @@ h1 {
     text-align: center;
     padding-top: 2rem;
     color: black;
-    font-style: italic;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.15rem;
     display: block;
 }
 p {

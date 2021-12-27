@@ -12,19 +12,11 @@ body {
     line-height: 1.5;
     color: #242424;
 }
-.logo {
-    float:left;
-    width: 135px;
-    height: 135px; 
-    object-fit: fill;
-    padding-left: 2.5rem;
-    padding-top: 0.5rem;
-}
 h1 {
     text-align: center;
     padding-top: 2rem;
     color: black;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.06rem;
     display: block;
 }
 p {
@@ -96,8 +88,7 @@ footer {
     text-align: center;
     background-color: #181818;
     color: white;
-    margin: 0.2rem 15rem;
-    border-radius: 1rem;
+    margin:0;
 }
 #nav ul li {
     list-style: none;
@@ -109,5 +100,4 @@ footer {
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     font-size: larger;
-
 }

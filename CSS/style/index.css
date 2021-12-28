@@ -8,28 +8,29 @@
 /*html {
     cursor: url(../cursors/cursor.cur), pointer;
 }*/
-
+* {
+    margin: 0;
+    padding: 0;
+}
 .logo {
     float:left;
     width: 135px;
     height: 135px; 
     padding-left: 2.5rem;
     object-fit: fill;
-
+    padding-top: 1.5rem;
 }
 .imgpc {
     float: right;
-    width: 100px;
-    height: 120px; 
-    padding-right:3rem;
-    padding-top: 1rem;
+    width: 135px;
+    height: 135px; 
+    padding-right:2.5rem;
+    padding-top: 1.5rem;
     object-fit: cover;
 }
 
 body {
     background-color: whitesmoke;
-    margin: 0;
-    padding: 0;
     font-family: 'Press2P', cursive;
 }
 h1 {
@@ -39,7 +40,8 @@ h1 {
     letter-spacing: .5rem;
     font-style: italic;
     font-weight:100;
-    padding-top: 3.5rem;
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
 }
 #portf {
     text-align: center;
@@ -61,9 +63,8 @@ h1 {
     text-orientation: upright;
     font-size: 2rem;
     letter-spacing: 0.5rem;
-    height: 45rem;
+    height:45rem;
     border-radius: 1rem;
-    max-width: 100%;
 }
 #MENU a {
     text-align: center;
@@ -140,7 +141,7 @@ a:link {
 
 /*Effets pour le pied de page Contact */
 footer {
-    background-color: #181818;
+    background-color: #011c36;
     padding: 1.2rem;
     margin-top: 5rem;
     color: white;

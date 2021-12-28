@@ -2,37 +2,38 @@
     font-family: 'Press2P';
     src: url(../fonts/Press2P.ttf) format('truetype');
 }
-
+* {
+    margin:0;
+    padding:0;
+}
 body {
     background-color: whitesmoke;
-    padding:0;
-    margin: 0;
     font-family: 'Press2P', cursive;
     font-weight: 400;
     line-height: 1.5;
-    color: #242424;
+    color: #343434;
 }
 h1 {
-    text-align: center;
-    padding-top: 2rem;
-    color: black;
-    letter-spacing: 0.06rem;
+    padding: 3rem 5rem 1.5rem 5rem;
+    color: #002447;
+    letter-spacing: 0.1rem;
     display: block;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+/*Propriétés pour les titres pour effet gauche-droite*/
+.presentation {
+    text-align: left;
+    padding-top:5rem;
 }
 p {
-    font-size: 0.9rem;
-    font-weight: 400;
-    margin: 0 0 0 25rem;
-    text-align: justify;
+    padding:0 5rem;
 }
-.Moi {
-    width: 15rem;
-    height: 20rem;
-    border-radius: 5%;
-    float: left;
-    margin: 0 4rem;
-    display: flex;
-    border-style: double;
+.parcours {
+    text-align: right;
+}
+.hobbies {
+    text-align: left;
 }
 
 a , a:visited, a:hover, a:active{
@@ -42,10 +43,11 @@ a:link {
     text-decoration: none;
 }
 footer {
-    background-color: #181818;
+    background-color: #011c36;
     padding: 1.2rem;
-    margin-top: 5rem;
     color: white;
+    margin-top: 13rem;
+    bottom: 0;
 }
 #Titrepied {
     font-size: 1rem;
@@ -63,7 +65,6 @@ footer {
     font-size:0.75rem;
     margin:1.25rem;
 }
-
 .fa-envelope {
     color: #718ec5;
 }
@@ -84,20 +85,116 @@ footer {
 .fab:hover, .fas:hover {
     color: darkslategrey;
 }
-#nav ul{
-    text-align: center;
-    background-color: #181818;
-    color: white;
-    margin:0;
+
+/*Propriétés des images illustrant mon à propos */
+.Moi {
+    float: left;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 5%;
+    margin:0 4rem 2rem 4rem;
+    border-style: groove  double;
+    border-color: #181818;
+    border-width: 1rem;
 }
-#nav ul li {
-    list-style: none;
-    display: inline-block;
+.livres {
+    z-index: 1;
+    float:right;
+    width: 15rem;
+    height:17rem;
+    border-radius: 5%;
+    border-style: groove double;
+    border-width: 1rem;
+    border-color: #181818;
+    margin:0 4rem 2rem 4rem;
+    filter: grayscale(1);
+}
+.geek {
+    float:left;
+    width: 15rem;
+    height:20rem;
+    border-radius: 5%;
+    border-style: groove double;
+    border-width: 1rem;
+    border-color: #181818;
+    margin:0 4rem 2rem 4rem;
+    display: block;
+}
+/*Proprités background du menu overlay*/
+.overlay {
+    height:0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0,0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+/*Propriété du contenu du menu overlay */
+.overlay-content {
+    position:relative;
+    top: 25%;
+    width: 100%;
     text-align: center;
-    padding:2rem ;
-    margin: 0;
-    font-weight: 500;
+    margin-top: 30px;
+}
+.overlay a {
+    padding:10px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+.overlay .closebtn {
+    position: absolute;
+    top:20px;
+    right: 45px;
+    font-size: 60px;
+}
+/*Propriété du bouton menu*/
+
+/* Petite responsive du menu */
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+/*Propriétés du topnav MENU ACCUEIL*/
+#topnav ul {
+    display:inline;
+    position: fixed;
+    background-color: #343434;
+    width: 100%;
+}
+#topnav li {
+    display:inline-block;
+    color: #f1f1f1;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
     text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    font-size: larger;
+    font-size: 1.1rem;
+}
+#topnav li:hover {
+    background-color: #818181;
+}
+#topnav a{
+    display: block;
+    color: #f1f1f1;
+}
+#topnav li:first-child {
+    cursor: pointer;
 }

@@ -181,5 +181,5 @@ footer {
     transition-property: all;
 }
 .fab:hover, .fas:hover {
-    color: darkslategrey;
+    color: #181818;
 }

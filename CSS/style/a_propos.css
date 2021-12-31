@@ -204,7 +204,7 @@ footer {
     text-align: center;
     line-height: 60px;
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 #topnav li:hover {
@@ -216,4 +216,22 @@ footer {
 }
 #topnav li:first-child {
     cursor: pointer;
+}
+
+/*Propriétés responsive contenu */
+@media screen and (max-width:1024px){
+    p {
+        font-size: 0.5rem;
+    }
+    #PIED li {
+        font-size: 0.3rem;
+    }
+    #Titrepied {
+        font-size: 0.5rem;
+    }
+    .fab, .fas {
+        font-size: 0.75rem ;
+        padding-right: 1rem;
+    }
+    
 }

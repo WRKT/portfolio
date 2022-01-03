@@ -113,6 +113,8 @@ footer {
     border-style: groove  double;
     border-color: #181818;
     border-width: 1rem;
+    transition:all 1s;
+    transform: scale(1)
 }
 .livres {
     float:right;
@@ -124,6 +126,8 @@ footer {
     border-color: #181818;
     margin:0 4rem 2rem 4rem;
     filter: grayscale(1);
+    transition:all 1s;
+    transform: scale(1);
 }
 .geek {
     float:left;
@@ -135,6 +139,11 @@ footer {
     border-color: #181818;
     margin:0 4rem 2rem 4rem;
     display: block;
+    transition:all 1s;
+    transform: scale(1)
+}
+.Moi:hover, .livres:hover, .geek:hover {
+    transform: scale(1.1);
 }
 /*Proprités background du menu overlay*/
 .overlay {

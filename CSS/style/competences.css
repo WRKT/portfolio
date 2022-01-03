@@ -138,4 +138,8 @@ footer {
 }
 h1 {
     padding-top: 7rem;
+    padding-left: 4rem;
+}
+.AdminLinux, .AdminWindows, .Réseaux {
+    padding: 0 4rem;
 }

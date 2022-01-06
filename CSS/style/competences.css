@@ -33,7 +33,7 @@ a:link {
     height:0%;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     left:0;
     top:0;
     background-color: rgb(0, 0, 0);
@@ -72,6 +72,7 @@ a:link {
     position: fixed;
     background-color: #011c36;
     width: 100%;
+    z-index:1;
 }
 #topnav li {
     display:inline-block;
@@ -134,12 +135,71 @@ footer {
     transition-property: all;
 }
 .fab:hover, .fas:hover {
-    color: darkslategrey;
+    color: #181818;
 }
 h1 {
-    padding-top: 7rem;
-    padding-left: 4rem;
+    padding: 7rem 0 4rem 0;
+    background-image: url(../images/Competences/electronics.jpg);
+    background-size: contain;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
 }
-.AdminLinux, .AdminWindows, .Réseaux {
-    padding: 0 4rem;
+.intro {
+    padding: 4rem 4rem 0 4rem;
+    text-align: center;
+}
+h2 {
+    border-bottom: 1px solid #5e5c5c;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-left: 6rem;
+}
+.AdminLinux, .AdminWindows, .Réseaux, .Virtualisation {
+    padding: 2rem 4rem;
+}
+.AdminLinux :not(h2), .AdminWindows :not(h2), .Réseaux :not(h2), .Virtualisation :not(h2){
+    width: 300px;
+    height: 350px;
+    display: inline-flex;
+    flex-direction: column;
+    border: 2px solid #848484 ;
+    box-sizing: border-box;
+    padding:2rem 1rem ;
+    font-size: 0.8rem;
+    position: relative;
+    margin-top: 3rem;
+    text-align: center;
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 0.5s;
+    background-color: #3a4852;
+    color: #eeebeb;
+}
+#DNS {
+    margin-right: 4rem;
+    background-image: url(../images/Competences/logo_linux.png);
+    background-position-y: 95%;
+    background-size: 100px 150px;
+    background-repeat: no-repeat;
+    background-position-x: 85%;
+
+}
+#SrvWeb {
+    background-image: url(../images/Competences/apache.png);
+    background-size: 150px 75px;
+    background-repeat: no-repeat;
+    background-position-y: 95%;
+    background-position-x: 75%; 
+}
+#AD{
+    margin-right: 4rem;
+}
+#Pfsense{
+    margin-right: 4rem ;
+}
+.AdminLinux :not(h2):hover, .AdminWindows :not(h2):hover, .Réseaux :not(h2):hover, .Virtualisation :not(h2):hover{
+    transform: scale(1.06);
+    cursor: pointer;
 }

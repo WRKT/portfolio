@@ -160,14 +160,14 @@ h2 {
     padding: 2rem 4rem;
 }
 .AdminLinux :not(h2), .AdminWindows :not(h2), .Réseaux :not(h2), .Virtualisation :not(h2){
-    width: 300px;
-    height: 350px;
+    width: 40%;
+    height: 400px;
     display: inline-flex;
     flex-direction: column;
     border: 2px solid #848484 ;
     box-sizing: border-box;
     padding:2rem 1rem ;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     position: relative;
     margin-top: 3rem;
     text-align: center;
@@ -176,6 +176,7 @@ h2 {
     transition-duration: 0.5s;
     background-color: #3a4852;
     color: #eeebeb;
+    justify-items: auto;
 }
 #DNS {
     margin-right: 4rem;
@@ -183,23 +184,48 @@ h2 {
     background-position-y: 95%;
     background-size: 100px 150px;
     background-repeat: no-repeat;
-    background-position-x: 85%;
+    background-position-x: 95%;
 
 }
 #SrvWeb {
-    background-image: url(../images/Competences/apache.png);
-    background-size: 150px 75px;
+    background-image: url(../images/Competences/SrvWeb.png);
+    background-size: 110px 150px;
     background-repeat: no-repeat;
-    background-position-y: 95%;
-    background-position-x: 75%; 
+    background-position-y: 90%;
+    background-position-x: 95%; 
 }
 #AD{
     margin-right: 4rem;
+    background-image: url(../images/Competences/ActiveDIrectory.png);
+    background-position-y: 90%;
+    background-size: 100px 150px;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
 }
-#Pfsense{
-    margin-right: 4rem ;
+#RAID{
+    background-image: url(../images/Competences/raid.png);
+    background-position-y: 90%;
+    background-size: 100px 150px;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+}
+#FreeNAS{
+    margin-right: 4rem;
+    background-image: url(../images/Competences/NAS.png);
+    background-position-y: 95%;
+    background-size: 100px 150px;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+}
+#ESXi{
+    background-image: url(../images/Competences/VMWare.png);
+    background-position-y: 90%;
+    background-size: 100px 150px;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
 }
 .AdminLinux :not(h2):hover, .AdminWindows :not(h2):hover, .Réseaux :not(h2):hover, .Virtualisation :not(h2):hover{
     transform: scale(1.06);
     cursor: pointer;
+    background-color: #1e262b;
 }

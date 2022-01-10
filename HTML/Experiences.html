@@ -2,11 +2,49 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="../CSS/images/ico.png" type="img/png" />
-
+    <link rel="stylesheet" href="../CSS/style/experiences.css" type="text/css"/>
+    <script src="https://kit.fontawesome.com/bfc2227d7e.js" crossorigin="anonymous"></script>
     <title> Winness R. | Expériences </title>
-
 </head>
 
 <body>
-    Expériences
+    <div id="nav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+        <a href="A_propos.html">A propos</a>
+        <a href="Competences.html">Compétences</a>
+        <a href="Experiences.html">Expériences</a>
+        <a href="Projets.html">Projets</a>    
+        </div>
+    </div>
+
+    <div id="topnav">
+    <ul>
+    <li onclick="openNav()"> Menu
+    <li> <a href="../index.html">Accueil</a>
+    </ul>
+    </div>
+    
+    <script>
+        function openNav() {
+            document.getElementById("nav").style.height="100%";
+        }
+        function closeNav() {
+            document.getElementById("nav").style.height="0%";
+        }
+    </script>
+    
+    <h1> EXPERIENCES </h1>
 </body>
+
+<footer>
+    <div id="Titrepied"><u>Contacts</u></div>
+    <div id="PIED">
+        <ul>
+        <li><a href="mailto:winness.rakotozafy@outlook.fr"><i class="fas fa-envelope"></i></a> Mail
+        <li><a href="https://www.linkedin.com/in/winness-rakotozafy/"><i class="fab fa-linkedin"></i></a> LinkedIn
+        <li><a href="https://github.com/WinnessRakotozafy"><i class="fab fa-github"></i></a> Github
+        <li><a href="https://discord.com/users/817418923543887872"><i class="fab fa-discord"></i></a> Discord
+        </ul> 
+    </div>
+</footer>

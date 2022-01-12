@@ -72,26 +72,7 @@ h1 {
     padding: 0 3.5rem;
     color: #003972;
 }
-.first{
-    text-align: left;
-    color: #003972;
-    background-color:#BFCEDC ;
-    background-image: none;
-    padding: 5.25rem;
-    box-shadow: 10px 7px 7px #003972;
-    transition-property: all;
-    transition-duration: 1.5s;
-}
-.second {
-    text-align: right;
-    background-color:#DAE8F2 ;
-    background-image: none;
-    padding: 5.25rem;
-    box-shadow: 10px 7px 7px #003972;
-    transition-property: all;
-    transition-duration: 1.5s;
-}
-.third {
+.left{
     text-align: left;
     background-color:#BFCEDC ;
     background-image: none;
@@ -100,17 +81,17 @@ h1 {
     transition-property: all;
     transition-duration: 1.5s;
 }
-.fourth{
+.right {
     text-align: right;
     background-color:#DAE8F2 ;
     background-image: none;
     padding: 5.25rem;
     box-shadow: 10px 7px 7px #003972;
-    transition-property:all;
+    transition-property: all;
     transition-duration: 1.5s;
 }
 /*Effets pour augmenter la taille du menu pendant le hover et y mettre les images pour respecter le plus possible la charte*/
-.first:hover, .second:hover, .third:hover, .fourth:hover{
+.left:hover, .right:hover{
     padding-right:10rem;
     padding-left:7rem;
     background-color: #EFF3F6;
@@ -120,16 +101,16 @@ h1 {
     background-clip: padding-box;
     color: rgba(0, 0, 0, 0)
 }
-.first:hover {
+#apropos:hover {
     background-image: url(../images/menu/a_propos.jpg);
 }
-.second:hover {
+#competences:hover {
     background-image: url(../images/menu/competences.jpg);
 }
-.third:hover {
+#experiences:hover {
     background-image: url(../images/menu/experiences.jpg);
 }
-.fourth:hover {
+#projets:hover {
     background-image: url(../images/menu/projets.jpg);
 }
 a , a:visited, a:hover, a:active{
@@ -146,18 +127,18 @@ footer {
     margin-top: 5rem;
     color: white;
 }
-#Titrepied {
+.Titrepied {
     font-size: 1rem;
     text-align: center;
     padding:1.5rem;
     padding-bottom: 0;
 }
-#PIED ul {
+.PIED ul {
     margin-top:2rem;
     padding:0;
     text-align: center;
 }
-#PIED li {
+.PIED li {
     display: inline;
     font-size:0.75rem;
     margin:1.25rem;

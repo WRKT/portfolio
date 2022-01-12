@@ -152,12 +152,10 @@ h1 {
 }
 h2 {
     border-bottom: 1px solid #5e5c5c;
-    border-bottom-style: dotted;
     font-weight: 300;
     font-size: 2rem;
     padding-top: 6rem;
-    padding-left: 6rem;
-    text-align: center;
+    padding-left: 15%;
 }
 .AdminLinux, .AdminWindows, .Réseaux, .Virtualisation {
     padding: 2rem 4rem;
@@ -194,7 +192,8 @@ h2 {
     height: 400px;
     display: inline-flex;
     flex-direction: column;
-    border: 2px solid #848484 ;
+    box-shadow: #181818 10px;
+    border-radius: 2rem;
     box-sizing: border-box;
     padding:2rem 1rem ;
     font-size: 1.1rem;

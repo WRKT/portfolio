@@ -1,0 +1,9 @@
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 30px;
+      top: 15px;
+      right: 35px;
+    }
+  }

@@ -2,16 +2,6 @@
     font-family: 'Press2P';
     src: url(../fonts/Press2P.ttf) format('truetype');
 }
-@media screen and (max-height: 450px) {
-    .overlay {overflow-y: auto}
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-      font-size: 30px;
-      top: 15px;
-      right: 35px;
-    }
-  }
-
 * {
     margin:0;
     padding:0;
@@ -151,7 +141,8 @@ h1 {
     text-align: center;
 }
 h2 {
-    border-bottom: 1px solid #5e5c5c;
+    display: flex;
+    border-bottom: 2px solid #d2d2d2;
     font-weight: 300;
     font-size: 2rem;
     padding-top: 6rem;
@@ -192,10 +183,10 @@ h2 {
     height: 400px;
     display: inline-flex;
     flex-direction: column;
-    box-shadow: #181818 10px;
-    border-radius: 2rem;
+    box-shadow: #181818 10px 7px 10px;
+    border-radius: 0.65rem;
     box-sizing: border-box;
-    padding:2rem 1rem ;
+    padding:2rem ;
     font-size: 1.1rem;
     position: relative;
     margin-top: 3rem;
@@ -209,10 +200,11 @@ h2 {
 }
 
 .skills:hover {
-    transform: scale(1.06);
+    transform: scale(1.05);
     cursor: pointer;
     background-color: #1e262b;
-    color: #ffffff
+    color: #ffffff;
+    box-shadow: #818181 10px 7px 10px 5px; 
 }
 .container {
     width: 100%;

@@ -2,6 +2,23 @@
     font-family: 'Press2P';
     src: url(../fonts/Press2P.ttf) format('truetype');
 }
+/*Propriétés responsive contenu */
+@media screen and (max-width:1024px){
+    p {
+        font-size: 0.5rem;
+    }
+    #PIED li {
+        font-size: 0.3rem;
+    }
+    #Titrepied {
+        font-size: 0.5rem;
+    }
+    .fab, .fas {
+        font-size: 0.75rem ;
+        padding-right: 1rem;
+    }
+    
+}
 * {
     margin:0;
     padding:0;
@@ -227,20 +244,3 @@ footer {
     cursor: pointer;
 }
 
-/*Propriétés responsive contenu */
-@media screen and (max-width:1024px){
-    p {
-        font-size: 0.5rem;
-    }
-    #PIED li {
-        font-size: 0.3rem;
-    }
-    #Titrepied {
-        font-size: 0.5rem;
-    }
-    .fab, .fas {
-        font-size: 0.75rem ;
-        padding-right: 1rem;
-    }
-    
-}

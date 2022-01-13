@@ -137,3 +137,6 @@ footer {
 .fab:hover, .fas:hover {
     color: #181818;
 }
+h1{
+    padding-top: 7rem;
+}

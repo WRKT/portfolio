@@ -2,23 +2,7 @@
     font-family: 'Press2P';
     src: url(../fonts/Press2P.ttf) format('truetype');
 }
-/*Propriétés responsive contenu */
-@media screen and (max-width:1024px){
-    p {
-        font-size: 0.5rem;
-    }
-    #PIED li {
-        font-size: 0.5rem;
-    }
-    #Titrepied {
-        font-size: 0.5rem;
-    }
-    .fab, .fas {
-        font-size: 0.75rem ;
-        padding-right: 1rem;
-    }
-    
-}
+
 * {
     margin:0;
     padding:0;
@@ -198,20 +182,6 @@ footer {
     top:20px;
     right: 45px;
     font-size: 60px;
-}
-/*Propriété du bouton menu*/
-
-/* Petite responsive du menu */
-@media screen and (max-height: 450px){
-    .overlay {
-        overflow-y: auto;
-    }
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-        font-size: 30px;
-        top: 15px;
-        right: 35px;
-    }
 }
 
 /*Propriétés du topnav MENU ACCUEIL*/

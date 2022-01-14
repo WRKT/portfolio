@@ -1,0 +1,405 @@
+/*Ajout des polices à utiliser*/
+@font-face {
+    font-family: 'Press2P';
+    src: url(../fonts/Press2P.ttf) format('truetype');
+}
+
+/*Modification apportés pour le contenu index.html*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    float:left;
+    width: 135px;
+    height: 135px; 
+    padding-left: 2.5rem;
+    object-fit: fill;
+    padding-top: 1.5rem;
+}
+.imgpc {
+    float: right;
+    width: 135px;
+    height: 135px; 
+    padding-right:2.5rem;
+    padding-top: 1.5rem;
+    object-fit: cover;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Press2P', cursive;
+    font-weight: 400;
+    color: #343434;
+    line-height:2;
+}
+
+#name{
+    text-align: center;
+    font-size: 2.5rem;
+    word-spacing: 1rem;
+    letter-spacing: .5rem;
+    font-style: italic;
+    font-weight:100;
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
+    line-height: 1;
+    color: #000000;
+}
+#welcome {
+    text-align: center;
+    font-size: 1.5rem;
+    word-spacing: .25rem;
+    letter-spacing: .15rem;
+    margin-bottom: 4.5rem;
+    padding:0;
+    color:#000000;
+}
+#MENU ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#MENU li {
+    display: inline-block;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    height:45rem;
+    border-radius: 1rem;
+}
+#MENU a {
+    text-align: center;
+    display: inline;
+    padding: 0 3.5rem;
+    color: #003972;
+}
+.left{
+    text-align: left;
+    background-color:#BFCEDC ;
+    background-image: none;
+    padding: 5.25rem;
+    box-shadow: 10px 7px 7px #003972;
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+.right {
+    text-align: right;
+    background-color:#DAE8F2 ;
+    background-image: none;
+    padding: 5.25rem;
+    box-shadow: 10px 7px 7px #003972;
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+/*Effets pour augmenter la taille du menu pendant le hover et y mettre les images pour respecter le plus possible la charte*/
+.left:hover, .right:hover{
+    padding-right:10rem;
+    padding-left:7rem;
+    background-color: #EFF3F6;
+    box-shadow: 5px 5px 5px 5px #363636;
+    background-size: cover;
+    background-position:center;
+    background-clip: padding-box;
+    color: rgba(0, 0, 0, 0)
+}
+#apropos:hover {
+    background-image: url(../images/menu/a_propos.jpg);
+}
+#competences:hover {
+    background-image: url(../images/menu/competences.jpg);
+}
+#experiences:hover {
+    background-image: url(../images/menu/experiences.jpg);
+}
+#projets:hover {
+    background-image: url(../images/menu/projets.jpg);
+}
+a , a:visited, a:hover, a:active{
+    color: rgba(0, 0, 0, 0);
+}
+a:link {
+    text-decoration: none;
+}
+
+/*Propriétés pour le pied de page Contact */
+footer {
+    background-color: #011c36;
+    padding: 1.2rem;
+    color: white;
+    margin-top: 13rem;
+    bottom: 0;
+}
+.Titrepied {
+    font-size: 1rem;
+    text-align: center;
+    padding:1.5rem;
+    padding-bottom: 0;
+}
+.PIED ul {
+    margin-top:2rem;
+    padding:0;
+    text-align: center;
+}
+.PIED li {
+    display: inline;
+    font-size:0.75rem;
+    margin:1.25rem;
+}
+
+.fa-envelope {
+    color:#718ec5;
+}
+.fa-linkedin {
+    color: #0e76a8;
+}
+.fa-github {
+    color: white;
+}
+.fa-discord {
+    color: #5865F2;
+}
+.fab, .fas {
+    font-size:2rem;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+.fab:hover, .fas:hover {
+    color: #181818;
+}
+/*FIN index*/
+
+/*Style page A propos*/
+
+/*Propriétés du topnav MENU ACCUEIL pour les pages annexes A propos, competences, experiences et projets*/
+#topnav ul {
+    display:inline;
+    position: fixed;
+    background-color: #011c36;
+    width: 100%;
+    z-index: 1;
+}
+#topnav li {
+    display:inline-block;
+    color: #f1f1f1;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#topnav li:hover {
+    background-color: #003a70;
+}
+#topnav a{
+    display: block;
+    color: #f1f1f1;
+}
+#topnav li:first-child {
+    cursor: pointer;
+}
+
+.Moi {
+    float: left;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 5%;
+    margin:0 4rem 2rem 4rem;
+    border-style: groove  double;
+    border-color: #181818;
+    border-width: 1rem;
+    transition:all 1s;
+    transform: scale(1)
+}
+.livres {
+    float:right;
+    width: 15rem;
+    height:17rem;
+    border-radius: 5%;
+    border-style: groove double;
+    border-width: 1rem;
+    border-color: #181818;
+    margin:0 6rem 4rem 6rem;
+    filter: grayscale(1);
+    transition:all 1s;
+    transform: scale(1);
+}
+.geek {
+    float:left;
+    width: 15rem;
+    height:20rem;
+    border-radius: 5%;
+    border-style: groove double;
+    border-width: 1rem;
+    border-color: #181818;
+    margin:0 4rem 2rem 4rem;
+    display: block;
+    transition:all 1s;
+    transform: scale(1)
+}
+.Moi:hover, .livres:hover, .geek:hover {
+    transform: scale(1.1);
+}
+/*Proprités background du menu overlay*/
+.overlay {
+    height:0%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0,0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+/*Propriété du contenu du menu overlay */
+.overlay-content {
+    position:relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a {
+    padding:10px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+.overlay .closebtn {
+    position: absolute;
+    top:20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+#quote {
+    display: block;
+    letter-spacing: -0.05rem;
+    top: 50%;
+    left: 50%;
+    color: #f1f1f1;
+    padding: 7rem 0 3rem 0;
+    font-size: large;
+    background-image: url(../images/A_propos/star.jpg);
+    text-align: center;
+}
+
+.titre {
+    padding: 5rem 5rem 1.5rem 5rem;
+    color: #002447;
+    letter-spacing: 0.1rem;
+    display: block;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#presentation {
+    text-align: left;
+}
+#parcours {
+    text-align: right;
+}
+#hobbies {
+    text-align: left;
+}
+p {
+    padding:0 5rem;
+}
+.p1 {
+    text-align: left;
+}
+.p2 {
+    text-align: right;
+}
+/*FIN A propos*/
+
+/*Style page Competences*/
+#skills {
+    padding: 7rem 0 4rem 0;
+    background-image: url(../images/Competences/electronics.jpg);
+    background-size: contain;
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+}
+
+.perks {
+    display: flex;
+    border-bottom: 2px solid #d2d2d2;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-top: 6rem;
+    padding-left: 15%;
+    color: #002447;
+}
+
+#DNS {
+    background-image: url(../images/Competences/logo_linux.png);
+    margin-right: 4rem;
+}
+#SrvWeb {
+    background-image: url(../images/Competences/SrvWeb.png);
+    }
+#AD{
+    background-image: url(../images/Competences/ActiveDIrectory.png);
+    margin-right: 4rem;
+}
+#RAID{
+    background-image: url(../images/Competences/raid.png);
+    }
+#FreeNAS{
+    background-image: url(../images/Competences/NAS.png);
+    margin-right: 4rem;
+}
+#ESXi{
+    background-image: url(../images/Competences/VMWare.png);
+}
+
+.skills {
+    background-position-y: 90%;
+    background-size: 100px 150px;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    width: 35%;
+    height: 400px;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: #181818 10px 7px 10px;
+    border-radius: 0.65rem;
+    box-sizing: border-box;
+    padding:2rem ;
+    font-size: 1.1rem;
+    position: relative;
+    margin-top: 3rem;
+    text-align: center;
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 0.5s;
+    background-color: #3a4852;
+    color: #eeebeb;
+    justify-content: space-between;
+}
+
+.skills:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #1e262b;
+    color: #ffffff;
+    box-shadow: #818181 10px 7px 10px 5px; 
+}
+.container {
+    width: 100%;
+    text-align: center;
+}
+/*FIN Competences*/

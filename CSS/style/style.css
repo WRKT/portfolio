@@ -61,6 +61,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    width:100%;
 }
 #MENU li {
     display: inline-block;
@@ -74,14 +75,14 @@ body {
 #MENU a {
     text-align: center;
     display: inline;
-    padding: 0 3.5rem;
+    padding: 0 2.5%;
     color: #003972;
 }
 .left{
     text-align: left;
     background-color:#BFCEDC ;
     background-image: none;
-    padding: 5.25rem;
+    padding: 5%;
     box-shadow: 10px 7px 7px #003972;
     transition-property: all;
     transition-duration: 1.5s;
@@ -90,7 +91,7 @@ body {
     text-align: right;
     background-color:#DAE8F2 ;
     background-image: none;
-    padding: 5.25rem;
+    padding: 5%;
     box-shadow: 10px 7px 7px #003972;
     transition-property: all;
     transition-duration: 1.5s;
@@ -224,7 +225,7 @@ footer {
     border-style: groove double;
     border-width: 1rem;
     border-color: #181818;
-    margin:0 6rem 4rem 6rem;
+    margin:0 4rem 2rem 4rem;
     filter: grayscale(1);
     transition:all 1s;
     transform: scale(1);
@@ -324,7 +325,7 @@ p {
 /*FIN A propos*/
 
 /*Style page Competences*/
-#skills {
+#headcompetence{
     padding: 7rem 0 4rem 0;
     background-image: url(../images/Competences/electronics.jpg);
     background-size: contain;

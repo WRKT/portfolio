@@ -387,4 +387,9 @@ p{
 
 #Alternance {
     padding: 0 4rem;
+    width: 100%;
+    text-align: center;
+}
+#imgPrefecture{
+    width: 50%;
 }

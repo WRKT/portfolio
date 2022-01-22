@@ -270,8 +270,15 @@ footer {
 }
 #aboutcontainer{
     display: inline-flex;
-    width: 100%;
-    max-width: 100%;
+    width:100%;
+    text-align: center;
+    line-height: 3;
+}
+#navbuttons{
+    width:100%;
+    text-align: center;
+    padding: 7rem 0 0 0;
+    font-size: 2rem;
 }
 .section {
     text-align:center;

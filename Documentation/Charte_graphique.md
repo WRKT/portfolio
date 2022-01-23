@@ -1,14 +1,14 @@
-## Page principale
+# Page Accueil
 
 ![Maquette_première_page](./Maquettes/Maquette_première_page.png)
 
-<u>Couleur principal:</u> 
+**<u>Couleur principal:</u>** 
 
 ![palettes_couleurs](./Maquettes/palettes_couleurs.jpeg)
 
-<u>Background-color de la page principale</u>: couleur sobre à voir, hésitation entre #0C2F4E, ou #EFF3F6
+<u>**Background-color de la page principale**</u>: couleur sobre à voir, hésitation entre #0C2F4E, ou #EFF3F6
 
-<u>Police:</u> Adventure sur Dafont, Verdana, Courrier New, Friedrich sur Dafont, GameofSquids sur Dafont, Minecraft
+**<u>Police:</u>** Adventure sur Dafont, Verdana, Courrier New, Friedrich sur Dafont, GameofSquids sur Dafont, Minecraft
 
 Menu en haut à droite en lien vers d'autres pages dont:
 
@@ -18,7 +18,7 @@ Menu en haut à droite en lien vers d'autres pages dont:
 - Projets => Les différents projets que j'ai réalisés au cours de mon cursus, en entreprise, personnels
 - Contacts => listant mes contacts réseaux dont Discord, Github, LinkedIn, Mail
 
-<u>Caractéristiques du menu:</u>
+**<u>Caractéristiques du menu:</u>**
 
 - Des menus rectangulaires défilantes de gauche à droite qui s'agrandira lorsque la souris sera sur le menu en question
 
@@ -28,32 +28,42 @@ Menu en haut à droite en lien vers d'autres pages dont:
 
 - Dans la barre contact, mettre une icone pour chaque type de contacts: Enveloppe pour Mail, le logo de LinkedIn, une icone de Téléphone, logo Discord, et Github. 
 
-  00
+  
 
-  - <u>Les logos utilisés en head</u>
+  - **<u>Les logos utilisés en head</u>**
 
-    ![My_Logo](./Logos&Icons/My_Logo.png)
+    - Mon logo
 
-  - <u>Les logos et icones utilisés en footer</u>
+    <img src="./Logos&Icons/My_Logo.png" alt="My_Logo" style="zoom:150%;" />
+
+    - Mini image à droite:
+
+      <img src="Logos&Icons\image_pc.png" style="zoom:175%;" />
+
+  - **<u>Les logos et icones utilisés en footer</u>**
 
     - Discord
 
-    ![Logo Discord](./Logos&Icons/Logo_Discord.png)
+      
+
+    <img src="./Logos&Icons/Logo_Discord.png" alt="Logo Discord" style="width:200px;" />
+
+    
 
     - Github
-
-    ![Logo github](./Logos&Icons/Logo_github.png)
-
+  
+    <img src="./Logos&Icons/Logo_github.png" alt="Logo github" style="zoom:35%;" />
+  
     - LinkedIn
-
+  
     
-
-    ![Logo Linkedin](./Logos&Icons/Logo_Linkedin.png)
-
+  
+    <img src="./Logos&Icons/Logo_Linkedin.png" alt="`Logo Linkedin`" style="zoom:35%;" />
+  
     - Mail
   
-    ![Logo mail](./Logos&Icons/Logo_mail.png)
-  
+    <img src="./Logos&Icons/Logo_mail.png" alt="Logo mail" style="zoom:35%;" />
     
-  
     
+
+# Page A propos

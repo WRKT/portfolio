@@ -30,6 +30,10 @@ Menu en haut à droite en lien vers d'autres pages dont:
 
   
 
+  - <u>**Favicon**</u>
+
+    <img src="C:\Users\WindyGZ\Documents\PARCOURS\CCICampus\Cours\Atelier_1\Projet\CCI-SIO21-Portfolio\DOCUMENTATION\Logos&Icons\ico.png" style="zoom:50%;" />
+
   - **<u>Les logos utilisés en head</u>**
 
     - Mon logo
@@ -47,9 +51,9 @@ Menu en haut à droite en lien vers d'autres pages dont:
       
 
     <img src="./Logos&Icons/Logo_Discord.png" alt="Logo Discord" style="width:200px;" />
-
+  
     
-
+  
     - Github
   
     <img src="./Logos&Icons/Logo_github.png" alt="Logo github" style="zoom:35%;" />

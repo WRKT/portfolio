@@ -305,6 +305,7 @@ footer {
 p{
     padding: 0 7rem;
     font-size: 1rem;
+    line-height: 3;
 }
 /*FIN A propos*/
 
@@ -392,8 +393,16 @@ p{
     padding: 7rem 0;
     text-align: center;
 }
-
 #Alternance {
     text-align: center;
+    padding: 0 5rem;
+    line-height: 3;
+}
+.logoexperience {
+    width: 20%;
+    height:auto;
+}
+.experience {
+    text-align: justify;
 }
 

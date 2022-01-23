@@ -1,10 +1,15 @@
+// Fonction qui affichera le menu déroulant sur les pages 
 function openNav() {
     document.getElementById("nav").style.height="100%";
 }
+
+//Fonction qui fermera le menu déroulant
 function closeNav() {
     document.getElementById("nav").style.height="0%";
 }
-const sections = { // Tableau qui va contenir les trois affiches
+
+// Tableau qui va contenir les trois affiches
+const sections = { 
     S1: {
       title: "Hello There ",
       img: "../CSS/images/A_propos/Me.jpg",

@@ -260,7 +260,7 @@ footer {
     color: #002447;
     letter-spacing: 0.1rem;
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.85rem;
     text-transform: uppercase;
     text-align: center;
 }
@@ -269,16 +269,16 @@ footer {
     text-align: center;
 }
 #aboutcontainer{
-    display: inline-flex;
     width:100%;
     text-align: center;
-    line-height: 3;
+    line-height: 2.5;
 }
 #navbuttons{
     width:100%;
     text-align: center;
-    padding: 7rem 0 0 0;
+    padding-top: 5rem;
     font-size: 2rem;
+    position: static;
 }
 .section {
     text-align:center;
@@ -303,7 +303,8 @@ footer {
     transform: scale(1.1);
 }
 p{
-    padding: 0 3.5rem;
+    padding: 0 7rem;
+    font-size: 1rem;
 }
 /*FIN A propos*/
 
@@ -387,16 +388,12 @@ p{
 
 /*Style page Experiences.html*/
 
-#work {
-    padding: 7rem 0 4rem 0;
+#work  {
+    padding: 7rem 0;
     text-align: center;
 }
 
 #Alternance {
-    padding: 0 4rem;
-    width: 100%;
     text-align: center;
 }
-#imgPrefecture{
-    width: 50%;
-}
+

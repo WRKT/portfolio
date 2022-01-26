@@ -62,7 +62,7 @@ const sections = {
   
   tableau[0].addEventListener("click", (e) => {
     aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));
-    let changethis = sections.S2;
+    let changethis = sections.S1;
     let sectionreplace = `
       <div id="1" class="section">
       <h1 class="titre"><big>${
@@ -84,6 +84,28 @@ const sections = {
   
   tableau[1].addEventListener("click", (e) => {
     aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));
+    let changethis = sections.S2;
+    let sectionreplace = `
+      <div id="1" class="section">
+      <h1 class="titre"><big>${
+        changethis.title[0]
+      }</big><small>${changethis.title.slice(1)}</small>?</h1>
+      <img alt="${changethis.alt}" class="aboutimg" src="${
+      changethis.img
+    }" type="img/png"/>
+      <p>${changethis.p}</p>
+      </div>`;
+  
+    document
+      .getElementById("aboutcontainer")
+      .insertAdjacentHTML("afterbegin", sectionreplace);
+      tableau[0].classList.remove("shine")
+      tableau[2].classList.remove("shine")
+      tableau[1].classList.add("shine")
+  });
+  
+  tableau[2].addEventListener("click", (e) => {
+    aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));
     let changethis = sections.S3;
     let sectionreplace = `
       <div id="1" class="section">
@@ -99,23 +121,7 @@ const sections = {
     document
       .getElementById("aboutcontainer")
       .insertAdjacentHTML("afterbegin", sectionreplace);
-  });
-  
-  tableau[2].addEventListener("click", (e) => {
-    aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));
-    let changethis = sections.S1;
-    let sectionreplace = `
-      <div id="1" class="section">
-      <h1 class="titre"><big>${
-        changethis.title[0]
-      }</big><small>${changethis.title.slice(1)}</small>?</h1>
-      <img alt="${changethis.alt}" class="aboutimg" src="${
-      changethis.img
-    }" type="img/png"/>
-      <p>${changethis.p}</p>
-      </div>`;
-  
-    document
-      .getElementById("aboutcontainer")
-      .insertAdjacentHTML("afterbegin", sectionreplace);
+      tableau[0].classList.remove("shine")
+      tableau[1].classList.remove("shine")
+      tableau[2].classList.add("shine")  
   });

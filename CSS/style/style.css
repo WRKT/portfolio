@@ -409,16 +409,17 @@ p{
 .logoexperience {
     width: 20%;
     height:auto;
-    padding: 4rem;
+    padding:0 4rem;
+    float: left;
 }
 .experience {
     text-align: center;
     width: 100%;
+    padding-bottom: 5rem;
 }
 
 .workship{
     padding:0 10%;
     font-weight: 100;
-    font-size: 1.1rem;
-
+    font-size: 100%;
 }

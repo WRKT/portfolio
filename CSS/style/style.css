@@ -340,28 +340,6 @@ p{
     color: #002447;
 }
 
-#DNS {
-    background-image: url(../images/Competences/logo_linux.png);
-    margin-right: 4rem;
-}
-#SrvWeb {
-    background-image: url(../images/Competences/SrvWeb.png);
-    }
-#iSCSI{
-    background-image: url(../images/Competences/ActiveDIrectory.png);
-    margin-right: 4rem;
-}
-#RAID{
-    background-image: url(../images/Competences/raid.png);
-    }
-#FreeNAS{
-    background-image: url(../images/Competences/NAS.png);
-    margin-right: 4rem;
-}
-#ESXi{
-    background-image: url(../images/Competences/VMWare.png);
-}
-
 .skills {
     background-position-y: 90%;
     background-size: 100px 150px;
@@ -393,6 +371,28 @@ p{
     background-color: #1e262b;
     color: #ffffff;
     box-shadow: #818181 10px 7px 10px 5px; 
+}
+
+#DNS {
+    background-image: url(../images/Competences/logo_linux.png);
+    margin-right: 4rem;
+}
+#SrvWeb {
+    background-image: url(../images/Competences/SrvWeb.png);
+    }
+#iSCSI{
+    background-image: url(../images/Competences/iSCSI.png);
+    margin-right: 4rem;
+}
+#RAID{
+    background-image: url(../images/Competences/raid.png);
+    }
+#FreeNAS{
+    background-image: url(../images/Competences/NAS.png);
+    margin-right: 4rem;
+}
+#ESXi{
+    background-image: url(../images/Competences/VMWare.png);
 }
 
 /*FIN Competences*/

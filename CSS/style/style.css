@@ -414,7 +414,11 @@ p{
 .experience {
     text-align: center;
     width: 100%;
-    font-size: 0.85rem;
-    font-weight: 300;
 }
 
+.workship{
+    padding:0 10%;
+    font-weight: 100;
+    font-size: 1.1rem;
+
+}

@@ -4,7 +4,7 @@
     src: url(../fonts/Press2P.ttf) format('truetype');
 }
 
-/*Modification apportés pour le contenu index.html*/
+/*Style page index*/
 
 * {
     margin: 0;
@@ -397,7 +397,7 @@ p{
 
 /*FIN Competences*/
 
-/*Style page Experiences.html*/
+/*Style page Experiences*/
 
 #headwork  {
     padding: 6rem 0 3rem 0;
@@ -417,9 +417,16 @@ p{
 .logoexperience {
     width: 300px;
     height:300px;
-    padding:0 4rem;
-    float: left;
+    margin:0 4rem;
+    float: inline-start;
     filter: grayscale(0.5);
+    box-shadow: #818181 10px 12px 20px;
+    transition: 0.5s;
+    transition-property: all;
+}
+.logoexperience:hover{
+    transform: scale(1.02);
+    box-shadow: #161616 10px 12px 20px
 }
 .experience {
     text-align: center;
@@ -442,6 +449,9 @@ p{
 #xpeleq {
     margin-top: 100px;
 }
+#ehess{
+    border:#000000 1.75px solid;
+}
 #moreinfo {
     font-size: 0.8rem;
     text-align: center;
@@ -458,3 +468,7 @@ p{
     text-transform: uppercase;
     font-style: normal;
 }
+
+/*FIN Experiences*/
+
+/*Style page Projets*/

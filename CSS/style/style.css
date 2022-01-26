@@ -311,6 +311,7 @@ p{
 .shine{
     transition: 0.5s;
     transform: scale(1.5);
+    color:#818181;
 }
 /*FIN A propos*/
 

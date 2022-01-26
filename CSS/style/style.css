@@ -392,6 +392,8 @@ p{
 #work  {
     padding: 7rem 0;
     text-align: center;
+    letter-spacing: 1.2rem;
+    font-size: 3rem;
 }
 #Alternance {
     text-align: center;
@@ -401,6 +403,7 @@ p{
 .logoexperience {
     width: 20%;
     height:auto;
+    padding: 4rem;
 }
 .experience {
     text-align: center;

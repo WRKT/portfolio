@@ -472,3 +472,12 @@ p{
 /*FIN Experiences*/
 
 /*Style page Projets*/
+#headproject{
+    padding: 6rem 0 3rem 0;
+    background-image: url(../images/Projets/projets.png);
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    background-position-y: center;
+}

@@ -42,9 +42,7 @@ const sections = {
     },
   };
   
-  let arrowleft = document.querySelector(".fa-arrow-left");
-  let arrowright = document.querySelector(".fa-arrow-right");
-  let middle = document.querySelector(".fa-sort-up");
+  let tableau = document.querySelectorAll(".fa-sort-up");
   let aboutcontainer = document.getElementById("aboutcontainer");
   
   let changethis = sections.S1;
@@ -62,7 +60,7 @@ const sections = {
   
   document.getElementById("aboutcontainer").insertAdjacentHTML("afterbegin", sectionreplace);
   
-  arrowleft.addEventListener("click", (e) => {
+  tableau[0].addEventListener("click", (e) => {
     aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));
     let changethis = sections.S2;
     let sectionreplace = `
@@ -79,9 +77,12 @@ const sections = {
     document
       .getElementById("aboutcontainer")
       .insertAdjacentHTML("afterbegin", sectionreplace);
-  });
+      tableau[1].classList.remove("shine")
+      tableau[2].classList.remove("shine")
+      tableau[0].classList.add("shine")
+   });
   
-  arrowright.addEventListener("click", (e) => {
+  tableau[1].addEventListener("click", (e) => {
     aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));
     let changethis = sections.S3;
     let sectionreplace = `
@@ -100,7 +101,7 @@ const sections = {
       .insertAdjacentHTML("afterbegin", sectionreplace);
   });
   
-  middle.addEventListener("click", (e) => {
+  tableau[2].addEventListener("click", (e) => {
     aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));
     let changethis = sections.S1;
     let sectionreplace = `

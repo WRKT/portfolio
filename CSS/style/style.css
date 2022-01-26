@@ -307,6 +307,11 @@ p{
     font-size: 1rem;
     line-height: 3;
 }
+/*Effet de surbrillance sur les navbuttons*/
+.shine{
+    transition: 0.5s;
+    transform: scale(1.5);
+}
 /*FIN A propos*/
 
 /*Style page Competences*/
@@ -408,5 +413,7 @@ p{
 .experience {
     text-align: center;
     width: 100%;
+    font-size: 0.85rem;
+    font-weight: 300;
 }
 

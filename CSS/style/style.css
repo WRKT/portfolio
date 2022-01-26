@@ -47,6 +47,10 @@ body {
     line-height: 1;
     color: #000000;
 }
+#name:hover{
+    font-style: normal;
+    font-weight: 300;
+}
 #welcome {
     text-align: center;
     font-size: 1.5rem;
@@ -326,8 +330,8 @@ p{
     letter-spacing: 0.5rem;
 }
 
-.perks {
-    display: flex;
+.sysadmin {
+    font-style: italic;
     border-bottom: 2px solid #d2d2d2;
     font-weight: 300;
     font-size: 2rem;
@@ -395,38 +399,62 @@ p{
 
 /*Style page Experiences.html*/
 
-#work  {
-    padding: 7rem 0;
+#headwork  {
+    padding: 6rem 0 3rem 0;
     text-align: center;
-    letter-spacing: 1.2rem;
+    letter-spacing: 0.5rem;
     font-size: 3rem;
+    background-image: url(../images/Experiences/office.jpg);
+    background-size: fill;
+    background-position-y: center;
+    color: #ffffff;
 }
 #Alternance {
     text-align: center;
-    padding: 0 5rem;
+    padding: 5rem 5rem 0 5rem;
     line-height: 3;
 }
 .logoexperience {
-    width: 20%;
-    height:auto;
+    width: 300px;
+    height:300px;
     padding:0 4rem;
     float: left;
+    filter: grayscale(0.5);
 }
 .experience {
     text-align: center;
-    width: 100%;
-    padding-bottom: 7rem;
+    padding-bottom: 6rem;
 }
 
 .workship{
-    padding:0 10%;
     font-weight: 100;
-    font-size: 100%;
+    font-size: 1.2rem;
+    line-height: 2;
+    font-style: italic;
+    text-shadow: #818181 2px 4px 3px;
 }
 .missions {
     text-align: justify;
+    font-size:0.9rem;
+    padding-top: 5rem;
+    padding-left: 30%;
+}
+#xpeleq {
+    margin-top: 100px;
+}
+#moreinfo {
+    font-size: 0.8rem;
+    text-align: center;
 }
 #CV {
-    color: #03325f;
-    
+    color: #011a8b;
+    font-style:italic;
+    transition: 0.25s;
+    transition-property: all;
+
+}
+#CV:hover{
+    border-bottom: #011a8b 2px solid;
+    text-transform: uppercase;
+    font-style: normal;
 }

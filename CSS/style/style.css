@@ -307,7 +307,7 @@ p{
     font-size: 1rem;
     line-height: 3;
 }
-/*Effet de surbrillance sur les navbuttons*/
+/*Effet de surbrillance sur les navbuttons qui sera utilisé dans le script JS*/
 .shine{
     transition: 0.5s;
     transform: scale(1.5);
@@ -415,11 +415,18 @@ p{
 .experience {
     text-align: center;
     width: 100%;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 }
 
 .workship{
     padding:0 10%;
     font-weight: 100;
     font-size: 100%;
+}
+.missions {
+    text-align: justify;
+}
+#CV {
+    color: #03325f;
+    
 }

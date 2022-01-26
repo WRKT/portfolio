@@ -41,7 +41,7 @@ const sections = {
           <p>Mon portrait chinois, pour découvrir à la fois mes passions et quelques traits importants de ma personnalité.</p>`,
     },
   };
-  
+  // Déclaration des variables pour permettre le changement des titres, paragraphes, img
   let tableau = document.querySelectorAll(".fa-sort-up");
   let aboutcontainer = document.getElementById("aboutcontainer");
   

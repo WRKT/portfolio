@@ -403,6 +403,7 @@ p{
     height:auto;
 }
 .experience {
-    text-align: justify;
+    text-align: center;
+    width: 100%;
 }
 

@@ -7,3 +7,14 @@
       right: 35px;
     }
 }
+@media screen and (max-width:1280px){
+  footer {
+    bottom:0;
+  }
+  .logoexperience {
+    float: none;
+  }
+  .missions {
+    padding-left: 10%;
+  }
+}

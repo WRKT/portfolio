@@ -14,7 +14,7 @@ const sections = {
       title: "Hello There ",
       img: "../CSS/images/A_propos/Me.jpg",
       alt: "Photo de Winness R.",
-      p: `General Winness! 23 ans, un grand passionné de nouvelles technologies, 
+      p: `Winness, 23 ans, un grand passionné de nouvelles technologies, 
           et plus particulièrement dans le domaine du système et réseaux orienté cybersécurité.
           Actuellement en formation BTS SIO option SISR au sein de la CCI Campus Alsace, 
           en alternance chez la Préfecture du Bas-Rhin, je projette d'évoluer vers un poste 
@@ -89,7 +89,7 @@ const sections = {
       <div id="1" class="section">
       <h1 class="titre"><big>${
         changethis.title[0]
-      }</big><small>${changethis.title.slice(1)}</small>?</h1>
+      }</big><small>${changethis.title.slice(1)}</small>...</h1>
       <img alt="${changethis.alt}" class="aboutimg" src="${
       changethis.img
     }" type="img/png"/>
@@ -111,7 +111,7 @@ const sections = {
       <div id="1" class="section">
       <h1 class="titre"><big>${
         changethis.title[0]
-      }</big><small>${changethis.title.slice(1)}</small>?</h1>
+      }</big><small>${changethis.title.slice(1)}</small>!</h1>
       <img alt="${changethis.alt}" class="aboutimg" src="${
       changethis.img
     }" type="img/png"/>

@@ -14,6 +14,9 @@
 :root {  
     scrollbar-width: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -491,7 +494,7 @@ p{
     padding: 6rem 0 3rem 0;
     text-align: center;
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: 1.1rem;
     background-position-y: center;
     background-size: fill;

@@ -18,7 +18,7 @@ const sections = {
           et plus particulièrement dans le domaine du système et réseaux orienté cybersécurité.
           Actuellement en formation BTS SIO option SISR au sein de la CCI Campus Alsace, 
           en alternance chez la Préfecture du Bas-Rhin, je projette d'évoluer vers un poste 
-          d'Administrateur Système et Réseaux, et sur le long terme en tant que DevOps.<br><br><br><br>`,
+          d'Administrateur Système et Réseaux, et sur le long terme en tant que DevOps.<br><br><br>`,
     },
     S2: {
       title: "My journey ",

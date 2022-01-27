@@ -254,7 +254,7 @@ footer {
     left: 50%;
     color: #f1f1f1;
     padding: 7rem 0 3rem 0;
-    font-size: large;
+    font-size: 1rem;
     background-image: url(../images/A_propos/star.jpg);
     text-align: center;
 }
@@ -262,6 +262,7 @@ footer {
 .titre {
     padding: 5rem 5rem 1.5rem 5rem;
     color: #002447;
+    text-shadow: #818181 2px 6px 8px;
     letter-spacing: 0.1rem;
     display: block;
     font-size: 1.85rem;
@@ -315,8 +316,9 @@ p{
 .shine{
     transition: 0.5s;
     transform: scale(1.5);
-    color:#818181;
+    color:#011a8b;
 }
+
 /*FIN A propos*/
 
 /*Style page Competences*/
@@ -331,13 +333,13 @@ p{
 }
 
 .sysadmin {
-    font-style: italic;
     border-bottom: 2px solid #d2d2d2;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 2rem;
     padding-top: 6rem;
     padding-left: 15%;
     color: #002447;
+    text-shadow: #818181 2px 4px 3px;
 }
 
 .skills {
@@ -354,6 +356,7 @@ p{
     box-sizing: border-box;
     padding:2rem ;
     font-size: 1.1rem;
+    font-style: italic;
     position: relative;
     margin-top: 3rem;
     text-align: center;
@@ -421,7 +424,7 @@ p{
     float: inline-start;
     filter: grayscale(0.5);
     box-shadow: #818181 10px 12px 20px;
-    transition: 0.5s;
+    transition: 0.35s;
     transition-property: all;
 }
 .logoexperience:hover{
@@ -438,6 +441,7 @@ p{
     font-size: 1.2rem;
     line-height: 2;
     font-style: italic;
+    color:#002447;
     text-shadow: #818181 2px 4px 3px;
 }
 .missions {

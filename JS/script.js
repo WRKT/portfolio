@@ -8,7 +8,7 @@ function closeNav() {
     document.getElementById("nav").style.height="0%";
 }
 
-// Tableau qui va contenir les trois affiches
+// Tableau qui va contenir les trois affiches sur la page A_propos.html
 const sections = { 
     S1: {
       title: "Hello There ",

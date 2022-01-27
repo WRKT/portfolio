@@ -501,6 +501,7 @@ p{
     font-style: italic;
     text-shadow: #818181 10px 12px 5px;
     background-image: url(../images/Competences/electronics.jpg);
+    background-size: contain;
 }
 #viewheight{
     height:60vh;

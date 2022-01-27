@@ -258,9 +258,11 @@ footer {
     left: 50%;
     color: #f1f1f1;
     padding: 7rem 0 3rem 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
     background-image: url(../images/A_propos/star.jpg);
     text-align: center;
+    font-style: italic;
+    text-shadow: #818181 10px 12px 5px;
 }
 
 .titre {
@@ -335,6 +337,8 @@ p{
     color: #ffffff;
     font-size: 3rem;
     letter-spacing: 0.5rem;
+    font-style: italic;
+    text-shadow: #818181 10px 12px 5px;
 }
 
 .sysadmin {
@@ -416,6 +420,8 @@ p{
     background-size: fill;
     background-position-y: center;
     color: #ffffff;
+    font-style: italic;
+    text-shadow: #818181 10px 12px 5px;
 }
 #Alternance {
     text-align: center;
@@ -484,19 +490,22 @@ p{
 #headproject{
     padding: 6rem 0 3rem 0;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     font-size: 3rem;
-    letter-spacing: 0.5rem;
+    letter-spacing: 1.1rem;
     background-position-y: center;
     background-size: fill;
-    background-position-x: center;
+    font-style: italic;
+    text-shadow: #818181 10px 12px 5px;
+    background-image: url(../images/Competences/electronics.jpg);
 }
 #viewheight{
     height:60vh;
+    padding-top:5rem;
 }
 .projets {
     width: 35%;
-    height: 500px;
+    height: 400px;
     display: inline-flex;
     flex-direction: column;
     box-shadow: #181818 10px 7px 10px;
@@ -509,24 +518,24 @@ p{
     text-align: center;
     transform: scale(1);
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     background-color: #2b3338;
     color: #eeebeb;
     justify-content: space-between;
 }
 .projets:hover{
-    transform: scale(1.05);
+    transform: scale(1.10);
     cursor: pointer;
     box-shadow: #818181 10px 7px 10px 5px; 
 }
 .titreprojet{
     font-weight: 100;
-    font-size: 35px;
-    letter-spacing: 0.3rem;
-    padding-top:20%;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    padding-top:15%;
 }
 #projet1{
-    margin:0 5rem;
+    margin:0 4rem;
 }
 #projet1:hover{
     background-image: url(../images/Projets/sophos.png);
@@ -537,4 +546,32 @@ p{
     background-image: url(../images/Projets/Alcasar.png);
     background-size: cover;
     background-position: center;
+}
+.desc{
+    height: 100vh;
+    padding: 0 10vw;
+}
+.desctitle{
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+    font-weight: 100;
+    font-size:3rem;
+    line-height: 2;
+    font-style: italic;
+    color:#002447;
+    text-shadow: #818181 2px 4px 3px;
+}
+.imgprojets{
+    text-align: center;
+    padding:4rem 0 0 0;
+    display: inline-flex;
+    width: 100%;
+}
+.imgsophos{
+    width:35%;
+    height:400px;
+    padding-right: 4rem;
+}
+#nopadding {
+    padding-right:0;
 }

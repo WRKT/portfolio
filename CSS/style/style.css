@@ -47,10 +47,6 @@ body {
     line-height: 1;
     color: #000000;
 }
-#name:hover{
-    font-style: normal;
-    font-weight: 300;
-}
 #welcome {
     text-align: center;
     font-size: 1.5rem;
@@ -475,18 +471,32 @@ p{
 /*Style page Projets*/
 #headproject{
     padding: 6rem 0 3rem 0;
-    background-image: url(../images/Projets/projets.png);
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     font-size: 3rem;
     letter-spacing: 0.5rem;
     background-position-y: center;
+    background-size: fill;
+    background-position-x: center;
 }
 .projets {
-    padding: 4rem;
-    text-align: justify;
+    text-align: center;
+    height: 40vh;
+    display: flex;
+}
+#projet1{
+    margin-right: 2rem;
+    padding: 2rem;
+    border: #1e262b solid;
+}
+#projet2{
+    border: #1e262b solid;
 }
 .titreprojets{
     font-size: 2rem;
     font-weight: 100;
+    text-transform: uppercase;
+}
+.presprojet {
+    padding: 0;
 }

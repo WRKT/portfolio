@@ -18,7 +18,7 @@ const sections = {
           et plus particulièrement dans le domaine du système et réseaux orienté cybersécurité.
           Actuellement en formation BTS SIO option SISR au sein de la CCI Campus Alsace, 
           en alternance chez la Préfecture du Bas-Rhin, je projette d'évoluer vers un poste 
-          d'Administrateur Système et Réseaux, et sur le long terme en tant que DevOps.`,
+          d'Administrateur Système et Réseaux, et sur le long terme en tant que DevOps.<br><br><br><br>`,
     },
     S2: {
       title: "My journey ",
@@ -27,7 +27,7 @@ const sections = {
       p: `Avant de découvrir la possibilité de faire de ma passion mon métier, mon premier amour
           fut la Science Politique, dans l'espoir de mieux comprendre le monde dans lequel on vit actuellement.
           Et malgré ma réorientation, je suis toujours en quête de cette compréhension, et ce, en ayant recours aux nouvelles technologies.
-          Nous sommes dans l'ère du numérique, et je suis d'autant plus ravi de pouvoir approfondir mes connaissances dans ce domaine.`,
+          Nous sommes dans l'ère du numérique, et je suis d'autant plus ravi de pouvoir approfondir mes connaissances dans ce domaine.<br><br><br>`,
     },
     S3: {
       title: "My cup of tea ",
@@ -42,9 +42,10 @@ const sections = {
     },
   };
   // Déclaration des variables pour permettre le changement des titres, paragraphes, img
+  
   let tableau = document.querySelectorAll(".fa-sort-up");
   let aboutcontainer = document.getElementById("aboutcontainer");
-  
+  tableau[1].style.margin="50px"
   let changethis = sections.S1;
   
   let sectionreplace = `

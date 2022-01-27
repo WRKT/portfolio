@@ -306,11 +306,15 @@ p{
     line-height: 3;
 }
 /*Effet de surbrillance sur les navbuttons qui sera utilisé dans le script JS*/
+.fa-sort-up{
+    transform: scale(2);
+}
 .shine{
     transition: 0.5s;
-    transform: scale(1.5);
-    color:#011a8b;
+    transform: scale(3);
+    color:#0e76a8;
 }
+
 
 /*FIN A propos*/
 
@@ -479,27 +483,50 @@ p{
     background-size: fill;
     background-position-x: center;
 }
+#viewheight{
+    height:60vh;
+}
 .projets {
+    width: 38%;
+    height: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: #181818 10px 7px 10px;
+    border-radius: 0.65rem;
+    box-sizing: border-box;
+    padding:2rem ;
+    position: relative;
+    margin-top: 3rem;
+    letter-spacing: 0.5rem;
     text-align: center;
-    height: 40vh;
-    display: flex;
-    width: 100%;
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 0.5s;
+    background-color: #2b3338;
+    color: #eeebeb;
+    justify-content: space-between;
+}
+.projets:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: #818181 10px 7px 10px 5px; 
+}
+.titreprojet{
+    font-weight: 100;
+    font-size: 35px;
+    letter-spacing: 0.3rem;
+    padding-top:20%;
 }
 #projet1{
-    margin-right: 2rem;
-    padding: 2rem;
-    border: #1e262b solid;
-    width:35%;
+    margin:0 5rem;
 }
-#projet2{
-    border: #1e262b solid;
-    width:35%;
+#projet1:hover{
+    background-image: url(../images/Projets/sophos.png);
+    background-size: cover;
+    background-position: center;
 }
-.titreprojets{
-    font-size: 2rem;
-    font-weight: 100;
-    text-transform: uppercase;
-}
-.presprojet {
-    padding: 0;
+#projet2:hover{
+    background-image: url(../images/Projets/Alcasar.png);
+    background-size: cover;
+    background-position: center;
 }

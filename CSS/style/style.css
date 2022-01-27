@@ -483,14 +483,17 @@ p{
     text-align: center;
     height: 40vh;
     display: flex;
+    width: 100%;
 }
 #projet1{
     margin-right: 2rem;
     padding: 2rem;
     border: #1e262b solid;
+    width:35%;
 }
 #projet2{
     border: #1e262b solid;
+    width:35%;
 }
 .titreprojets{
     font-size: 2rem;

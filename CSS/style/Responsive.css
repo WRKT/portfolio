@@ -1,3 +1,4 @@
+/*Propriétés CSS appliquées sur les écrans en dessous d'une hauteur de 450px*/
 @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto}
     .overlay a {font-size: 20px}
@@ -7,14 +8,56 @@
       right: 35px;
     }
 }
+/*Propriétés CSS appliquées sur les écrans en dessous d'une largeur de 1280px*/
 @media screen and (max-width:1280px){
+  /*Responsive index*/
+  .menu {
+    padding:40px;
+
+  }
+  .menu:hover {
+    padding:40px;
+    background-color: #818181;
+    box-shadow: 5px 5px 5px 5px #363636;
+    color: #003972;
+  }
+  #apropos:hover {
+    background-image: none;
+  }
+  #competences:hover {
+    background-image: none;
+  }
+  #experiences:hover {
+    background-image: none;
+  }
+  #projets:hover {
+    background-image: none;
+  }
   footer {
     bottom:0;
   }
+  /*FIN index*/
+
+  /*Responsive A_propos*/
+
+  /*FIN A_propos*/
+
+  /*Responsive Competences*/
+
+  /*FIN Competences*/
+
+  /*Responsive Experieneces*/
   .logoexperience {
     float: none;
+    margin-bottom:10px;
   }
   .missions {
     padding-left: 10%;
   }
+  /*FIN Experiences*/
+
+  /*Responsive Projets*/
+
+  /*FIN Projets*/
+
 }

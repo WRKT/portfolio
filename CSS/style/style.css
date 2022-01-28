@@ -142,7 +142,7 @@ footer {
     background-color: #011c36;
     padding: 1.2rem;
     color: white;
-    margin-top: 13rem;
+    margin-top: 8rem;
     bottom: 0;
 }
 .Titrepied {
@@ -511,7 +511,7 @@ p{
     padding-top:5rem;
 }
 .projets {
-    width: 35%;
+    width: 600px;
     height: 400px;
     display: inline-flex;
     flex-direction: column;
@@ -555,7 +555,7 @@ p{
     background-position: center;
 }
 .desc{
-    height: 100vh;
+    height: 80vh;
     padding: 0 10vw;
 }
 .desctitle{

@@ -555,12 +555,12 @@ p{
     background-position: center;
 }
 .desc{
-    height: 80vh;
+    height: 100vh;
     padding: 0 10vw;
 }
 .desctitle{
     text-align: center;
-    padding: 5rem 0 2rem 0;
+    padding: 100px 0 50px 0;
     font-weight: 100;
     font-size:3rem;
     line-height: 2;

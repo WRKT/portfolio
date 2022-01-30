@@ -36,6 +36,9 @@
   footer {
     bottom:0;
   }
+  .tirets {
+    display: none;
+  }
   /*FIN index*/
 
   /*Responsive A_propos*/

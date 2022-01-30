@@ -60,7 +60,23 @@
   /*FIN Experiences*/
 
   /*Responsive Projets*/
-
+  .projets{
+    padding: 0.5rem;
+    letter-spacing: 0;
+    border-radius: 0;
+  }
+  .desc{
+    height: 100vh;
+    padding: 0 2rem;
+    text-align: justify;
+  }
+  .desctitle{
+    margin-top: 250px;
+  }
+  .imgsophos{
+    width: 250px;
+    height:200px;
+  }
   /*FIN Projets*/
 
 }

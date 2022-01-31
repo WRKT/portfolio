@@ -315,7 +315,7 @@ footer {
 }
 p{
     padding: 0 7rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 3;
 }
 /*Effet de surbrillance sur les navbuttons qui sera utilisé dans le script JS*/

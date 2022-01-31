@@ -575,11 +575,11 @@ p{
     display: inline-flex;
     width: 100%;
 }
-.imgsophos{
+.captureprojets{
     width:35%;
     height:400px;
     padding-right: 4rem;
 }
-#nopadding {
+.nopadding {
     padding-right:0;
 }

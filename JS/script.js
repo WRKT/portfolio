@@ -54,12 +54,12 @@ const sections = {
   }</big><small>${changethis.title.slice(1)}</small>?</h1>
   <img alt="${changethis.alt}" class="aboutimg" src="${
   changethis.img
-  }" type="img/png"/>
+  }"/>
   <p>${changethis.p}</p>
   </div>`;
   
   document.getElementById("aboutcontainer").insertAdjacentHTML("afterbegin", sectionreplace);
-  
+    
   tableau[0].addEventListener("click", (e) => {
     aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));
     let changethis = sections.S1;
@@ -70,7 +70,7 @@ const sections = {
       }</big><small>${changethis.title.slice(1)}</small>?</h1>
       <img alt="${changethis.alt}" class="aboutimg" src="${
       changethis.img
-    }" type="img/png"/>
+    }"/>
       <p>${changethis.p}</p>
       </div>`;
   
@@ -92,7 +92,7 @@ const sections = {
       }</big><small>${changethis.title.slice(1)}</small>...</h1>
       <img alt="${changethis.alt}" class="aboutimg" src="${
       changethis.img
-    }" type="img/png"/>
+    }"/>
       <p>${changethis.p}</p>
       </div>`;
   

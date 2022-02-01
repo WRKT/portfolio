@@ -315,7 +315,7 @@ footer {
 }
 p{
     padding: 0 7rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 3;
 }
 /*Effet de surbrillance sur les navbuttons qui sera utilisé dans le script JS*/
@@ -471,23 +471,24 @@ p{
 #ehess{
     border:#000000 1.75px solid;
 }
-#moreinfo {
+.moreinfo {
     font-size: 0.9rem;
     font-style: italic;
     text-align: center;
     margin-top: 50px;
 }
-#CV {
+.doclink {
     color: #011a8b;
     font-style:italic;
     transition: 0.25s;
     transition-property: all;
 
 }
-#CV:hover{
+.doclink:hover{
     border-bottom: #011a8b 2px solid;
     text-transform: uppercase;
     font-style: normal;
+    color:#011a8b;
 }
 
 /*FIN Experiences*/
@@ -511,14 +512,14 @@ p{
     padding-top:5rem;
 }
 .projets {
-    width: 45rem;
-    height: 25rem;
+    width: 40rem;
+    height: 22rem;
     display: inline-flex;
     flex-direction: column;
     box-shadow: #181818 10px 7px 10px;
     border-radius: 0.65rem;
     box-sizing: border-box;
-    padding:2rem ;
+    padding:1rem ;
     position: relative;
     margin-top: 3rem;
     letter-spacing: 0.5rem;
@@ -569,15 +570,16 @@ p{
     color:#002447;
     text-shadow: #818181 2px 4px 3px;
 }
+
 .imgprojets{
     text-align: center;
     padding:4rem 0 0 0;
     display: inline-flex;
     width: 100%;
 }
-.imgsophos{
+.captureprojets{
     width:35%;
-    height:400px;
+    height:300px;
     padding-right: 4rem;
 }
 #nopadding {

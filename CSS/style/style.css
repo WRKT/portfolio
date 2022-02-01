@@ -582,6 +582,6 @@ p{
     height:300px;
     padding-right: 4rem;
 }
-#nopadding {
+.nopadding {
     padding-right:0;
 }

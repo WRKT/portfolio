@@ -126,3 +126,4 @@ const sections = {
       tableau[1].classList.remove("shine")
       tableau[2].classList.add("shine")  
   });
+// FIN A_propos

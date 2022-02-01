@@ -573,10 +573,12 @@ p{
 
 .imgprojets{
     text-align: center;
-    padding:4rem 0 0 0;
+    padding:4rem 0;
+    margin-bottom: 100px;
     display: inline-flex;
     width: 100%;
 }
+
 .captureprojets{
     width:35%;
     height:300px;
@@ -584,4 +586,7 @@ p{
 }
 .nopadding {
     padding-right:0;
+}
+#moreinfoprojets {
+    padding: 0 100px;
 }

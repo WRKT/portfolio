@@ -9,13 +9,12 @@
     }
 }
 /*Propriétés CSS appliquées sur les écrans en dessous d'une largeur de 1280px*/
-@media screen and (max-width:1280px){
+@media screen and (max-width:1024px) {
   /*Responsive index*/
-  .menu {
+  .left, .right {
     padding:40px;
-
   }
-  .menu:hover {
+  .left:hover, .right:hover {
     padding:40px;
     background-color: #818181;
     box-shadow: 5px 5px 5px 5px #363636;
@@ -60,22 +59,32 @@
   /*FIN Experiences*/
 
   /*Responsive Projets*/
+  #viewheight {
+    height: auto;
+  }
   .projets{
-    padding: 0.5rem;
-    letter-spacing: 0;
-    border-radius: 0;
+    margin: 50px;
   }
   .desc{
-    height: 100vh;
+    height:auto;
     padding: 0 2rem;
     text-align: justify;
   }
   .desctitle{
-    margin-top: 250px;
+    margin-top: 0px;
   }
-  .imgsophos{
+  .imgprojets{
+    margin-bottom: 25px;
+  }
+  .captureprojets{
     width: 250px;
     height:200px;
+  }
+  .nopadding {
+    padding: 0;
+  }
+  #moreinfoprojets {
+    padding:0;
   }
   /*FIN Projets*/
 

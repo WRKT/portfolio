@@ -110,7 +110,7 @@ body {
 /*Effets pour augmenter la taille du menu pendant le hover et y mettre les images pour respecter le plus possible la charte*/
 .left:hover, .right:hover{
     padding-right:8rem;
-    padding-left:7rem;
+    padding-left:6rem;
     background-color: #EFF3F6;
     box-shadow: 5px 5px 5px 5px #363636;
     background-size: cover;
@@ -119,16 +119,16 @@ body {
     color: rgba(0, 0, 0, 0)
 }
 #apropos:hover {
-    background-image: url(../images/menu/a_propos.jpg);
+    background-image: url(../images/Index/a_propos.jpg);
 }
 #competences:hover {
-    background-image: url(../images/menu/competences.jpg);
+    background-image: url(../images/Index/competences.jpg);
 }
 #experiences:hover {
-    background-image: url(../images/menu/experiences.jpg);
+    background-image: url(../images/Index/experiences.jpg);
 }
 #projets:hover {
-    background-image: url(../images/menu/projets.jpg);
+    background-image: url(../images/Index/projets.jpg);
 }
 a , a:visited, a:hover, a:active{
     color: rgba(0, 0, 0, 0);
@@ -315,7 +315,7 @@ footer {
 }
 p{
     padding: 0 7rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 3;
 }
 /*Effet de surbrillance sur les navbuttons qui sera utilisé dans le script JS*/
@@ -471,23 +471,24 @@ p{
 #ehess{
     border:#000000 1.75px solid;
 }
-#moreinfo {
+.moreinfo {
     font-size: 0.9rem;
     font-style: italic;
     text-align: center;
     margin-top: 50px;
 }
-#CV {
+.doclink {
     color: #011a8b;
     font-style:italic;
     transition: 0.25s;
     transition-property: all;
 
 }
-#CV:hover{
+.doclink:hover{
     border-bottom: #011a8b 2px solid;
     text-transform: uppercase;
     font-style: normal;
+    color:#011a8b;
 }
 
 /*FIN Experiences*/
@@ -511,49 +512,24 @@ p{
     padding-top:5rem;
 }
 .projets {
-    width: 45rem;
-    height: 25rem;
+    width:600px;
+    height:400px;
     display: inline-flex;
-    flex-direction: column;
-    box-shadow: #181818 10px 7px 10px;
-    border-radius: 0.65rem;
-    box-sizing: border-box;
-    padding:2rem ;
-    position: relative;
-    margin-top: 3rem;
-    letter-spacing: 0.5rem;
-    text-align: center;
-    transform: scale(1);
-    transition-property: all;
-    transition-duration: 0.8s;
-    background-color: #2b3338;
-    color: #eeebeb;
-    justify-content: space-between;
+    box-shadow: #818181 10px 7px 10px;
+    border-radius: 25px;
+    filter: grayscale(0.4);
+    transition-duration: 0.5s;
 }
 .projets:hover{
     transform: scale(1.05);
     cursor: pointer;
-    box-shadow: #818181 10px 7px 10px 5px; 
+    box-shadow: #181818 10px 7px 10px 5px; 
 }
-.titreprojet{
-    font-weight: 100;
-    font-size: 3rem;
-    letter-spacing: 1rem;
-    padding-top:15%;
-}
+
 #projet1{
-    margin:0 4rem;
+    margin:0 5rem;
 }
-#projet1:hover{
-    background-image: url(../images/Projets/sophos.png);
-    background-size: cover;
-    background-position: center;
-}
-#projet2:hover{
-    background-image: url(../images/Projets/Alcasar.png);
-    background-size: cover;
-    background-position: center;
-}
+
 .desc{
     height: 100vh;
     padding: 0 10rem;
@@ -569,17 +545,24 @@ p{
     color:#002447;
     text-shadow: #818181 2px 4px 3px;
 }
+
 .imgprojets{
     text-align: center;
-    padding:4rem 0 0 0;
+    padding:4rem 0;
+    margin-bottom: 100px;
     display: inline-flex;
     width: 100%;
 }
-.imgsophos{
+
+.captureprojets{
     width:35%;
-    height:400px;
+    height:300px;
     padding-right: 4rem;
 }
-#nopadding {
+.nopadding {
     padding-right:0;
+}
+
+#moreinfoprojets {
+    padding: 50px 100px 0 100px;
 }

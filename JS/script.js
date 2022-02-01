@@ -45,8 +45,7 @@ const sections = {
   
   let tableau = document.querySelectorAll(".fa-sort-up");
   let aboutcontainer = document.getElementById("aboutcontainer");
-  tableau[1].style.margin="50px"
-  let changethis = sections.S1;
+    let changethis = sections.S1;
   
   let sectionreplace = `
   <div id="1" class="section">
@@ -55,12 +54,12 @@ const sections = {
   }</big><small>${changethis.title.slice(1)}</small>?</h1>
   <img alt="${changethis.alt}" class="aboutimg" src="${
   changethis.img
-  }" type="img/png"/>
+  }"/>
   <p>${changethis.p}</p>
   </div>`;
   
   document.getElementById("aboutcontainer").insertAdjacentHTML("afterbegin", sectionreplace);
-  
+    
   tableau[0].addEventListener("click", (e) => {
     aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));
     let changethis = sections.S1;
@@ -71,7 +70,7 @@ const sections = {
       }</big><small>${changethis.title.slice(1)}</small>?</h1>
       <img alt="${changethis.alt}" class="aboutimg" src="${
       changethis.img
-    }" type="img/png"/>
+    }"/>
       <p>${changethis.p}</p>
       </div>`;
   
@@ -93,7 +92,7 @@ const sections = {
       }</big><small>${changethis.title.slice(1)}</small>...</h1>
       <img alt="${changethis.alt}" class="aboutimg" src="${
       changethis.img
-    }" type="img/png"/>
+    }"/>
       <p>${changethis.p}</p>
       </div>`;
   
@@ -104,6 +103,7 @@ const sections = {
       tableau[2].classList.remove("shine")
       tableau[1].classList.add("shine")
   });
+  tableau[1].style.margin="50px"
   
   tableau[2].addEventListener("click", (e) => {
     aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));
@@ -126,3 +126,4 @@ const sections = {
       tableau[1].classList.remove("shine")
       tableau[2].classList.add("shine")  
   });
+// FIN A_propos

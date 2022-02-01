@@ -110,7 +110,7 @@ body {
 /*Effets pour augmenter la taille du menu pendant le hover et y mettre les images pour respecter le plus possible la charte*/
 .left:hover, .right:hover{
     padding-right:8rem;
-    padding-left:7rem;
+    padding-left:6rem;
     background-color: #EFF3F6;
     box-shadow: 5px 5px 5px 5px #363636;
     background-size: cover;
@@ -119,16 +119,16 @@ body {
     color: rgba(0, 0, 0, 0)
 }
 #apropos:hover {
-    background-image: url(../images/menu/a_propos.jpg);
+    background-image: url(../images/Index/a_propos.jpg);
 }
 #competences:hover {
-    background-image: url(../images/menu/competences.jpg);
+    background-image: url(../images/Index/competences.jpg);
 }
 #experiences:hover {
-    background-image: url(../images/menu/experiences.jpg);
+    background-image: url(../images/Index/experiences.jpg);
 }
 #projets:hover {
-    background-image: url(../images/menu/projets.jpg);
+    background-image: url(../images/Index/projets.jpg);
 }
 a , a:visited, a:hover, a:active{
     color: rgba(0, 0, 0, 0);

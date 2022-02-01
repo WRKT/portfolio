@@ -45,8 +45,7 @@ const sections = {
   
   let tableau = document.querySelectorAll(".fa-sort-up");
   let aboutcontainer = document.getElementById("aboutcontainer");
-  tableau[1].style.margin="50px"
-  let changethis = sections.S1;
+    let changethis = sections.S1;
   
   let sectionreplace = `
   <div id="1" class="section">
@@ -104,6 +103,7 @@ const sections = {
       tableau[2].classList.remove("shine")
       tableau[1].classList.add("shine")
   });
+  tableau[1].style.margin="50px"
   
   tableau[2].addEventListener("click", (e) => {
     aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));

@@ -182,6 +182,16 @@ footer {
 .fab:hover, .fas:hover {
     color: #181818;
 }
+.copyright {
+    font-size: 8px;
+    text-align: center;
+    padding-top: 25px;
+    color: #818181;
+    bottom: 0px;
+}
+.symbol {
+    font-size: 12px;
+}
 /*FIN index*/
 
 /*Style page A propos*/

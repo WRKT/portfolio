@@ -566,3 +566,10 @@ p{
 #moreinfoprojets {
     padding: 50px 100px 0 100px;
 }
+/*FIN Projets*/
+
+/*Style page Contacts*/
+#headcontact {
+    padding: 6rem 0 3rem 0;
+    text-align: center;
+}

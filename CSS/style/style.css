@@ -430,7 +430,6 @@ p{
     letter-spacing: 0.5rem;
     font-size: 3rem;
     background-image: url(../images/Experiences/office.jpg);
-    background-size: fill;
     background-position-y: center;
     color: #ffffff;
     font-style: italic;
@@ -511,7 +510,6 @@ p{
     font-size: 3rem;
     letter-spacing: 0.5rem;
     background-position-y: center;
-    background-size: fill;
     font-style: italic;
     text-shadow: #818181 10px 12px 5px;
     background-image: url(../images/Competences/electronics.jpg);

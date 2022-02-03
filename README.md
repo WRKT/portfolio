@@ -82,11 +82,9 @@ Before                       |                   After
 ![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu.png) | ![Menu_hover](CHARTE_GRAPHIQUE/Maquettes/Menu_hover.png)
 
 ### Images utilisés en :hover
-A propos                    |                   Compétences
-:--------------------------:|:----------------------------:
-![A_propos](CSS/images/Index/a_propos.jpg) | ![Competences](CSS/images/Index/competences.jpg)
-Expériences                 |                   Projets
-![Experiences](CSS/images/Index/experiences.jpg) | ![Projets](CSS/images/Index/projets.jpg)
+| A propos | Compétences | Exépriences | Projets |
+|:-:|:-:|:-:|:-:|
+![A_propos](CSS/images/Index/a_propos.jpg) | ![Competences](CSS/images/Index/competences.jpg) | ![Experiences](CSS/images/Index/experiences.jpg) | ![Projets](CSS/images/Index/projets.jpg)
 
 
 ## Conception footer

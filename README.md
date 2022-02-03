@@ -37,14 +37,14 @@ Expériences                 |                   Projets
 ![Experiences](CSS/images/Index/experiences.jpg) | ![Projets](CSS/images/Index/projets.jpg)
 
 # Raccourci vers Menu pour les autres pages
-- Dans la barre contact, mettre une icone pour chaque type de contacts: Enveloppe pour Mail, le logo de LinkedIn, une icone de Téléphone, logo Discord, et Github. 
 Menu en haut à droite en lien vers d'autres pages dont:
 
 - A propos =>  Présentation + Passion avec une photo de moi avec un bon fond à voir + Mon parcours.
 - Compétences => Mes principales compétences
 - Expériences => Une page énumérant mes expériences professionnelles
 - Projets => Les différents projets que j'ai réalisés au cours de mon cursus, en entreprise, personnels
-- Contacts => listant mes contacts réseaux dont Discord, Github, LinkedIn, Mail
+
+
 
 
   - <u>**Favicon**</u>
@@ -81,4 +81,10 @@ Menu en haut à droite en lien vers d'autres pages dont:
  
     <img src="CHARTE_GRAPHIQUE/Logos&Icons/Logo_mail.png" alt="Logo mail" style="zoom:35%;" />
     
-
+# Conception footer
+## Description
+* Dans la barre contact, mettre une icone pour chaque type de contacts: 
+    - Enveloppe pour Mail
+    - Logo de LinkedIn
+    - Logo Github
+    - Logo Discord

@@ -53,39 +53,6 @@ Quand on clique sur ``MENU``, le menu se scroll de haut en bas avec un `backgrou
 ### Menu opened
 ![Shortcut_menu_opened](CHARTE_GRAPHIQUE/Maquettes/Shortcut_menu_opened.png)
 
-  - <u>**Favicon**</u>
-
-    <img src="CHARTE_GRAPHIQUE/Logos&Icons/ico.png" style="zoom:50%;" />
-
-  - **<u>Les logos utilisés en head</u>**
-
-    - Mon logo
-
-    <img src="CHARTE_GRAPHIQUE/Logos&Icons/My_Logo.png" alt="My_Logo" style="zoom:150%;" />
-
-    - Mini image à droite:
-
-      <img src="CHARTE_GRAPHIQUE/Logos&Icons/image_pc.png" style="zoom:175%;" />
-
-  - **<u>Les logos et icones utilisés en footer</u>**
-
-    - Discord
-     
-
-    <img src="CHARTE_GRAPHIQUE/Logos&Icons/Logo_Discord.png" alt="Logo Discord" style="width:200px;" />
-  
-  
-    - Github
-  
-    <img src="CHARTE_GRAPHIQUE/Logos&Icons/Logo_github.png" alt="Logo github" style="zoom:35%;" />
-  
-    - LinkedIn
-  
-    <img src="CHARTE_GRAPHIQUE/Logos&Icons/Logo_Linkedin.png" alt="Logo Linkedin" style="zoom:35%;" />
-  
-    - Mail
- 
-    <img src="CHARTE_GRAPHIQUE/Logos&Icons/Logo_mail.png" alt="Logo mail" style="zoom:35%;" />
     
 # Conception footer
 ## Description

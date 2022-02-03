@@ -604,7 +604,8 @@ form #separation{
     flex-wrap: wrap;
     margin-bottom: 50px;
 }
-.boite{
+form .corpsformulaire .boite{
+    position: relative;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -613,6 +614,19 @@ form .corpsformulaire .corpsgauche .boite input {
     margin-top: 5px;
     padding:10px 5px 10px 40px;
     border: 1px solid #002447;
+}
+form .corpsformulaire .corpsgauche .boite i {
+    position:absolute;
+    left:0;
+    top:25px;
+    padding:9px 8px;
+    font-size: 25px;
+}
+form .corpsformulaire .corpsdroite {
+    margin-left: 40px;
+}
+form .corpsformulaire .corpsdroite{
+    
 }
 .piedformulaire{
     text-align: center;

@@ -613,7 +613,7 @@ form .corpsformulaire .boite{
 }
 form .corpsformulaire .corpsgauche .boite input {
     margin-top: 5px;
-    padding:10px 5px 10px 40px;
+    padding:10px 20px 10px 40px;
     border: 1.2px solid #002447;
     outline: none;
     border-radius: 5px;
@@ -639,6 +639,7 @@ form .corpsformulaire .corpsdroite .boite textarea{
     border-radius: 5px;
     resize: none;
     height:73%;
+    width: 100%;
 }
 form .piedformulaire{
     text-align: center;
@@ -652,6 +653,7 @@ form .piedformulaire button {
     font-weight: 100;
     padding: 25px;
     border-radius: 10px;
+    border-width: 5px;
     outline: none;
     cursor: pointer;
 }

@@ -584,9 +584,13 @@ p{
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    font-weight: 100;
+    background-color: #343434;
+    color:#e4e4e4;
+    padding: 70px;
+    border-radius: 20px;
 }
 #headcontact {
-    padding: 6rem 0 3rem 0;
     text-align: center;
 }
 .piedformulaire{

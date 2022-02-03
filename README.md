@@ -1,9 +1,9 @@
 # CCI-SIO21-Portfolio - Charte graphique
 
-## **[AVANT-PROPOS](#Avant-propos)**
-## **[OUTILS](#Outils-de-design)**
-## **[CONCEPTIONS](#Conceptions)**
-## **[CREDITS](#Special-credits)**
+## *[AVANT-PROPOS](#Avant-propos)*
+## *[OUTILS](#Outils-de-design)*
+## *[CONCEPTIONS](#Conceptions)*
+## *[CREDITS](#Special-credits)*
 
 ---
 
@@ -39,7 +39,7 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 
 ---
 
-# **Conceptions**
+# **CONCEPTIONS**
 ## Conception header
 ### For index:
 #### <ins>Caractéristiques</ins>

@@ -617,6 +617,7 @@ form .corpsformulaire .corpsgauche .boite input {
     border: 1.2px solid #002447;
     outline: none;
     border-radius: 5px;
+    font-family: fantasy;
 }
 form .corpsformulaire .corpsgauche .boite i {
     position:absolute;
@@ -640,6 +641,9 @@ form .corpsformulaire .corpsdroite .boite textarea{
     resize: none;
     height:73%;
     width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 100;
+    font-size: 8px;
 }
 form .piedformulaire{
     text-align: center;

@@ -16,9 +16,11 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 
 ## Palette de couleurs
 ### Principaux couleurs utilisés
+
 ![palettes_couleurs](CHARTE_GRAPHIQUE/Maquettes/palettes_couleurs.jpeg)
 
 ### Couleur du background `(#f5f5f5)` et police `(#343434)`
+
 ![background_color](CHARTE_GRAPHIQUE/Maquettes/background_color.png)
 
 

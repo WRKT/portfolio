@@ -186,6 +186,9 @@ footer {
     color: #44525f;
     bottom: 0px;
 }
+.copyright:hover{
+    color:#677b8d;
+}
 .symbol {
     font-size: 12px;
 }

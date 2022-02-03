@@ -589,20 +589,29 @@ form{
     color:#ffffff;
     padding: 70px;
     border-radius: 20px;
-    font-size: 10px;
+    font-size: 12px;
 }
 form h1{
     font-size: 20px;
 }
-form .line{
+form #separation{
     width:100%;
-    height: 3px;
+    height: 1px;
     color: #ddddd5;
 }
 .corpsformulaire{
     display:flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
+}
+.boite{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form .corpsformulaire .corpsgauche boite input {
+    margin-top: 5px;
+    padding:30px;
 }
 .piedformulaire{
     text-align: center;

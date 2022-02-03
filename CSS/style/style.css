@@ -638,11 +638,18 @@ form .corpsformulaire .corpsdroite .boite textarea{
     border: 1.2px solid #011a8b;
     border-radius: 5px;
     resize: none;
-    height:72%;
+    height:73%;
 }
 form .piedformulaire{
     text-align: center;
 }
-form .piedformulaier button {
-    
+form .piedformulaire button {
+    margin-top: 20px;
+    background-color: #002447;
+    color: #f6f6f6;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 100;
+    padding: 25px;
+    border-radius: 10px;
 }

@@ -1,15 +1,16 @@
 # CCI-SIO21-Portfolio - Charte graphique
 
 ## **[AVANT-PROPOS](#Avant-propos)**
-## **[OUTILS-DE-CONCEPTION](#Outils-de-conception)**
-## **[CONCEPTION](#CONCEPTIONS)**
+## **[OUTILS](#Outils-de-design)**
+## **[CONCEPTIONS](#Conceptions)**
+## **[CREDITS](#Special-credits)**
 
 # Avant-propos
 Ce document contient le référentiel de mon portfolio sur les images utilisés, les polices, et sur comment naviguer dans le site.
 Ce site a été conçu par moi-même, sans framework, juste du code avec trois languages dont HTML, CSS, et du JS pour quelques propriétés.
 Mon portfolio est actuellement hébergé chez le domaine de mon camarade de promotion à CCI Campus, Mr. Alexis Henry.
 
-# Outils-de-conception
+# Outils de design
 ## Design page index
 
 ![Maquette_première_page](CHARTE_GRAPHIQUE/Maquettes/Maquette_première_page.png)
@@ -29,7 +30,7 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 `Press Start 2P` of Google Fonts
 ![font-style](CHARTE_GRAPHIQUE/Maquettes/font-style.png)
 
-# CONCEPTIONS
+# Conceptions
 ## Conception header
 ## Conception du Menu
 ### Description
@@ -77,3 +78,4 @@ Quand on clique sur ``MENU``, le menu se scroll de haut en bas avec un `backgrou
     - Logo de LinkedIn
     - Logo Github
     - Logo Discord
+# Special credits

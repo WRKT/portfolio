@@ -32,6 +32,10 @@ Press Start 2P of Google Fonts
 ![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu_hover.png)
 
 ## Images utilisés
+![A_propos](CSS/images/Index/a_propos.jpg)
+![Competences](CSS/images/Index/competences.jpg)
+![Experiences](CSS/images/Index/experiences.jpg)
+![Projets](CSS/images/Index/projets.jpg)
 
 # Raccourci vers Menu pour les autres pages
 - Dans la barre contact, mettre une icone pour chaque type de contacts: Enveloppe pour Mail, le logo de LinkedIn, une icone de Téléphone, logo Discord, et Github. 

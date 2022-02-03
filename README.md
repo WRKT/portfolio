@@ -24,10 +24,12 @@ Press Start 2P of Google Fonts
 
 * En plus de tout cela, à chaque menu, il y aura une image qui définira le menu en question 
 
-## Conception
+## Visuel sample
 * Before
+![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu.png)
 
 * After
+![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu_hover.png)
 
 ## Images utilisés
 

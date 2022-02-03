@@ -39,7 +39,7 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 
 ---
 
-# **CONCEPTIONS**
+# CONCEPTIONS
 ## Conception header
 ### For index:
 #### <ins>Caractéristiques</ins>

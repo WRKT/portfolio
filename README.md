@@ -2,7 +2,7 @@
 
 ## *[AVANT-PROPOS](#Avant-propos)*
 ## *[OUTILS](#Outils-de-design)*
-## *[DETAILS](#Détails)*
+## *[MON SITE](#Mon-site)*
 ## *[CREDITS](#Special-credits)*
 
 ---
@@ -39,7 +39,7 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 
 ---
 
-# **Détails**
+# **Mon site**
 ## Conception header
 ### For index:
 #### <ins>Caractéristiques</ins>

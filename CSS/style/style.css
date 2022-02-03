@@ -652,4 +652,7 @@ form .piedformulaire button {
     font-weight: 100;
     padding: 25px;
     border-radius: 10px;
+    outline: none;
+    cursor: pointer;
 }
+/*FIN Contact*/

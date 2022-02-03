@@ -87,5 +87,9 @@
     padding:0;
   }
   /*FIN Projets*/
-
+  /*Responsive Contacts*/
+  form .corpsformulaire .corpsdroite {
+    margin-left: 0px;
+}
+  /*FIN Contacts*/
 }

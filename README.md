@@ -29,11 +29,13 @@ Before                       |                   After
 :---------------------------:|:-----------------------:
 ![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu.png) | ![Menu_hover](CHARTE_GRAPHIQUE/Maquettes/Menu_hover.png)
 
-## Images utilisés
-![A_propos](CSS/images/Index/a_propos.jpg)
-![Competences](CSS/images/Index/competences.jpg)
-![Experiences](CSS/images/Index/experiences.jpg)
-![Projets](CSS/images/Index/projets.jpg)
+## Images utilisés en :hover
+A propos                    |                   Compétences
+:--------------------------:|:----------------------------:
+![A_propos](CSS/images/Index/a_propos.jpg) | ![Competences](CSS/images/Index/competences.jpg)
+Expériences                 |                   Projets
+:--------------------------:|:----------------------------:
+![Experiences](CSS/images/Index/experiences.jpg) | ![Projets](CSS/images/Index/projets.jpg)
 
 # Raccourci vers Menu pour les autres pages
 - Dans la barre contact, mettre une icone pour chaque type de contacts: Enveloppe pour Mail, le logo de LinkedIn, une icone de Téléphone, logo Discord, et Github. 

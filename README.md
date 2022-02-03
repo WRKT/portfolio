@@ -42,13 +42,14 @@ Deux boutons:
 * Un bouton Menu en haut à gauche en lien vers d'autres pages dont:
     - A propos =>  Présentation + Parcours + Passion.
     - Compétences => Mes principales compétences
-    - Expériences => Une page énumérant mes expériences professionnelles et link vers CV.
+    - Expériences => Une page énumérant mes expériences professionnelles et link vers mon CV.
     - Projets => Les différents projets que j'ai réalisés en entreprise.
 * Un bouton Accueil qui nous ramène vers la page index
+
 Quand on clique sur ``MENU``, le menu se scroll de haut en bas avec un `background #000000`
 
 ## Visuel sample
-### header menu
+### Header menu
 ![Shortcut_menu](CHARTE_GRAPHIQUE/Maquettes/Shortcut_menu.png)
 ### Menu opened
 ![Shortcut_menu_opened](CHARTE_GRAPHIQUE/Maquettes/Shortcut_menu_opened.png)

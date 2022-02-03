@@ -593,6 +593,7 @@ form{
 }
 form h1{
     font-size: 20px;
+    text-shadow: #5b6894 5px 2px 2px;
 }
 form #separation{
     width:100%;
@@ -625,8 +626,12 @@ form .corpsformulaire .corpsgauche .boite i {
 form .corpsformulaire .corpsdroite {
     margin-left: 40px;
 }
-form .corpsformulaire .corpsdroite{
-    
+form .corpsformulaire .corpsdroite .boite{
+    height: 100%;
+}
+form .corpsformulaire .corpsdroite .boite textarea{
+    margin-top: 5px;
+    padding:10px;
 }
 .piedformulaire{
     text-align: center;

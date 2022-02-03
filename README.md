@@ -88,14 +88,16 @@ Expériences                 |                   Projets
 
 ## Conception footer
 ### Description
-* Dans la barre contact, mettre une icone pour chaque type de contacts: 
+* Dans la barre **Contacts**, mettre une icone pour chaque type de contacts: 
     - Enveloppe pour Mail
     - Logo de LinkedIn
     - Logo Github
-    - Logo Discord  
-Ces logos seront importés via https://fontawesome.com/
-
-* Mentions légales qui comprendra que mon nom et prénom (minimum obligatoires pour un site à usage personnel)
+    - Logo Discord
+  
+Ces logos seront importés via *https://fontawesome.com/*  
+Pour naviguer, les logos sont cliquables pour vous rediriger vers mes réseaux sociaux, et l'icone d'enveloppe pour Mail vous redirigera vers un formulaire de contact personnalisé.
+  
+* **Mentions légales** qui comprendra que mon nom et prénom (minimum obligatoires pour un site à usage personnel)
 
 ### Visual sample
 ![footer](CHARTE_GRAPHIQUE/Maquettes/footer.png)

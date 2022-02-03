@@ -612,7 +612,7 @@ form #separation{
 form .corpsformulaire .corpsgauche .boite input {
     margin-top: 5px;
     padding:10px 5px 10px 40px;
-    border: 2px dashed #000000;
+    border: 1px solid #002447;
 }
 .piedformulaire{
     text-align: center;

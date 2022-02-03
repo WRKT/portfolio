@@ -91,11 +91,11 @@ Expériences                 |                   Projets
 
 ## Conception footer
 ### Description
-* Dans la barre **Contacts**, mettre une icone pour chaque type de contacts: 
-    - Enveloppe pour Mail
-    - Logo de LinkedIn
-    - Logo Github
-    - Logo Discord
+* Dans la barre **Contacts**, mettre une icone pour chaque type de contacts:  
+Mail    |    LinkedIn    |    Github    |    Discord
+:------:|:--------------:|:------------:|:---------:
+![Mail](CHARTE_GRAPHIQUE/Logos&Icons/Mail.png) | ![LinkedIn](CHARTE_GRAPHIQUE/Logos&Icons/Mail.png) | ![Github](CHARTE_GRAPHIQUE/Logos&Icons/Mail.png) | ![Discord](CHARTE_GRAPHIQUE/Logos&Icons/Mail.png)
+
   
 Ces logos seront importés via *https://fontawesome.com/*  
   

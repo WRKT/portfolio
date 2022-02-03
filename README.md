@@ -31,11 +31,9 @@ Before                       |                   After
 
 ## Images utilisés en :hover
 A propos                    |                   Compétences
-
 :--------------------------:|:----------------------------:
 ![A_propos](CSS/images/Index/a_propos.jpg) | ![Competences](CSS/images/Index/competences.jpg)
 Expériences                 |                   Projets
-
 ![Experiences](CSS/images/Index/experiences.jpg) | ![Projets](CSS/images/Index/projets.jpg)
 
 # Raccourci vers Menu pour les autres pages

@@ -98,11 +98,12 @@ Expériences                 |                   Projets
 | ![Mail](CHARTE_GRAPHIQUE/Logos&Icons/Mail.png) | ![LinkedIn](CHARTE_GRAPHIQUE/Logos&Icons/Linkedin.png) | ![Github](CHARTE_GRAPHIQUE/Logos&Icons/Github.png) | ![Discord](CHARTE_GRAPHIQUE/Logos&Icons/Discord.png) |
 
   
-Ces logos seront importés via *https://fontawesome.com/*  
+Ces logos seront importés via **[Fontawesome](https://fontawesome.com/)**
   
 Pour naviguer vers ces réseaux-sociaux, les logos sont cliquables pour vous rediriger vers mon profil. Seul l'icone d'enveloppe pour Mail vous redirigera vers un formulaire de contact personnalisé.
   
-* **Mentions légales** qui comprendra que mon nom et prénom (minimum obligatoires pour un site à usage personnel)
+* **Mentions légales** qui comprendra que mon nom et prénom (minimum obligatoires pour un site à usage personnel) en format:  
+© 2022 Winness Rakotozafy - All rights reserved
 
 ### Visual sample
 ![footer](CHARTE_GRAPHIQUE/Maquettes/footer.png)

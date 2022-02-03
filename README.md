@@ -4,17 +4,16 @@
 ![Maquette_première_page](CHARTE_GRAPHIQUE/Maquettes/Maquette_première_page.png)
 
 # Palette de couleurs
-
-    Ci-dessous les principaux couleurs utilisés pour le contenu de mes pages.
+Ci-dessous les principaux couleurs utilisés pour le contenu de mes pages.
 ![palettes_couleurs](CHARTE_GRAPHIQUE/Maquettes/palettes_couleurs.jpeg)
 
-    Et la couleur du background (#f5f5f5) et police (#343434) du texe:
+Et la couleur du background (#f5f5f5) et police (#343434) du texe:
 ![background_color](CHARTE_GRAPHIQUE/Maquettes/background_color.png)
 
 
 # Police utilisé (font-style)
 
-    Press Start 2P of Google Fonts
+Press Start 2P of Google Fonts
 ![font-style](CHARTE_GRAPHIQUE/Maquettes/font-style.png)
 
 Menu en haut à droite en lien vers d'autres pages dont:

@@ -38,31 +38,29 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 
 # Conceptions
 ## Conception header
-*Pour index:*
-### Caractéristiques
-* Logo à gauche
-![Logo](CHARTE_GRAPHIQUE/Logos&Icons/My_Logo.png)
-* Image à droite
-![Man_on_pc](CHARTE_GRAPHIQUE/Logos&Icons/image_pc.png)
-* Nom + bienvenue sur mon portfolio au milieu
-### Visuel sample
+### For index:
+#### Caractéristiques
+Logo à gauche                 |                   Image à droite
+![Logo](CHARTE_GRAPHIQUE/Logos&Icons/My_Logo.png) | ![Man_on_pc](CHARTE_GRAPHIQUE/Logos&Icons/image_pc.png)
+
+Et Nom + bienvenue sur mon portfolio au milieu des images
+#### Visuel sample
 ![Index_header](CHARTE_GRAPHIQUE/Maquettes/header.png)
-*Pour pages annexes:*
-### Caractéristiques
+### For pages annexes:
+#### Caractéristiques
 Deux boutons:
 * Un bouton Menu en haut à gauche en lien vers d'autres pages dont:
     - A propos =>  Présentation + Parcours + Passion.
     - Compétences => Mes principales compétences
     - Expériences => Une page énumérant mes expériences professionnelles et link vers mon CV.
     - Projets => Les différents projets que j'ai réalisés en entreprise.
-* Un bouton Accueil qui nous ramène vers la page index
-
+* Un bouton Accueil qui nous ramène vers la page index  
 Quand on clique sur ``MENU``, le menu se scroll de haut en bas avec un `background #000000`
 
-### Visuel sample
-#### Header menu
+#### Visuel sample
+##### Header menu
 ![Shortcut_menu](CHARTE_GRAPHIQUE/Maquettes/Shortcut_menu.png)
-#### Menu opened
+##### Menu opened
 ![Shortcut_menu_opened](CHARTE_GRAPHIQUE/Maquettes/Shortcut_menu_opened.png)
 
     

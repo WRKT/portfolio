@@ -95,7 +95,7 @@ Expériences                 |                   Projets
 #### <ins>Logos utilisés</ins>
 |   Mail    |    LinkedIn    |    Github    |    Discord    |
 |:-:|:-:|:-:|:-:|
-| ![Mail](CHARTE_GRAPHIQUE/Logos&Icons/Mail.png) | ![LinkedIn](CHARTE_GRAPHIQUE/Logos&Icons/Mail.png) | ![Github](CHARTE_GRAPHIQUE/Logos&Icons/Mail.png) | ![Discord](CHARTE_GRAPHIQUE/Logos&Icons/Mail.png) |
+| ![Mail](CHARTE_GRAPHIQUE/Logos&Icons/Mail.png) | ![LinkedIn](CHARTE_GRAPHIQUE/Logos&Icons/Linkedin.png) | ![Github](CHARTE_GRAPHIQUE/Logos&Icons/Github.png) | ![Discord](CHARTE_GRAPHIQUE/Logos&Icons/Discord.png) |
 
   
 Ces logos seront importés via *https://fontawesome.com/*  

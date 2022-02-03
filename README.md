@@ -45,7 +45,7 @@ Logo à gauche                 |                   Image à droite
 ![Logo](CHARTE_GRAPHIQUE/Logos&Icons/My_Logo.png) | ![Man_on_pc](CHARTE_GRAPHIQUE/Logos&Icons/image_pc.png)
 
 => Nom + bienvenue sur mon portfolio au milieu des images
-#### <ins>Visuel sample</ins>
+#### <ins>Visual sample</ins>
 ![Index_header](CHARTE_GRAPHIQUE/Maquettes/header.png)
 ### For pages annexes:
 #### <ins>Caractéristiques</ins>
@@ -58,7 +58,7 @@ Deux boutons:
 * Un bouton Accueil qui nous ramène vers la page index  
 Quand on clique sur ``MENU``, le menu se scroll de haut en bas avec un `background #000000`
 
-#### <ins>Visuel sample</ins>
+#### <ins>Visual sample</ins>
 ##### ***Header menu***
 ![Shortcut_menu](CHARTE_GRAPHIQUE/Maquettes/Shortcut_menu.png)
 ##### ***Menu opened***
@@ -73,7 +73,7 @@ Quand on clique sur ``MENU``, le menu se scroll de haut en bas avec un `backgrou
 
 * En plus de tout cela, à chaque menu, il y aura une image qui définira le menu en question 
 
-### Visuel sample
+### Visual sample
 Before                       |                   After
 :---------------------------:|:-----------------------:
 ![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu.png) | ![Menu_hover](CHARTE_GRAPHIQUE/Maquettes/Menu_hover.png)
@@ -92,8 +92,13 @@ Expériences                 |                   Projets
     - Enveloppe pour Mail
     - Logo de LinkedIn
     - Logo Github
-    - Logo Discord
+    - Logo Discord  
+Ces logos seront importés via https://fontawesome.com/
 
+* Mentions légales qui comprendra que mon nom et prénom (minimum obligatoires pour un site à usage personnel)
+
+### Visual sample
+![footer](CHARTE_GRAPHIQUE/Maquettes/footer.png)
 ---
 
 # Special credits

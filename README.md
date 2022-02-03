@@ -7,13 +7,13 @@
 ## Principaux couleurs utilisés
 ![palettes_couleurs](CHARTE_GRAPHIQUE/Maquettes/palettes_couleurs.jpeg)
 
-## Couleur du background (#f5f5f5) et police (#343434)
+## Couleur du background `(#f5f5f5)` et police `(#343434)`
 ![background_color](CHARTE_GRAPHIQUE/Maquettes/background_color.png)
 
 
 # Police utilisé (font-style)
 
-Press Start 2P of Google Fonts
+`Press Start 2P` of Google Fonts
 ![font-style](CHARTE_GRAPHIQUE/Maquettes/font-style.png)
 
 # Conception du Menu
@@ -25,11 +25,9 @@ Press Start 2P of Google Fonts
 * En plus de tout cela, à chaque menu, il y aura une image qui définira le menu en question 
 
 ## Visuel sample
-* Before
-![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu.png)
-
-* After
-![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu_hover.png)
+Before                       |                   After
+:---------------------------:|:-----------------------:
+![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu.png) | ![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu_hover.png)
 
 ## Images utilisés
 ![A_propos](CSS/images/Index/a_propos.jpg)

@@ -27,7 +27,7 @@
 ## Visuel sample
 Before                       |                   After
 :---------------------------:|:-----------------------:
-![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu.png =250x) | ![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu_hover.png =250x)
+![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu.png=250x) | ![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu_hover.png=250x)
 
 ## Images utilisés
 ![A_propos](CSS/images/Index/a_propos.jpg)

@@ -34,6 +34,9 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 `Press Start 2P` of Google Fonts
 ![font-style](CHARTE_GRAPHIQUE/Maquettes/font-style.png)
 
+## Favicon utilisé
+![favicon](CHARTE_GRAPHIQUE/Maquettes/ico.png)
+
 ---
 
 # Conceptions
@@ -95,6 +98,7 @@ Expériences                 |                   Projets
     - Logo Discord
   
 Ces logos seront importés via *https://fontawesome.com/*  
+  
 Pour naviguer, les logos sont cliquables pour vous rediriger vers mes réseaux sociaux, et l'icone d'enveloppe pour Mail vous redirigera vers un formulaire de contact personnalisé.
   
 * **Mentions légales** qui comprendra que mon nom et prénom (minimum obligatoires pour un site à usage personnel)

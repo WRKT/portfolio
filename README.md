@@ -5,6 +5,8 @@
 ## **[CONCEPTIONS](#Conceptions)**
 ## **[CREDITS](#Special-credits)**
 
+---
+
 # Avant-propos
 Ce document contient le référentiel de mon portfolio sur les images utilisés, les polices, et sur comment naviguer dans le site.
 Ce site a été conçu par moi-même, sans framework, juste du code avec trois languages dont HTML, CSS, et du JS pour quelques propriétés.

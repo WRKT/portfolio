@@ -99,6 +99,7 @@ Ces logos seront importés via https://fontawesome.com/
 
 ### Visual sample
 ![footer](CHARTE_GRAPHIQUE/Maquettes/footer.png)
+
 ---
 
 # Special credits

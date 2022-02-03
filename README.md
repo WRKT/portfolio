@@ -100,7 +100,7 @@ Expériences                 |                   Projets
   
 Ces logos seront importés via *https://fontawesome.com/*  
   
-Pour naviguer, les logos sont cliquables pour vous rediriger vers mes réseaux sociaux, et l'icone d'enveloppe pour Mail vous redirigera vers un formulaire de contact personnalisé.
+Pour naviguer vers ces réseaux-sociaux, les logos sont cliquables pour vous rediriger vers mon profil. Seul l'icone d'enveloppe pour Mail vous redirigera vers un formulaire de contact personnalisé.
   
 * **Mentions légales** qui comprendra que mon nom et prénom (minimum obligatoires pour un site à usage personnel)
 

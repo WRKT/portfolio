@@ -41,6 +41,7 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 ### For index:
 #### Caractéristiques
 Logo à gauche                 |                   Image à droite
+:----------------------------:|:--------------------------------:
 ![Logo](CHARTE_GRAPHIQUE/Logos&Icons/My_Logo.png) | ![Man_on_pc](CHARTE_GRAPHIQUE/Logos&Icons/image_pc.png)
 
 Et Nom + bienvenue sur mon portfolio au milieu des images

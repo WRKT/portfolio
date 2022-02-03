@@ -577,7 +577,7 @@ p{
 /*FIN Projets*/
 
 /*Style page Contacts*/
-#contactme{
+form{
     margin: 0;
     padding:0;
     position: absolute;
@@ -590,9 +590,10 @@ p{
     padding: 70px;
     border-radius: 20px;
 }
-#headcontact {
-    text-align: center;
+form h1{
+    font-size: 30px;
 }
+
 .piedformulaire{
     text-align: center;
 }

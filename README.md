@@ -3,13 +3,16 @@
 
 ![Maquette_première_page](CHARTE_GRAPHIQUE/Maquettes/Maquette_première_page.png)
 
-**<u>Couleur principal:</u>** 
-
+# Palette de couleurs
+    Ci-dessous les principaux couleurs utilisés pour le contenu de mes pages.
 ![palettes_couleurs](CHARTE_GRAPHIQUE/Maquettes/palettes_couleurs.jpeg)
 
-<u>**Background-color de la page principale**</u>: couleur sobre à voir, hésitation entre #0C2F4E, ou #EFF3F6
+    Et la couleur du background (#f5f5f5) et police (#343434) du texe:
+![background_color](CHARTE_GRAPHIQUE/Maquettes/background_color.png)
 
-**<u>Police:</u>** Adventure sur Dafont, Verdana, Courrier New, Friedrich sur Dafont, GameofSquids sur Dafont, Minecraft
+
+# Police utilisé (font-style) 
+    Press Start 2P of Google Fonts
 
 Menu en haut à droite en lien vers d'autres pages dont:
 

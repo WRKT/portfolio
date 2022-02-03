@@ -1,8 +1,5 @@
 /*Ajout des polices à utiliser*/
-@font-face {
-    font-family: 'Press2P';
-    src: url(../fonts/Press2P.ttf) format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /*Style page index*/
 
@@ -40,7 +37,7 @@ html{
 
 body {
     background-color: whitesmoke;
-    font-family: 'Press2P', cursive;
+    font-family: 'Press Start 2P', cursive;
     font-weight: 400;
     color: #343434;
     line-height:2;

@@ -585,8 +585,8 @@ form{
     left: 50%;
     transform: translate(-50%,-50%);
     font-weight: 100;
-    background-color: #343434;
-    color:#ffffff;
+    background-color: #BFCEDC;
+    color:#003972;
     padding: 70px;
     border-radius: 20px;
     font-size: 12px;
@@ -597,7 +597,7 @@ form h1{
 form #separation{
     width:100%;
     height: 1px;
-    color: #ddddd5;
+    background-color: #84b3d4;
 }
 .corpsformulaire{
     display:flex;
@@ -609,9 +609,10 @@ form #separation{
     display: flex;
     flex-direction: column;
 }
-form .corpsformulaire .corpsgauche boite input {
+form .corpsformulaire .corpsgauche .boite input {
     margin-top: 5px;
-    padding:30px;
+    padding:10px 5px 10px 40px;
+    border: 2px dashed #000000;
 }
 .piedformulaire{
     text-align: center;

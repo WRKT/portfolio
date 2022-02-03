@@ -589,7 +589,7 @@ form{
     color:#003972;
     padding: 70px;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 10px;
 }
 form h1{
     font-size: 20px;
@@ -621,7 +621,7 @@ form .corpsformulaire .corpsgauche .boite input {
 form .corpsformulaire .corpsgauche .boite i {
     position:absolute;
     left:0;
-    top:25px;
+    top:22px;
     padding:9px 8px;
     font-size: 25px;
 }
@@ -638,7 +638,11 @@ form .corpsformulaire .corpsdroite .boite textarea{
     border: 1.2px solid #011a8b;
     border-radius: 5px;
     resize: none;
+    height:72%;
 }
-.piedformulaire{
+form .piedformulaire{
     text-align: center;
+}
+form .piedformulaier button {
+    
 }

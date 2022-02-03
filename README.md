@@ -35,7 +35,7 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 ![font-style](CHARTE_GRAPHIQUE/Maquettes/font-style.png)
 
 ## Favicon utilisé
-![favicon](CHARTE_GRAPHIQUE/Maquettes/ico.png)
+![favicon](CHARTE_GRAPHIQUE/Logos&Icons/ico.png)
 
 ---
 

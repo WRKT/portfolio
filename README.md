@@ -12,6 +12,8 @@ Ce document contient le référentiel de mon portfolio sur les images utilisés,
 Ce site a été conçu par moi-même, sans framework, juste du code avec trois languages dont HTML, CSS, et du JS pour quelques propriétés.
 Mon portfolio est actuellement hébergé chez le domaine de mon camarade de promotion à CCI Campus, Mr. Alexis Henry.
 
+---
+
 # Outils de design
 ## Design page index
 
@@ -31,6 +33,8 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 
 `Press Start 2P` of Google Fonts
 ![font-style](CHARTE_GRAPHIQUE/Maquettes/font-style.png)
+
+---
 
 # Conceptions
 ## Conception header
@@ -80,4 +84,6 @@ Quand on clique sur ``MENU``, le menu se scroll de haut en bas avec un `backgrou
     - Logo de LinkedIn
     - Logo Github
     - Logo Discord
+---
+
 # Special credits

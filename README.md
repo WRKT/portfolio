@@ -1,8 +1,8 @@
 # CCI-SIO21-Portfolio - Charte graphique
 
-## [AVANT-PROPOS](#Avant-propos)
-## [OUTILS-DE-CONCEPTION](#Outils-de-conception)
-## [CONCEPTION](#Conception)
+## **[AVANT-PROPOS](#Avant-propos)**
+## **[OUTILS-DE-CONCEPTION](#Outils-de-conception)**
+## **[CONCEPTION](#CONCEPTIONS)**
 
 # Avant-propos
 Ce document contient le référentiel de mon portfolio sur les images utilisés, les polices, et sur comment naviguer dans le site.
@@ -29,7 +29,7 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 `Press Start 2P` of Google Fonts
 ![font-style](CHARTE_GRAPHIQUE/Maquettes/font-style.png)
 
-# Conception
+# CONCEPTIONS
 ## Conception header
 ## Conception du Menu
 ### Description

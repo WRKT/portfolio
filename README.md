@@ -8,8 +8,8 @@
 ---
 
 # Avant-propos
-Ce document contient le référentiel de mon portfolio sur les images utilisés, les polices, et sur comment naviguer dans le site.
-Ce site a été conçu par moi-même, sans framework, juste du code avec trois languages dont HTML, CSS, et du JS pour quelques propriétés.
+Ce document contient le référentiel de mon portfolio sur les images utilisés, les polices, et sur comment naviguer dans le site.  
+Ce site a été conçu par moi-même, sans framework, juste du code avec trois languages dont HTML, CSS, et du JS pour quelques propriétés.  
 Mon portfolio est actuellement hébergé chez le domaine de mon camarade de promotion à CCI Campus, Mr. Alexis Henry.
 
 ---
@@ -39,10 +39,16 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 # Conceptions
 ## Conception header
 *Pour index:*
-
+### Caractéristiques
+* Logo à gauche
+![Logo](CHARTE_GRAPHIQUE/Logos&Icons/My_Logo.png)
+* Image à droite
+![Man_on_pc](CHARTE_GRAPHIQUE/Logos&Icons/image_pc.png)
+* Nom + bienvenue sur mon portfolio au milieu
+### Visuel sample
+![Index_header](CHARTE_GRAPHIQUE/Maquettes/header.png)
 *Pour pages annexes:*
-### Raccourci Menu vers les autres pages
-#### Caractéristiques
+### Caractéristiques
 Deux boutons:
 * Un bouton Menu en haut à gauche en lien vers d'autres pages dont:
     - A propos =>  Présentation + Parcours + Passion.
@@ -53,10 +59,10 @@ Deux boutons:
 
 Quand on clique sur ``MENU``, le menu se scroll de haut en bas avec un `background #000000`
 
-#### Visuel sample
-##### Header menu
+### Visuel sample
+#### Header menu
 ![Shortcut_menu](CHARTE_GRAPHIQUE/Maquettes/Shortcut_menu.png)
-##### Menu opened
+#### Menu opened
 ![Shortcut_menu_opened](CHARTE_GRAPHIQUE/Maquettes/Shortcut_menu_opened.png)
 
     
@@ -88,6 +94,7 @@ Expériences                 |                   Projets
     - Logo de LinkedIn
     - Logo Github
     - Logo Discord
+
 ---
 
 # Special credits

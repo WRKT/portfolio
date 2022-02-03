@@ -7,14 +7,14 @@
 
 ---
 
-# Avant-propos
+# **Avant-propos**
 Ce document contient le référentiel de mon portfolio sur les images utilisés, les polices, et sur comment naviguer dans le site.  
 Ce site a été conçu par moi-même, sans framework, juste du code avec trois languages dont HTML, CSS, et du JS pour quelques propriétés.  
 Mon portfolio est actuellement hébergé chez le domaine de mon camarade de promotion à CCI Campus, Mr. Alexis Henry.
 
 ---
 
-# Outils de design
+# **Outils de design**
 ## Design page index
 
 ![Maquette_première_page](CHARTE_GRAPHIQUE/Maquettes/Maquette_première_page.png)
@@ -39,7 +39,7 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 
 ---
 
-# Conceptions
+# **Conceptions**
 ## Conception header
 ### For index:
 #### <ins>Caractéristiques</ins>
@@ -110,4 +110,4 @@ Pour naviguer vers ces réseaux-sociaux, les logos sont cliquables pour vous red
 
 ---
 
-# Special credits
+# **Special credits**

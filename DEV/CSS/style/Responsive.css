@@ -94,5 +94,10 @@
   #backgroundimgleft, #backgroundimgright{
     display: none;
   }
+  #contactcopyright{
+    position: absolute;
+    bottom:5px;
+    width: 100%;
+}
   /*FIN Contacts*/
 }

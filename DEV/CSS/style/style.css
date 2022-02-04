@@ -188,6 +188,7 @@ footer {
 }
 .copyright:hover{
     color:#677b8d;
+    cursor:default;
 }
 .symbol {
     font-size: 12px;

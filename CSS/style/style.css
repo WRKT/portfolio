@@ -613,18 +613,20 @@ form .corpsformulaire .boite{
 }
 form .corpsformulaire .corpsgauche .boite input {
     margin-top: 5px;
-    padding:10px 20px 10px 40px;
+    padding:15px 20px 15px 40px;
     border: 1.2px solid #002447;
     outline: none;
     border-radius: 5px;
-    font-family: fantasy;
+    font-weight: 100;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 9px;
 }
 form .corpsformulaire .corpsgauche .boite i {
     position:absolute;
     left:0;
-    top:22px;
+    top:25px;
     padding:9px 8px;
-    font-size: 25px;
+    font-size: 20px;
 }
 form .corpsformulaire .corpsdroite {
     margin-left: 40px;
@@ -643,7 +645,7 @@ form .corpsformulaire .corpsdroite .boite textarea{
     width: 100%;
     font-family: 'Press Start 2P', cursive;
     font-weight: 100;
-    font-size: 8px;
+    font-size: 9px;
 }
 form .piedformulaire{
     text-align: center;

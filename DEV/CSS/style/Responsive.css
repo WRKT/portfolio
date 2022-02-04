@@ -90,6 +90,9 @@
   /*Responsive Contacts*/
   form .corpsformulaire .corpsdroite {
     margin-left: 0px;
-}
+  }
+  #backgroundimg{
+    display: none;
+  }
   /*FIN Contacts*/
 }

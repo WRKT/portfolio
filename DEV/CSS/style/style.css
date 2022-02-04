@@ -664,4 +664,13 @@ form .piedformulaire button {
     outline: none;
     cursor: pointer;
 }
+#backgroundimg{
+    position: absolute;
+    top:50%;
+    left:50px;
+}
+#R2-D2{
+    height:300px;
+    
+}
 /*FIN Contact*/

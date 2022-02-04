@@ -646,6 +646,7 @@ form .corpsformulaire .corpsdroite .boite textarea{
     font-family: 'Press Start 2P', cursive;
     font-weight: 100;
     font-size: 9px;
+    line-height: 2;
 }
 form .piedformulaire{
     text-align: center;

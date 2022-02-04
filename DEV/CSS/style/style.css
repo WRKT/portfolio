@@ -666,14 +666,21 @@ form .piedformulaire button {
     outline: none;
     cursor: pointer;
 }
-#backgroundimg{
+#backgroundimgleft{
     position: absolute;
     top:50%;
     left:100px;
 }
-#R2-D2{
+.robot{
     height:300px;
+    filter: grayscale(0.7)
 }
+#backgroundimgright{
+    position: absolute;
+    top:50%;
+    right:100px;
+}
+
 /*------------------FIN Contact------------------*/
 
 /*!!!!!!!!!!!!!!!!!!FIN CSS!!!!!!!!!!!!!!!!!!!!!*/

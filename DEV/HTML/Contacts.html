@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style/style.css" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="../CSS/style/Responsive.css" type="text/css">
+    <link rel="icon" href="../CSS/images/Index/favicon.png" type="img/png" />
+    <script src="https://kit.fontawesome.com/bfc2227d7e.js" crossorigin="anonymous"></script>
+    <script src="../JS/script.js" async></script>
+
+    <title> Winness R. | Contact me </title>
+</head>
+
+<body>
+    <header>
+        <div id="nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="A_propos.html">A propos</a>
+                <a href="Competences.html">Compétences</a>
+                <a href="Experiences.html">Expériences</a>
+                <a href="Projets.html">Projets</a>    
+            </div>
+        </div>
+
+        <div id="topnav">
+            <ul>
+            <li onclick="openNav()"> Menu
+            <li> <a href="../../index.html">Accueil</a>
+            </ul>
+        </div>
+    </header>
+
+    <form>
+        <h1>Contactez-moi</h1>
+        <div id="separation"></div>
+        <div class="corpsformulaire">
+            <div class="corpsgauche">
+                <div class="boite">
+                    <label>Votre nom</label>
+                    <input type="text" required>
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="boite">
+                    <label>Votre adresse mail</label>
+                    <input type="email" required>
+                    <i class="fas fa-at"></i>
+                </div>
+                <div class="boite">
+                    <label>Votre téléphone</label>
+                    <input type="tel">
+                    <i class="fas fa-phone-square-alt"></i>
+                </div>
+            </div>
+            <div class="corpsdroite">
+                <div class="boite">
+                    <label>Message</label>
+                    <textarea placeholder="Saisissez ici..."></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="piedformulaire">
+            <button>Envoyer le message</button>
+        </div>
+      
+    </form>
+
+</body>

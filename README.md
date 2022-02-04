@@ -121,4 +121,4 @@ Je remercie tous ceux qui ont contribué de près ou de loin à la réalisation 
 * Mes formateurs pour leur accompagnement et leur suivi;
 * Mon tuteur pour me permettre de participer à des projets en entreprise;
 * Mes camarades de promotion pour leur aide et conseil sur quelques propriétés à mettre en place;
-* Moi-même :) pour avoir tenu et abouti jusqu'à la fin de ce projet.  
+* Moi-même 🤓 pour avoir tenu et abouti jusqu'à la fin de ce projet.  

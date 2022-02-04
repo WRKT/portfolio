@@ -1,7 +1,7 @@
 /*Ajout des polices à utiliser*/
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-/*Style page index*/
+/*--------------Style page index-------------------*/
 
 /*enlever la scrollbar pour les navigateur compatible webkit (Chrome, Edge, Opera, Safari)*/
 ::-webkit-scrollbar {
@@ -192,9 +192,9 @@ footer {
 .symbol {
     font-size: 12px;
 }
-/*FIN index*/
+/*------------------FIN index------------------*/
 
-/*Style page A propos*/
+/*------------------Style page A propos------------------*/
 
 /*Propriétés du topnav MENU ACCUEIL pour les pages annexes A propos, competences, experiences et projets*/
 #topnav ul {
@@ -339,9 +339,9 @@ p{
 }
 
 
-/*FIN A propos*/
+/*------------------FIN A propos------------------*/
 
-/*Style page Competences*/
+/*------------------Style page Competences------------------*/
 #headcompetence{
     padding: 6rem 0 3rem 0;
     background-image: url(../images/Competences/electronics.jpg);
@@ -420,9 +420,9 @@ p{
     background-image: url(../images/Competences/VMWare.png);
 }
 
-/*FIN Competences*/
+/*------------------FIN Competences------------------*/
 
-/*Style page Experiences*/
+/*------------------Style page Experiences------------------*/
 
 #headwork  {
     padding: 6rem 0 3rem 0;
@@ -500,9 +500,9 @@ p{
     color:#011a8b;
 }
 
-/*FIN Experiences*/
+/*------------------FIN Experiences------------------*/
 
-/*Style page Projets*/
+/*------------------Style page Projets------------------*/
 #headproject{
     padding: 6rem 0 3rem 0;
     text-align: center;
@@ -574,9 +574,9 @@ p{
 #moreinfoprojets p{
     padding: 80px 100px 0 100px;
 }
-/*FIN Projets*/
+/*------------------FIN Projets------------------*/
 
-/*Style page Contacts*/
+/*------------------Style page Contacts------------------*/
 form{
     margin: 0;
     padding:0;
@@ -673,4 +673,6 @@ form .piedformulaire button {
 #R2-D2{
     height:300px;
 }
-/*FIN Contact*/
+/*------------------FIN Contact------------------*/
+
+/*!!!!!!!!!!!!!!!!!!FIN CSS!!!!!!!!!!!!!!!!!!!!!*/

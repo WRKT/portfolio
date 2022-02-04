@@ -621,6 +621,7 @@ form .corpsformulaire .corpsgauche .boite input {
     font-weight: 100;
     font-family: 'Press Start 2P', cursive;
     font-size: 9px;
+    letter-spacing: 0.1;
 }
 form .corpsformulaire .corpsgauche .boite i {
     position:absolute;

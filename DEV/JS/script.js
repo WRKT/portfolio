@@ -7,7 +7,9 @@ function openNav() {
 function closeNav() {
     document.getElementById("nav").style.height="0%";
 }
+//--------------FIN Shortcut menu-----------------------
 
+//--------------Script page A_propos--------------------
 // Tableau qui va contenir les trois affiches sur la page A_propos.html
 const sections = { 
     S1: {
@@ -126,4 +128,6 @@ const sections = {
       tableau[1].classList.remove("shine")
       tableau[2].classList.add("shine")  
   });
-// FIN A_propos
+//------------------FIN A_propos----------------------------
+
+//------------------Script Contacts------------------------

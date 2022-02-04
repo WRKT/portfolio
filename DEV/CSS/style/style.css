@@ -590,6 +590,7 @@ form{
     padding: 70px;
     border-radius: 20px;
     font-size: 10px;
+    box-shadow: #c5c5c5 -20px 5px 30px;
 }
 form h1{
     font-size: 20px;
@@ -667,10 +668,9 @@ form .piedformulaire button {
 #backgroundimg{
     position: absolute;
     top:50%;
-    left:50px;
+    left:100px;
 }
 #R2-D2{
     height:300px;
-    
 }
 /*FIN Contact*/

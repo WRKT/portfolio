@@ -98,7 +98,7 @@ Before                       |                   After
   
 Ces logos seront importés via **[Fontawesome](https://fontawesome.com/)**
   
-Pour naviguer vers ces réseaux-sociaux, les logos sont cliquables pour vous rediriger vers mon profil. Seul l'icone d'enveloppe pour Mail vous redirigera vers un formulaire de contact personnalisé.
+Pour naviguer vers ces réseaux-sociaux, les logos sont cliquables pour vous rediriger vers mon profil. Seul l'icone d'enveloppe pour Mail vous redirigera vers un ![formulaire de contact](##Conception--formulaire) personnalisé.
   
 * **Mentions légales** qui comprendra que mon nom et prénom (minimum obligatoires pour un site à usage personnel) en format:  
 © 2022 Winness Rakotozafy - All rights reserved
@@ -106,6 +106,12 @@ Pour naviguer vers ces réseaux-sociaux, les logos sont cliquables pour vous red
 ### Visual sample
 ![footer](CHARTE_GRAPHIQUE/Maquettes/footer.png)
 
+## Conception formulaire Contact
+### Description
+Compte tenu des inconvénients techniques que présente le mailto: pour le contact par mail, je me suis donc orienté vers un formulaire de contact, qui redirigera le message saisi vers mon adresse mail.
+
+### Visual sample
+![Contact_form](CHARTE_GRAPHIQUE/Maquettes/Contact_form.png)
 ---
 
 # **Special credits**

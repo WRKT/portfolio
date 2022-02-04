@@ -680,7 +680,11 @@ form .piedformulaire button {
     top:50%;
     right:100px;
 }
-
+#contactcopyright{
+    position: absolute;
+    bottom:25px;
+    width: 100%;
+}
 /*------------------FIN Contact------------------*/
 
 /*!!!!!!!!!!!!!!!!!!FIN CSS!!!!!!!!!!!!!!!!!!!!!*/

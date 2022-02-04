@@ -31,7 +31,8 @@ Mon portfolio est actuellement hébergé chez le domaine de mon camarade de prom
 
 ## Police utilisé (font-style)
 
-`Press Start 2P` of Google Fonts
+**`Press Start 2P`** of Google Fonts  
+
 ![font-style](CHARTE_GRAPHIQUE/Maquettes/font-style.png)
 
 ## Favicon utilisé

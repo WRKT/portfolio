@@ -571,8 +571,8 @@ p{
     padding-right:0;
 }
 
-#moreinfoprojets {
-    padding: 50px 100px 0 100px;
+#moreinfoprojets p{
+    padding: 80px 100px 0 100px;
 }
 /*FIN Projets*/
 

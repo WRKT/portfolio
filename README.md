@@ -83,7 +83,7 @@ Before                       |                   After
 ![Menu](CHARTE_GRAPHIQUE/Maquettes/Menu.png) | ![Menu_hover](CHARTE_GRAPHIQUE/Maquettes/Menu_hover.png)
 
 ### Images utilisés en :hover
-| A propos | Compétences | Exépriences | Projets |
+| A propos | Compétences | Expériences | Projets |
 |:-:|:-:|:-:|:-:|
 | ![A_propos](DEV/CSS/images/Index/a_propos.jpg) | ![Competences](DEV/CSS/images/Index/competences.jpg) | ![Experiences](DEV/CSS/images/Index/experiences.jpg) | ![Projets](DEV/CSS/images/Index/projets.jpg) |
 

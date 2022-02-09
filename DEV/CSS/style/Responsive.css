@@ -100,4 +100,9 @@
     width: 100%;
 }
   /*FIN Contacts*/
+
+  /*Responsive Mentions légales*/
+  #mentionslegales h2{
+    font-size: 20px;
+  }
 }

@@ -696,14 +696,32 @@ form .piedformulaire button {
 /*------------------FIN Contact------------------*/
 
 /*Style page Mentions légales*/
-#legalmention{
-    background-color: #242424;
-    width:1024px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 100px 0;
-    color: white;
+#headmentionslegales{
+    padding: 6rem 0 4rem 0;
+    text-align: center;
+    background-color: #363636;
+    color: #ffffff;
 }
+#mentionslegales{
+    padding-top:7rem;
+}
+#mentionslegales h2{
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+#mentionslegales p{
+    font-size: 12px;
+}
+.legallinks, .legallinks:active, .legallinks:focus{
+   color: #002447;
+   border-bottom: #002447 2px solid;
+}
+.legallinks:hover{
+    color: #84b3d4;
+    border-bottom: #84b3d4 2px solid;
+}
+
 /*!!!!!!!!!!!!!!!!!!FIN CSS!!!!!!!!!!!!!!!!!!!!!*/

@@ -705,6 +705,7 @@ form .piedformulaire button {
 }
 #mentionslegales{
     padding:5rem 10%;
+    text-align: justify;
 }
 #mentionslegales h2{
     font-size: 25px;

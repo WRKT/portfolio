@@ -41,6 +41,7 @@ body {
     font-weight: 400;
     color: #343434;
     line-height:2;
+    cursor: default;
 }
 
 #name{
@@ -177,7 +178,7 @@ footer {
     transition-property: all;
 }
 .fab:hover, .fas:hover {
-    color: #181818;
+    text-shadow: #ffffff 5px 5px 50px;
 }
 .copyright {
     font-size: 8px;
@@ -188,8 +189,14 @@ footer {
 }
 .copyright:hover{
     color:#677b8d;
-    cursor:default;
 }
+.copyright a, .copyright a:active, .copyright a:focus{
+    color: #44525f;
+}
+.copyright a:hover{
+    color:#677b8d;
+}
+
 .symbol {
     font-size: 12px;
 }

@@ -105,4 +105,7 @@
   #mentionslegales h2{
     font-size: 20px;
   }
+  #mentionslegales{
+    padding:4rem 5%;
+}
 }

@@ -697,20 +697,23 @@ form .piedformulaire button {
 
 /*Style page Mentions légales*/
 #headmentionslegales{
-    padding: 6rem 0 4rem 0;
+    padding: 6rem 0 3rem 0;
     text-align: center;
     background-color: #363636;
     color: #ffffff;
+    text-transform: uppercase;
 }
 #mentionslegales{
-    padding-top:7rem;
+    padding:5rem 10%;
 }
 #mentionslegales h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 100;
     font-style: italic;
     padding-left: 100px;
     padding-top: 50px;
+    color: #003972;
+    text-shadow: #84b3d4 5px 5px 5px;
 }
 #mentionslegales p{
     font-size: 12px;
@@ -723,5 +726,6 @@ form .piedformulaire button {
     color: #84b3d4;
     border-bottom: #84b3d4 2px solid;
 }
+
 
 /*!!!!!!!!!!!!!!!!!!FIN CSS!!!!!!!!!!!!!!!!!!!!!*/

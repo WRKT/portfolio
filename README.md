@@ -10,7 +10,7 @@
 # **Avant-propos**
 Ce document contient le référentiel de mon portfolio sur les images utilisés, les polices, et sur comment naviguer dans le site.  
 Ce site a été conçu par moi-même, sans framework, juste du code avec trois languages dont HTML, CSS, et du JS pour quelques propriétés.  
-Mon portfolio est actuellement hébergé chez le domaine de mon camarade de promotion à CCI Campus, Mr. Alexis Henry.
+Mon portfolio est actuellement hébergé chez OVH, accessible sous le nom de domaine [www.winness-rakotozafy.fr](http://winness-rakotozafy.fr/).
 
 ---
 
@@ -99,7 +99,7 @@ Before                       |                   After
   
 Ces logos seront importés via **[Fontawesome](https://fontawesome.com/)**
   
-Pour naviguer vers ces réseaux-sociaux, les logos sont cliquables pour vous rediriger vers mon profil. Seul l'icone d'enveloppe pour Mail vous redirigera vers un ![formulaire-de-contact](#conception-formulaire-contact) personnalisé.
+Pour naviguer vers ces réseaux-sociaux, les logos sont cliquables pour vous rediriger vers mon profil. Seul l'icone d'enveloppe pour Mail vous redirigera vers un [formulaire-de-contact](#conception--contact) personnalisé.
   
 * **Mentions légales** qui comprendra que mon nom et prénom (minimum obligatoires pour un site à usage personnel) en format:  
 © 2022 Winness Rakotozafy - All rights reserved
@@ -107,7 +107,7 @@ Pour naviguer vers ces réseaux-sociaux, les logos sont cliquables pour vous red
 ### Visual sample
 ![footer](CHARTE_GRAPHIQUE/Maquettes/footer.png)
 
-## Conception formulaire Contact
+## Conception contact
 ### Description
 Compte tenu des inconvénients techniques que présente le mailto: pour le contact par mail, je me suis donc orienté vers un formulaire de contact, qui redirigera le message saisi vers mon adresse mail.
 

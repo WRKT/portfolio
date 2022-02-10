@@ -321,9 +321,7 @@ footer {
     width: 15rem;
     height:17rem;
     border-radius: 5%;
-    border-width: 0.5rem;
-    border-style: groove;
-    border-color: #000000;
+    box-shadow:#000000 8px 5px 20px ;
     margin:0 4rem 2rem 4rem;
     transition:all 0.5s;
     transform: scale(1);

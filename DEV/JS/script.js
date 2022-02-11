@@ -60,9 +60,9 @@ const sections = {
   <p>${changethis.p}</p>
   </div>`;
   
-  document.getElementById("aboutcontainer").insertAdjacentHTML("afterbegin", sectionreplace);
-    
-  tableau[0].addEventListener("click", (e) => {
+  if (aboutcontainer) {
+    aboutcontainer.insertAdjacentHTML("afterbegin", sectionreplace);
+    tableau[0].addEventListener("click", (e) => {
     aboutcontainer.removeChild(document.querySelector("#aboutcontainer > div"));
     let changethis = sections.S1;
     let sectionreplace = `
@@ -127,7 +127,8 @@ const sections = {
       tableau[0].classList.remove("shine")
       tableau[1].classList.remove("shine")
       tableau[2].classList.add("shine")  
-  });
+  })
+};
 //------------------FIN A_propos----------------------------
 
 //------------------Script Contacts------------------------

@@ -10,7 +10,7 @@ function closeNav() {
 //--------------FIN Shortcut menu-----------------------
 
 //--------------Script page A_propos--------------------
-// Tableau qui va contenir les trois affiches sur la page A_propos.html
+// Déclaration des variables pour permettre le changement des titres, paragraphes, img
 const sections = { 
     S1: {
       title: "Hello There ",
@@ -43,8 +43,8 @@ const sections = {
           <p>Mon portrait chinois, pour découvrir à la fois mes passions et quelques traits importants de ma personnalité.</p>`,
     },
   };
-  // Déclaration des variables pour permettre le changement des titres, paragraphes, img
-  
+
+  // Tableau qui va contenir les trois affiches sur la page A_propos.html
   let tableau = document.querySelectorAll(".fa-sort-up");
   let aboutcontainer = document.getElementById("aboutcontainer");
     let changethis = sections.S1;

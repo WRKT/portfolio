@@ -138,15 +138,14 @@ a:link {
 /*Propriétés pour le pied de page Contact */
 footer {
     background-color: #011c36;
-    padding: 1.2rem;
+    padding: 25px;
     color: white;
-    margin-top: 8rem;
-    bottom: 0;
+    margin-top: 100px;
 }
 .Titrepied {
-    font-size: 1rem;
+    font-size: 17px;
     text-align: center;
-    padding:1.5rem;
+    padding:20px;
     padding-bottom: 0;
 }
 .PIED ul {
@@ -156,8 +155,8 @@ footer {
 }
 .PIED li {
     display: inline;
-    font-size:0.75rem;
-    margin:1.25rem;
+    font-size:10px;
+    margin:20px;
 }
 
 .fa-envelope {
@@ -173,12 +172,11 @@ footer {
     color: #5865F2;
 }
 .fab, .fas {
-    font-size:2rem;
-    transition-duration: 0.5s;
+    font-size:30px;
     transition-property: all;
 }
 .fab:hover, .fas:hover {
-    text-shadow: #ffffff 5px 5px 50px;
+    text-shadow: #84b3d4 2.5px 1px 25px;
 }
 .copyright {
     font-size: 8px;
@@ -244,7 +242,7 @@ footer {
     top:0;
     background-color: rgba(0,0,0,0.9);
     overflow-y: hidden;
-    transition: 0.5s;
+    transition: 0.45s;
 }
 /*Propriété du contenu du menu overlay */
 .overlay-content {

@@ -42,6 +42,8 @@ body {
     color: #343434;
     line-height:2;
     cursor: default;
+    padding: 0;
+    margin:0;
 }
 
 #name{
@@ -141,6 +143,7 @@ footer {
     padding: 25px;
     color: white;
     margin-top: 100px;
+    margin-bottom: 0;
 }
 .Titrepied {
     font-size: 17px;

@@ -47,7 +47,7 @@ const sections = {
   // Tableau qui va contenir les trois affiches sur la page A_propos.html
   let tableau = document.querySelectorAll(".fa-sort-up");
   let aboutcontainer = document.getElementById("aboutcontainer");
-    let changethis = sections.S1;
+  let changethis = sections.S1;
   
   let sectionreplace = `
   <div id="1" class="section">

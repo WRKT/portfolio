@@ -10,7 +10,7 @@
 # **Avant-propos**
 Ce document contient le référentiel de mon portfolio sur les images utilisés, les polices, et sur comment naviguer dans le site.  
 Ce site a été conçu par moi-même, sans framework, juste du code avec trois languages dont HTML, CSS, et du JS pour quelques propriétés.  
-Mon portfolio est actuellement hébergé chez OVH, accessible sous le nom de domaine [www.winness-rakotozafy.fr](http://winness-rakotozafy.fr/).
+Mon portfolio est actuellement hébergé chez OVH, accessible sous le nom de domaine [www.winness-rakotozafy.fr](https://winness-rakotozafy.fr/).
 
 ---
 
@@ -101,8 +101,8 @@ Ces logos seront importés via **[Fontawesome](https://fontawesome.com/)**
   
 Pour naviguer vers ces réseaux-sociaux, les logos sont cliquables pour vous rediriger vers mon profil. Seul l'icone d'enveloppe pour Mail vous redirigera vers un [formulaire-de-contact](#conception-contact) personnalisé.
   
-* **Mentions légales** qui comprendra que mon nom et prénom (minimum obligatoires pour un site à usage personnel) en format:  
-© 2022 Winness Rakotozafy - All rights reserved
+* **[Mentions légales](https://winness-rakotozafy.fr/DEV/HTML/Mentions_legales.html)** qui contiendra les informations sur moi-même, les conditions d'utilisations du site, l'hébergeur du nom de domaine, etc .. accessible en cliquant sur:  
+© 2022 Winness Rakotozafy - All rights reserved qui se situe en bas de page
 
 ### Visual sample
 ![footer](CHARTE_GRAPHIQUE/Maquettes/footer.png)

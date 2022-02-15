@@ -110,7 +110,7 @@ Pour naviguer vers ces réseaux-sociaux, les logos sont cliquables pour vous red
 ## Conception contact
 ### Description
 Compte tenu des inconvénients techniques que présente le mailto: pour le contact par mail, je me suis donc orienté vers un formulaire de contact, qui redirigera le message saisi vers mon adresse mail.  
-Ce formulaire de contact est inspiré du formulaire présenté dans le cours proposé par ![French Coder](https://www.instagram.com/frenchcoder/).
+Ce formulaire de contact est inspiré du formulaire présenté dans le cours proposé par *[French Coder](https://www.instagram.com/frenchcoder/)*.
 
 ### Visual sample
 ![Contact_form](CHARTE_GRAPHIQUE/Maquettes/Contact_form.png)

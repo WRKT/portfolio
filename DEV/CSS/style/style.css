@@ -3,14 +3,6 @@
 
 /*--------------Style page index-------------------*/
 
-/*enlever la scrollbar pour les navigateur compatible webkit (Chrome, Edge, Opera, Safari)*/
-::-webkit-scrollbar {
-    width: 0;
-  }
-/*Même effet pour Firefox*/
-:root {  
-    scrollbar-width: none;
-}
 html{
     scroll-behavior: smooth;
 }

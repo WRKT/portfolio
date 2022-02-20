@@ -691,6 +691,7 @@ form .piedformulaire button {
     background-color: #363636;
     color: #ffffff;
     text-transform: uppercase;
+    font-style: italic;
 }
 #mentionslegales{
     padding:5rem 10%;

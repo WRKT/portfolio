@@ -18,21 +18,19 @@ html{
     margin: 0;
     padding: 0;
 }
-.logo {
-    float:left;
+#logo {
+    position: absolute;
+    top:35px;
+    left:45px;
     width: 135px;
     height: 135px; 
-    padding-left: 2.5rem;
-    object-fit: fill;
-    padding-top: 1.5rem;
 }
-.imgpc {
-    float: right;
+#imgpc {
+    position:absolute;
+    top:50px;
+    right:45px;
     width: 135px;
     height: 135px; 
-    padding-right:2.5rem;
-    padding-top: 1.5rem;
-    object-fit: cover;
 }
 
 body {

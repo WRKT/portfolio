@@ -520,7 +520,7 @@ p{
     width:600px;
     height:400px;
     display: inline-flex;
-    box-shadow: #818181 10px 7px 10px;
+    box-shadow: #181818 10px 7px 10px;
     border-radius: 25px;
     filter: grayscale(0.4);
     transition-duration: 0.5s;
@@ -528,7 +528,7 @@ p{
 .projets:hover{
     transform: scale(1.05);
     cursor: pointer;
-    box-shadow: #181818 10px 7px 10px 5px; 
+    box-shadow: #818181 10px 7px 10px 5px; 
 }
 
 #projet1{

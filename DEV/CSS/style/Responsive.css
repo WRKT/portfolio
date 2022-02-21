@@ -11,6 +11,18 @@
 /*Propriétés CSS appliquées sur les écrans en dessous d'une largeur de 1280px*/
 @media screen and (max-width:1024px) {
   /*Responsive index*/
+  #name{
+    font-size: 25px;
+  }
+  #welcome{
+    font-size: 20px;
+  }
+  #logo{
+    width: 100px;
+  }
+  #imgpc{ 
+    width: 100px;
+  }
   .left, .right {
     padding:40px;
   }
@@ -20,6 +32,12 @@
     box-shadow: 5px 5px 5px 5px #363636;
     color: #ffffff;
   }
+  #MENU li {
+    font-size: 28px;
+    letter-spacing: 0.8rem;
+    height:46rem;
+    border-radius: 1rem;
+}
   #apropos:hover {
     background-image: none;
   }
@@ -35,10 +53,11 @@
   .tirets {
     display: none;
   }
+
   /*FIN index*/
 
   /*Responsive A_propos*/
-
+  
   /*FIN A_propos*/
 
   /*Responsive Competences*/

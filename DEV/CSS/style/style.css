@@ -584,7 +584,7 @@ form{
     font-weight: 100;
     background-color: #BFCEDC;
     color:#003972;
-    padding: 70px;
+    padding: 60px;
     border-radius: 20px;
     font-size: 10px;
     box-shadow: #c5c5c5 -20px 5px 30px;
@@ -611,10 +611,10 @@ form .corpsformulaire .boite{
 }
 form .corpsformulaire .corpsgauche .boite input {
     margin-top: 5px;
-    padding:15px 20px 15px 40px;
+    padding:15px 20px 15px 35px;
     border: 1.2px solid #002447;
     outline: none;
-    border-radius: 5px;
+    border-radius: 3px;
     font-weight: 100;
     font-family: 'Press Start 2P', cursive;
     font-size: 9px;
@@ -651,13 +651,13 @@ form .piedformulaire{
     text-align: center;
 }
 form .piedformulaire button {
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: #002447;
     color: #f6f6f6;
     font-size: 10px;
     font-family: 'Press Start 2P', cursive;
     font-weight: 100;
-    padding: 25px;
+    padding: 20px;
     border-radius: 10px;
     border-width: 5px;
     outline: none;
@@ -694,17 +694,17 @@ form .piedformulaire button {
     font-style: italic;
 }
 #mentionslegales{
-    padding:5rem 10%;
+    padding:5rem 8%;
     text-align: justify;
 }
 #mentionslegales h2{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 100;
     font-style: italic;
     padding-left: 100px;
     padding-top: 50px;
     color: #003972;
-    text-shadow: #84b3d4 5px 5px 5px;
+    text-shadow: #84b3d4 3px 3px 5px;
 }
 #mentionslegales p{
     font-size: 12px;

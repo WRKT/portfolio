@@ -698,6 +698,7 @@ form .piedformulaire button {
     text-align: justify;
 }
 #mentionslegales h2{
+    text-align: left;
     font-size: 22px;
     font-weight: 100;
     font-style: italic;

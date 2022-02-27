@@ -53,6 +53,7 @@ const sections = {
   <div id="1" class="section">
   <h1 class="titre"><big>${
     changethis.title[0]
+  //Selectionner la première lettre des chaines de caractères
   }</big><small>${changethis.title.slice(1)}</small>?</h1>
   <img alt="${changethis.alt}" class="aboutimg" src="${
   changethis.img

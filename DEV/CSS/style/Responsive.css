@@ -22,10 +22,10 @@
     font-size: 20px;
   }
   #logo{
-    width: 100px;
+    display: none;
   }
   #imgpc{ 
-    width: 100px;
+    display: none;
   }
   .left, .right {
     padding:40px;

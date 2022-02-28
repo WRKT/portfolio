@@ -76,7 +76,8 @@ body {
 #MENU a {
     text-align: center;
     display: inline;
-    padding: 0 2rem;
+    padding: 0 35px;
+    margin:0 10px;
     color: #003972;
 }
 .left{

@@ -1,4 +1,4 @@
-# CCI-SIO21-Portfolio - Charte graphique
+# Portfolio - Charte graphique
 
 ## *[AVANT-PROPOS](#Avant-propos)*
 ## *[OUTILS](#Outils-de-design)*

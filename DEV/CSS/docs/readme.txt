@@ -1,1 +1,0 @@
-Ces fichiers sont les documents qui seront utilisés pour les liens présents dans le portfolio;

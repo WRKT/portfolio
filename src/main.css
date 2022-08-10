@@ -1,0 +1,13 @@
+* {
+    background-color: black;
+    color: #1cd70f;
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+    font-size: 400px;
+}
+h2{
+    font-weight: 200;
+    text-align: center;
+}

@@ -1,7 +1,12 @@
+/* Import Cascadia fonts */
+@font-face {
+    font-family: "Cascadia";
+    src: url(../assets/fonts/Cascadia.ttf);
+}
 * {
     background-color: black;
     color: #1cd70f;
-    font-family: monospace;
+    font-family: "Cascadia";
 }
 h1{
     text-align: center;

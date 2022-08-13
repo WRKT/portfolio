@@ -10,5 +10,7 @@ helpCommands = {
 }
 
 function help(){
-
+    for(i in helpCommands){
+        
+    }
 }

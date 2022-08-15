@@ -5,14 +5,27 @@
 }
 * {
     background-color: black;
-    color: #1cd70f;
+    color: #dfd9d9;
     font-family: "Cascadia";
 }
-h1{
+body{
+    padding: 0 25px;
+}
+.center{
     text-align: center;
-    font-size: 40px;
+}
+h1{
+    font-size: 35px;
 }
 h2{
     font-weight: 200;
-    text-align: center;
+}
+.green{
+    color: #22b91d;
+}
+.blue {
+    color:#096bfd;
+}
+.yellow{
+    color:#eaec41;
 }

@@ -3,6 +3,10 @@
     font-family: "Cascadia";
     src: url(../assets/fonts/Cascadia.ttf);
 }
+@font-face {
+    font-family: "Roboto";
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
 /*Keyframe cursor */
 @keyframes cursor{
     0%{
@@ -18,31 +22,47 @@
 }
 * {
     font-family: "Cascadia";
+    box-sizing: inherit;
 }
 body{
-    background-color: #000000;
+    background-color: #26262b;
     padding: 0 25px;
     color:#d5d5d5;
     padding: 0;
     margin: 0;
 }
-.center{
+header{
+    background-color: #1f1f1f;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container{
+    flex: 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
-h1{
-    padding-top: 25px;
-    font-size: 35px;
+.innerheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 760px;
+    max-width: 100%;
 }
-h2{
-    font-weight: 200;
+.headerLeft{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-display: auto;
+    letter-spacing: 0.1em;
 }
-
-#introduce{
-    margin: 50px
-}
-.arrow{
-    line-height: 1,54;
-    margin-right: 5px;
+a{
+    color: inherit;
 }
 .cursor{
   display: inline-block;
@@ -52,4 +72,19 @@ h2{
   margin-left: 5px;
   border-radius: 1px;
   animation: cursor 1s infinite;
+}
+.center{
+    text-align: center;
+}
+h1{
+    padding-top: 25px;
+    font-size: 40px;
+    font-weight: 500;
+}
+h2{
+    font-weight: 200;
+}
+
+#introduce{
+    margin: 50px
 }

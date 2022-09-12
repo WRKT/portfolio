@@ -3,6 +3,19 @@
     font-family: "Cascadia";
     src: url(../assets/fonts/Cascadia.ttf);
 }
+/*Keyframe cursor */
+@keyframes cursor{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+
+    }
+    100%{
+        opacity:0
+    }
+}
 * {
     font-family: "Cascadia";
 }
@@ -10,23 +23,33 @@ body{
     background-color: #000000;
     padding: 0 25px;
     color:#d5d5d5;
+    padding: 0;
+    margin: 0;
 }
 .center{
     text-align: center;
 }
 h1{
-    padding-top:100px;
+    padding-top: 25px;
     font-size: 35px;
 }
 h2{
     font-weight: 200;
 }
-.green{
-    color: #22b91d;
+
+#introduce{
+    margin: 50px
 }
-.blue {
-    color:#096bfd;
+.arrow{
+    line-height: 1,54;
+    margin-right: 5px;
 }
-.yellow{
-    color:#eaec41;
+.cursor{
+  display: inline-block;
+  width: 7px;
+  height: 15px;
+  background: #29f544;
+  margin-left: 5px;
+  border-radius: 1px;
+  animation: cursor 1s infinite;
 }

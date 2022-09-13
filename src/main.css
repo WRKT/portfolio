@@ -47,7 +47,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
 }
 .innerheader{
     display: flex;
@@ -65,6 +64,7 @@ body{
 .termText{
     font-size: 1.125rem;
     letter-spacing: 0.09rem;
+    text-align: start;
 }
 a{
     color: inherit;
@@ -116,7 +116,14 @@ h1{
 h2{
     font-weight: 200;
 }
-
-#introduce{
-    margin: 50px
+.red{
+    color: #ec1a1a;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.innerContent{
+    width:1024px;
 }

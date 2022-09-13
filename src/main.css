@@ -53,7 +53,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    width: 1024px;
+    width: 1280px;
     max-width: 100%;
 }
 .headerLeft{
@@ -126,4 +126,5 @@ h2{
 }
 .innerContent{
     width:1024px;
+    text-align: justify;
 }

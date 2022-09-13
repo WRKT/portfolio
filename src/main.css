@@ -25,19 +25,22 @@
     box-sizing: inherit;
 }
 body{
-    background-color: #26262b;
+    background-color: #f3f3f3;
     padding: 0 25px;
-    color:#d5d5d5;
+    color:#444343;
     padding: 0;
     margin: 0;
+    line-height: 1.54;
 }
-header{
+.header{
     background-color: #1f1f1f;
-    padding: 25px;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    color: #cccccc;
+    z-index: 999;
 }
 .container{
     flex: 1 auto;
@@ -51,30 +54,56 @@ header{
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    width: 760px;
+    width: 1024px;
     max-width: 100%;
 }
 .headerLeft{
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-display: auto;
-    letter-spacing: 0.1em;
+}
+.termText{
+    font-size: 1.125rem;
+    letter-spacing: 0.09rem;
 }
 a{
     color: inherit;
 }
 .cursor{
   display: inline-block;
-  width: 7px;
-  height: 15px;
-  background: #29f544;
+  width: 20px;
+  height: 5px;
+  background: #ec1a1a;
   margin-left: 5px;
+  margin-right: 15px;
+  margin-top: 20px;
   border-radius: 1px;
   animation: cursor 1s infinite;
 }
 .center{
     text-align: center;
+}
+.headerRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.innerMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.innerMenu a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 25px;
+    margin: 0 15px
+    
+}
+.innerMenu a:hover{
+    background-color:#ffffff;
+
 }
 h1{
     padding-top: 25px;

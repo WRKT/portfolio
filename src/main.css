@@ -111,7 +111,7 @@ link{
 h1{
     padding-top: 25px;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 800;
 }
 h2{
     font-weight: 200;
@@ -127,4 +127,7 @@ h2{
 .innerContent{
     width:1024px;
     text-align: justify;
+}
+.typing{
+    overflow: hidden;
 }

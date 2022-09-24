@@ -106,11 +106,14 @@ link{
 }
 
 .link:hover{
-    border-bottom: #ffffff 1px solid;
+    border-bottom: #da7d43 2px solid;
+}
+#logo{
+    padding-top: 45px;
+    width: 185px;
 }
 h1{
-    padding-top: 25px;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
 }
 h2{
@@ -126,7 +129,8 @@ h2{
 }
 .innerContent{
     width:1024px;
-    line-height: 2.4;
+    line-height: 2.2;
+    margin: 0 50px;
 }
 .typing{
     overflow: hidden;

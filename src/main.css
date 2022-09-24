@@ -73,7 +73,7 @@ a{
     display: inline-block;
     width: 20px;
     height: 5px;
-    background: #ec1a1a;
+    background: #df7839;
     margin-left: 5px;
     margin-right: 15px;
     margin-top: 20px;
@@ -116,8 +116,8 @@ h1{
 h2{
     font-weight: 200;
 }
-.red{
-    color: #ec1a1a;
+.orange{
+    color: #da7d43;
 }
 .content{
     display: flex;
@@ -126,7 +126,7 @@ h2{
 }
 .innerContent{
     width:1024px;
-    text-align: justify;
+    line-height: 2.4;
 }
 .typing{
     overflow: hidden;

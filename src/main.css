@@ -20,8 +20,9 @@
         opacity:0
     }
 }
+/*==== MAIN ====*/
 * {
-    font-family: "Cascadia";
+    font-family: "Cascadia", monospace;
     box-sizing: inherit;
 }
 body{
@@ -135,3 +136,10 @@ h2{
 .typing{
     overflow: hidden;
 }
+/*===== PROJECT =====*/
+
+/*=====   C.V   =====*/
+
+/*===== HIREME ======*/
+
+/*===== CONTACT =====*/

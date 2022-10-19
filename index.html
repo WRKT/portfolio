@@ -1,27 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="src/main.css">
     <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.ico">
     <title> WRKT. | Portfolio </title>
-    <script></script>
+    <script src="src/main.js" async></script>
 </head>
 <body>
-    <header>
+    <div class="container">
+        <header class="header">
+            <div class="innerheader">
+                <div class="headerLeft">
+                    <a href="" style="text-decoration:none">
+                        <span class="termText">[root@wrkt]─[/]#<span class="cursor"></span></span>
+                    </a>
+                </div>
+                <div class="headerRight">
+                    <nav>
+                        <ul class="innerMenu">
+                            <li><a href="src/project.html"><span class="link">Projets<span></a></li>
+                            <li><a href="src/resume.html"><span class="link">MonCV</span></a></li>
+                            <li><a href="src/hire.html"><span class="link">Recrutez-moi</span></a></li>
+                            <li><a href="src/contact.html"><span class="link">Contact</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
         <div class="center">
-            <h1>WRKT. - Junior DevSecOps </h1>
-            <h2> Welcome to my interactive terminal Portfolio </h2>
+            <main>
+                <img src="assets/imgs/logo.png" alt="WRKT logo" id="logo">
+                <h1>WRKT. CyberOps Junior</h1>
+                <h2>Bienvenue sur mon Portfolio</h2>
+            </main>
         </div>
-    </header>
-        <div>
-            <p>Type <span class="yellow">'help'</span> to display available commands.</p>
-            <p class="green">wrkt@devsecops:<span class="blue">~$</span></p>
+        <div class="content">
+            <div class="innerContent">
+                <section class="termText">[root@wrkt]─[/]# <span class="orange">whoami</span><span class="cursor"></span></section>
+                <p>> <span class="typing"></span><span class="cursor"></span></p>
+                   
+            </div>
         </div>
-    <footer>
+        <footer>
 
-    </footer>
+        </footer>
+    </div>
 </body>
 
 </html>

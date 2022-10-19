@@ -3,29 +3,143 @@
     font-family: "Cascadia";
     src: url(../assets/fonts/Cascadia.ttf);
 }
+@font-face {
+    font-family: "Roboto";
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+/*Keyframe cursor */
+@keyframes cursor{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+
+    }
+    100%{
+        opacity:0
+    }
+}
+/*==== MAIN ====*/
 * {
-    background-color: black;
-    color: #dfd9d9;
-    font-family: "Cascadia";
+    font-family: "Cascadia", monospace;
+    box-sizing: inherit;
 }
 body{
+    background-color: #f3f3f3;
     padding: 0 25px;
+    color:#444343;
+    padding: 0;
+    margin: 0;
+    line-height: 1.54;
+}
+.header{
+    background-color: #1f1f1f;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #cccccc;
+    z-index: 999;
+}
+.container{
+    flex: 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.innerheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1280px;
+    max-width: 100%;
+}
+.headerLeft{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.termText{
+    font-size: 1.125rem;
+    letter-spacing: 0.09rem;
+    text-align: start;
+}
+a{
+    color: inherit;
+}
+.cursor{
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background: #df7839;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-radius: 1px;
+    animation: cursor 1s infinite;
 }
 .center{
     text-align: center;
 }
+.headerRight{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.innerMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.innerMenu a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 25px;
+    margin: 0 15px
+    
+}
+link{
+    transition: all 1s;
+}
+
+.link:hover{
+    border-bottom: #da7d43 2px solid;
+}
+#logo{
+    padding-top: 45px;
+    width: 185px;
+}
 h1{
     font-size: 35px;
+    font-weight: 800;
 }
 h2{
     font-weight: 200;
 }
-.green{
-    color: #22b91d;
+.orange{
+    color: #da7d43;
 }
-.blue {
-    color:#096bfd;
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
-.yellow{
-    color:#eaec41;
+.innerContent{
+    width:1024px;
+    line-height: 2.2;
+    margin: 0 50px;
 }
+.typing{
+    overflow: hidden;
+}
+/*===== PROJECT =====*/
+
+/*=====   C.V   =====*/
+
+/*===== HIREME ======*/
+
+/*===== CONTACT =====*/

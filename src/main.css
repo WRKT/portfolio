@@ -1,11 +1,7 @@
 /* Import Cascadia fonts */
 @font-face {
     font-family: "Cascadia";
-    src: url(../assets/fonts/Cascadia.ttf);
-}
-@font-face {
-    font-family: "Roboto";
-    src: url(../assets/fonts/Roboto-Regular.ttf);
+    src: url(assets/fonts/Cascadia.ttf);
 }
 /*Keyframe cursor */
 @keyframes cursor{
@@ -26,7 +22,7 @@
     box-sizing: inherit;
 }
 body{
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     padding: 0 25px;
     color:#444343;
     padding: 0;
@@ -109,15 +105,16 @@ link{
 .link:hover{
     border-bottom: #da7d43 2px solid;
 }
-#logo{
+.sectionImg{
     padding-top: 45px;
     width: 185px;
 }
 h1{
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 800;
 }
 h2{
+    font-size: 22px;
     font-weight: 200;
 }
 .orange{
@@ -127,6 +124,7 @@ h2{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    vertical-align: middle;
 }
 .innerContent{
     width:1024px;
@@ -136,8 +134,18 @@ h2{
 .typing{
     overflow: hidden;
 }
+#aboutme {
+    height: 100vh;
+}
 /*===== PROJECT =====*/
-
+#projectImg{
+    width: 275px;
+    height: auto;
+}
+h3{
+    font-weight: 100;
+    font-size: 18px;
+}
 /*=====   C.V   =====*/
 
 /*===== HIREME ======*/

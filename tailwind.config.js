@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        cascadia:["Cascadia", "monospace"]
+        cascadia:["Cascadia"]
       }
     },
   },

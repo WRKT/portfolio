@@ -1,95 +1,71 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="src/main.css">
-    <link rel="icon" type="image/x-icon" href="src/assets/imgs/favicon.png">
-    <title> WRKT. | Portfolio </title>
-    <script src="src/main.js" async></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WRKT. | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="src/assets/img/favicon.ico">
+    <link rel="stylesheet" href="src/tailwind.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
-<body>
-    <div class="container">
-        <header class="header">
-            <div class="innerheader">
-                <div class="headerLeft">
-                    <a href="" style="text-decoration:none">
-                        <span class="termText">[sysadmin@wrkt]─[/]#<span class="cursor"></span></span>
-                    </a>
-                </div>
-                <div class="headerRight">
-                    <nav>
-                        <ul class="innerMenu">
-                            <li><a href=""><span class="link">Projets<span></a></li>
-                            <li><a href=""><span class="link">MonCV</span></a></li>
-                            <li><a href=""><span class="link">Recrutez-moi</span></a></li>
-                            <li><a href=""><span class="link">Contact</span></a></li>
-                        </ul>
-                    </nav>
-                </div>
+<body class>
+    <header class="text-white">
+        <nav class="p-5 bg-zinc-900 shadow md:flex md:items-center md:justify-between">
+            <div class="flex justify-between items-center">
+                <a href="index.html">
+                    <span class="text-xl font-mono">
+                        <img class="h-12 inline" src="src/assets/img/logo.png" alt="WRKT logo">
+                        [sysadmin@wrkt]-#
+                    </span> 
+                </a>
+                <span class="text-3xl cursor-pointer md:hidden mx-2 block">
+                    <ion-icon name="menu-sharp" onclick="Menu(this)"></ion-icon>
+                </span>
             </div>
-        </header>
-        <section id="aboutme">
-        <div class="center">
-            <main>
-                <img src="src/assets/imgs/logo.png" alt="WRKT logo" class="sectionImg">
-                <h1>WRKT. CyberOps Junior</h1>
-                <h2>Bienvenue sur mon Portfolio</h2>
-            </main>
+            <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-zinc-900 w-full left-0 md:w-auto
+            md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+                <li class="mx-4 my-6 md:my-0"><a href="#skills" class="text-xl font-mono hover:underline">Skills</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#projects" class="text-xl font-mono hover:underline">Projects</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#resume" class="text-xl font-mono hover:underline">Resume</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#contact" class="text-xl font-mono hover:underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="text-center font-mono flex my-16 justify-center md:flex ">
+        <div>
+            <img class="h-24" src="src/assets/img/computer.svg" alt="Computer flat design">
         </div>
-        <div class="content">
-            <div class="innerContent">
-                <div class="termText">[sysadmin@wrkt]─[/]# <span class="orange">whoami</span><span class="cursor"></span></div>
-                <p>> <span class="typing"></span><span class="cursor"></span></p>       
-            </div>
+        <div class="mx-8 my-3">
+            <h1 class="text-2xl md:text-4xl">WRKT. CyberOps Junior</h1>
+            <h2 class="text-xl md:text-2xl">Bienvenue sur mon Portfolio</h2>
         </div>
-        </section>
-        <section id="projects">
-            <div class="center">
-                <main>
-                    <h2>PROJETS</h2>
-                </main>
-            </div>
+    </section>
+    <section>
+        <h2 class="text-5xl underline decoration-orange-200">ABOUT ME</h2>
+        <span></span>
+    </section>
+    <section id="skills">
+        <h2 class="text-5xl underline decoration-orange-200">I.T SKILLS</h2>
+    </section>
+    <section id="projects">
+        <h2 class="text-5xl underline decoration-orange-200">PROJECTS</h2>
+    </section>
+    <section id="resume">
+        <h2 class="text-5xl underline decoration-orange-200">RESUME</h2>
+    </section>
+    <section id="contact">
+        <h2 class="text-5xl underline decoration-orange-200">CONTACT</h2>
+    </section>
+    <script>
+    function Menu(e){
+        let list = document.querySelector('ul');
 
-            <div class="innerContent">
-                <div>
-                    <h3>Projet M2i</h3>
-                </div>
-                <div>
-                    <h3>Réseau: Portail captif ALCASAR</h3>
-                    <img src="src/assets/imgs/alcasar.png" alt="ALCASAR Logo">
-                </div>
-                <div>
-                    <h3>SEO: RGPD pour les nuls</h3>
-                    <img>
-                </div>
-                <div>
-                    <h3>Linux: Configuration des serveurs avec Ansible</h3>
-                    <img>
-                </div>
-                <div>
-                    <h3>Linux: Conversion archive PST en MBOX</h3>
-                    <img>
-                </div>
-                <div>
-                    <h3>Windows: Administration avec Powershell</h3>
-                    <img>
-                </div>
-            </div>
-        </section>
-        <section>
-
-        </section>
-        <section>
-
-        </section>
-        <section>
-            
-        </section>
-        <footer>
-
-        </footer>
-    </div>
+        e.name === 'menu-sharp' ? (e.name = "close",list.classList.add('top-[80px]'), list.classList.add('opacity-100')): (e.name = "menu-sharp",list.classList.remove('top-[80px]'),list.classList.remove('top-[80px]'))
+    }
+    </script>
 </body>
 
 </html>

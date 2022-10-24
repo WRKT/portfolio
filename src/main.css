@@ -1,10 +1,6 @@
 /*Add Cascadia fonts */
-@font-face {
-  font-family: "Cascadia";
-  src: url(assets/fonts/Cascadia.ttf);
-}
 * {
-  font-family: "Cascadia", monospace;
+  font-family: monospace;
 }
 /* Scroll behavior */
 html {

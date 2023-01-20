@@ -14,12 +14,12 @@
 </head>
 <body>
     <header class="text-white">
-        <nav class="p-5 bg-zinc-900 shadow md:flex md:items-center md:justify-between">
+        <nav class="p-5 bg-zinc-900 shadow md:flex md:items-center md:justify-between font-mono">
             <div class="flex justify-between items-center z-[999]">
                 <a href="index.html">
                     <span class="md:text-xl text-base">
                         <img class="md:h-12 h-10 inline" src="src/assets/img/logo.png" alt="WRKT logo">
-                        [sysadmin@wrkt]:~$<span class="text-sky-700 font-bold terminal-line-cursor-effect"></span>
+                        [sysadmin@wrkt]:~$ <span class="text-sky-700 font-bold terminal-line-cursor-effect"></span>
                     </span> 
                 </a>
                 <span class="text-3xl cursor-pointer md:hidden mx-2 block">
@@ -28,55 +28,55 @@
             </div>
             <ul class="md:flex md:items-center z-[998] md:z-auto md:static absolute bg-zinc-900 w-full left-0 md:w-auto
             md:py-0 py-4 md:pl-0 pl-8 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in-out duration-700">
-                <li class="mx-4 my-6 md:my-0"><a href="#aboutme" class="md:text-2xl font-mono hover:underline decoration-orange-300">ABOUT</a></li>
-                <li class="mx-4 my-6 md:my-0"><a href="#skills" class="md:text-2xl font-mono hover:underline decoration-orange-300">SKILLS</a></li>
-                <li class="mx-4 my-6 md:my-0"><a href="#projects" class="md:text-2xl font-mono hover:underline decoration-orange-300">PROJECTS</a></li>
-                <li class="mx-4 my-6 md:my-0"><a href="#resume" class="md:text-2xl font-mono hover:underline decoration-orange-300">RESUME</a></li>
-                <li class="mx-4 my-6 md:my-0"><a href="#contact" class="md:text-2xl font-mono hover:underline decoration-orange-300">CONTACT</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#aboutme" class="md:text-2xl font-sans hover:underline decoration-orange-300 underline-offset-8">About</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#skills" class="md:text-2xl font-sans hover:underline decoration-orange-300 underline-offset-8">Skills</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#projects" class="md:text-2xl font-sans hover:underline decoration-orange-300 underline-offset-8">Projects</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#resume" class="md:text-2xl font-sans hover:underline decoration-orange-300 underline-offset-8">Resume</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#contact" class="md:text-2xl font-sans hover:underline decoration-orange-300 underline-offset-8">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section class="text-center font-mono my-16 justify-center md:flex ">
-        <div>
-            <img class="md:h-24 h-16 inline" src="src/assets/img/computer.svg" alt="Computer flat design">
-        </div>
-        <div class="md:mx-8 md:my-3 my-0 md:h-screen">
-            <h1 class="text-2xl md:text-5xl my-1 md:my-0 text-zinc-800 textshadow">WRKT. CyberOps Junior</h1>
-            <h2 class="text-[17px] my-0 md:text-3xl md:my-1">Bienvenue sur mon Portfolio</h2>
+    <section class="text-center font-mono my-16 h-screen justify-center md:flex ">
+        <div class="md:mx-8 md:my-3 my-0 mx-10">
+            <h1 class="text-4xl md:text-5xl my-1 md:my-0 text-zinc-800 textshadow">Winness RAKOTOZAFY</h1>
+            <h2 class="text-2xl my-0 md:text-3xl md:my-1">Bienvenue sur mon Portfolio</h2>
             <div>
                 <img>
             </div>
         </div>
     </section>
-    <section id="aboutme" class="md:h-screen">
+    <section id="aboutme" class="container mx-auto my-auto">
         <h2 class="md:text-7xl text-4xl text-center font-medium textshadow pt-10 tracking-widest font-sans 
-        underline underline-offset-[16px] xl:underline-offset-[24px]">ABOUT ME</h2>
-        <div class="md:mx-[10rem] mx-2 mt-10 mb-5">
-            <h3 class="text-xl">[sysadmin@wrkt]:~$ <span class="text-sky-900">whoami<span class="terminal-line-cursor-effect text-2xl"></span></span>
+            underline underline-offset-[16px] xl:underline-offset-[24px]">ABOUT ME</h2>
+        <div class="md:mx-[10rem] mt-10 mb-5 xl:mx-20 mx-14">
+            <h3 class="md:text-xl text-lg font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">whoami<span class="terminal-line-cursor-effect text-2xl"></span></span>
             </h3>
             <div class="md:flex py-4 flex flex-col xl:flex-row items-center">
-                <img class="md:w-[280px] md:h-[320px] w-40 h-[12rem] shadow-2xl shadow-slate-500 mt-6 box-border rounded-full md:rounded-xl" src="src/assets/img/wrkt.jpg" alt="Picture of Winness Rakotozafy">
-                <p class="xl:mx-20 mx-2 my-6 md:text-justify md:text-lg md:leading-10">Hi there! Je me nomme Winness, codename 'WRKT.', 23 ans, un grand passionné de nouvelles technologies, et plus particulièrement du domaine du système et réseaux orienté cybersécurité. 
-                    Actuellement en formation BTS SIO option SISR au sein de la CCI Campus Alsace, en alternance chez la Préfecture du Bas-Rhin, 
-                    je projette d'évoluer vers un poste d'Administrateur Système et Réseaux, et sur le long terme en tant qu'ingénieur en Cybersécurite 
-                    capable de programmer et automatiser les outils de sécurité pour faire face aux aléas du cyberespace<span class="terminal-line-cursor-effect text-sky-900 text-2xl"></span>
+                <img class="md:w-[280px] md:h-[320px] w-40 h-[12rem] shadow-xl shadow-slate-500 mt-6 box-border rounded-2xl my-10" src="src/assets/img/wrkt.jpg" alt="Picture of Winness Rakotozafy">
+                <p class="md:text-base leading-8 md:leading-10 xl:ml-16">Hi there! Je me nomme Winness, codename 'WRKT.', 24 ans, un grand passionné de nouvelles technologies, et plus particulièrement du domaine du système et réseaux orienté cybersécurité. 
+                    Actuellement en alternance chez la Préfecture du Bas-Rhin, je projette d'évoluer vers un poste d'Administrateur Système et Réseaux, et sur le long terme en tant qu'ingénieur en Cybersécurité 
+                    capable de programmer et automatiser les outils de sécurité pour faire face aux aléas du cyberespace.<br>
+                    Ainsi, je suis à la recherche d'une alternance afin d'atteindre mes objectifs, notamment pour intégrer une formation d'ingénieur
+                    en système d'information.<span class="terminal-line-cursor-effect text-sky-900 text-2xl"></span>
                 </p>
             </div>
         </div>
     </section>
-    <section id="skills" class="md:h-screen">
+
+    <section id="skills" class="container mx-auto">
         <h2 class="md:text-7xl text-4xl text-center font-medium textshadow pt-10 tracking-widest font-sans 
-        underline underline-offset-[16px] md:underline-offset-[24px]">I.T SKILLS</h2>
-        <div class="md:mx-20 mx-2 mt-10 mb-5">
-            <h3>[sysadmin@wrkt]:~$ <span class="text-sky-900">stat <span class="text-orange-400">skills</span><span class="terminal-line-cursor-effect"></span></span>
+        underline underline-offset-[16px] md:underline-offset-[24px]">SKILLS & TECH</h2>
+        <div class="md:mx-[10rem] mt-10 mb-5 xl:mx-20 mx-14">
+            <h3 class="md:text-xl text-lg font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">whatis <span class="text-orange-400">skills</span><span class="terminal-line-cursor-effect"></span></span>
             </h3>
+ 
         </div>
     </section>
-    <section id="projects" class="md:h-screen">
+    <section id="projects" class="container mx-auto">
         <h2 class="md:text-7xl text-4xl text-center font-medium font-sans textshadow pt-10 tracking-widest
          underline underline-offset-[16px] md:underline-offset-[24px]">PROJECTS</h2>
-        <div class="md:mx-20 mx-2 mt-10 mb-5">
-            <h3>[sysadmin@wrkt]:~$ <span class="text-sky-900">ls <span class="text-orange-400">projects/</span><span class="terminal-line-cursor-effect"></span></span>
+        <div class="md:mx-[10rem] mt-10 mb-5 xl:mx-20 mx-14">
+            <h3 class="md:text-xl text-lg font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">ls <span class="text-orange-400">projects/</span><span class="terminal-line-cursor-effect"></span></span>
             </h3>
             <div>
                 <img src="" alt="">
@@ -89,18 +89,29 @@
             </div>
         </div>
     </section>
-    <section id="resume" class="md:h-screen">
+    <section id="resume" class="container mx-auto">
         <h2 class="md:text-7xl text-4xl text-center font-medium font-sans 
         textshadow pt-10 tracking-widest underline underline-offset-[16px] md:underline-offset-[24px]">RESUME</h2>
-        <div class="md:mx-20 mx-2 mt-10 mb-5">
-            <h3>[sysadmin@wrkt]:~$ <span class="text-sky-900">more <span class="text-orange-400">resume</span><span class="terminal-line-cursor-effect"></span></span>
+        <div class="md:mx-[10rem] mt-10 mb-5 xl:mx-20 mx-14">
+            <h3 class="md:text-xl text-lg font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">more <span class="text-orange-400">resume</span><span class="terminal-line-cursor-effect"></span></span>
             </h3>
-            <div>
-                <p>Ma carrière informatique débute à la Préfecture du Bas-Rhin.</p> 
+            <div class="py-4">
+                <p class="md:leading-10">Ma carrière en informatique débute à la Préfecture du Bas-Rhin en tant que Technicien d'Exploitation et de Maintenance. Mes principales missions furent : </p> 
+                <ul class="md:leading-6 list-inside list-disc">
+                    <li>Gestion de parc informatique sous GLPI</li>
+                    <li>Assistance aux utilisateurs : traitement de ticket N1</li>
+                    <li>Deploiement de postes et logiciels</li>
+                    <li>Administration portail captif avec ALCASAR</li>
+                    <li>Sécurisation du réseau par la mise en place des scanners antivirus SOPHOS</li>
+                <ul>
+                <div class="text-center">
+                    <p class="py-4">Pour plus d'informations, veuillez cliquer sur le bouton ci-dessous :<p>
+                    <button class="text-white font-mono font-semibold text-lg bg-sky-900 rounded-2xl px-8 py-3 hover:bg-sky-700 hover:duration-500">Mon CV</button>
+                </div>
             </div>
         </div>
     </section>
-    <section id="contact" class="md:h-screen">
+    <section id="contact" class="md:h-screencontainer mx-auto">
         <h2 class="md:text-7xl text-4xl text-center font-medium font-sans textshadow pt-10 
         tracking-widest underline underline-offset-[16px] md:underline-offset-[24px]">CONTACT</h2>
     </section>

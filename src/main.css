@@ -1,45 +1,50 @@
 /* Scroll behavior */
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 /* Shadow options*/
-.textshadow{
-    text-shadow: 2px 2px 3px rgb(10, 29, 71);
+.textshadow {
+  text-shadow: 2px 2px 3px rgb(10, 29, 71);
 }
 /*Cursor animation*/
 .terminal-line-cursor-effect::after {
-    content: '_';
-    animation: animate 1s linear infinite;
-    font-weight: 800;
-    font-size: x-large;
-  }
-  
-  @keyframes animate {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 0.8;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
+  content: "_";
+  animation: animate 1s linear infinite;
+  font-weight: 800;
+  font-size: x-large;
+}
 
-  /* Banner properties */
-  .banner {
-    min-height: 100vh;
-    background-image: url('assets/img/banner.jpg'); /* set background image */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
+@keyframes animate {
+  0% {
+    opacity: 0;
   }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
-  /*Arrow button*/
-  #scrollbutton{
-    display: none;
-  }
+/* Banner properties */
+.banner {
+  min-height: 100vh;
+  background-image: url("assets/img/banner.jpg"); /* set background image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+}
+
+.particles-js-canvas-el {
+  position: absolute;
+}
+
+/*Arrow button*/
+#scrollbutton {
+  display: none;
+}

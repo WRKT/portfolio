@@ -43,8 +43,3 @@ html {
 .particles-js-canvas-el {
   position: absolute;
 }
-
-/*Arrow button*/
-#scrollbutton {
-  display: none;
-}

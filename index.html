@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +8,24 @@
     <link rel="shortcut icon" href="src/assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="src/main.css">
     <link rel="stylesheet" href="src/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- TailwindCSS CDN : delete when finishing compilation -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to JS file-->
+    <script src="src/main.js" async></script>
+    <!--FontAwesome import-temp-->
+    <script src="https://kit.fontawesome.com/9ee81d232b.js" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
     <header class="text-white">
-        <nav class="p-5 bg-zinc-900 shadow md:flex md:items-center md:justify-between font-mono">
-            <div class="flex justify-between items-center z-[999]">
+        <nav class="p-5 bg-zinc-900 shadow md:flex md:items-center md:justify-between">
+            <div class="flex justify-between items-center z-[2]">
                 <a href="index.html">
-                    <span class="md:text-xl text-base">
+                    <span class="md:text-xl text-base font-mono">
                         <img class="md:h-12 h-10 inline" src="src/assets/img/logo.png" alt="WRKT logo">
-                        [sysadmin@wrkt]:~$ <span class="text-sky-700 font-bold terminal-line-cursor-effect"></span>
+                        [sysadmin@wrkt]:~$<span class="text-sky-700 font-bold terminal-line-cursor-effect"></span>
                     </span> 
                 </a>
                 <span class="text-3xl cursor-pointer md:hidden mx-2 block">
@@ -28,55 +34,49 @@
             </div>
             <ul class="md:flex md:items-center z-[998] md:z-auto md:static absolute bg-zinc-900 w-full left-0 md:w-auto
             md:py-0 py-4 md:pl-0 pl-8 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in-out duration-700">
-                <li class="mx-4 my-6 md:my-0"><a href="#aboutme" class="md:text-2xl font-sans hover:underline decoration-orange-300 underline-offset-8">About</a></li>
-                <li class="mx-4 my-6 md:my-0"><a href="#skills" class="md:text-2xl font-sans hover:underline decoration-orange-300 underline-offset-8">Skills</a></li>
-                <li class="mx-4 my-6 md:my-0"><a href="#projects" class="md:text-2xl font-sans hover:underline decoration-orange-300 underline-offset-8">Projects</a></li>
-                <li class="mx-4 my-6 md:my-0"><a href="#resume" class="md:text-2xl font-sans hover:underline decoration-orange-300 underline-offset-8">Resume</a></li>
-                <li class="mx-4 my-6 md:my-0"><a href="#contact" class="md:text-2xl font-sans hover:underline decoration-orange-300 underline-offset-8">Contact</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#skills" class="md:text-2xl hover:underline decoration-orange-300 underline-offset-8">Skills</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#projects" class="md:text-2xl hover:underline decoration-orange-300 underline-offset-8">Projects</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#resume" class="md:text-2xl  hover:underline decoration-orange-300 underline-offset-8">Resume</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="#contact" class="md:text-2xl hover:underline decoration-orange-300 underline-offset-8">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section class="text-center font-mono my-16 h-screen justify-center md:flex ">
-        <div class="md:mx-8 md:my-3 my-0 mx-10">
-            <h1 class="text-4xl md:text-5xl my-1 md:my-0 text-zinc-800 textshadow">Winness RAKOTOZAFY</h1>
-            <h2 class="text-2xl my-0 md:text-3xl md:my-1">Bienvenue sur mon Portfolio</h2>
-            <div>
-                <img>
-            </div>
+    <section id="mainpage">
+        <div class="banner">
+            <h1 class="text-center text-white text-4xl xl:text-6xl font-semibold">Winness RAKOTOZAFY</h1>
+            <p class="text-center text-white text-lg font-medium py-6">Administrateur des systèmes et des réseaux</p>
+            <a href="#about" class="bg-white text-black text-lg xl:text-2xl py-4 px-6 rounded-lg hover:bg-black hover:text-white mt-8 font-semibold">En savoir plus...</a>
         </div>
     </section>
-    <section id="aboutme" class="container mx-auto my-auto">
-        <h2 class="md:text-7xl text-4xl text-center font-medium textshadow pt-10 tracking-widest font-sans 
-            underline underline-offset-[16px] xl:underline-offset-[24px]">ABOUT ME</h2>
+
+    <section id="about" class="container mx-auto my-auto">
+        <h2 class="md:text-7xl text-4xl text-center font-medium textshadow pt-20 tracking-widest font-sans underline underline-offset-[16px] xl:underline-offset-[24px]">ABOUT ME</h2>
         <div class="md:mx-[10rem] mt-10 mb-5 xl:mx-20 mx-14">
-            <h3 class="md:text-xl text-lg font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">whoami<span class="terminal-line-cursor-effect text-2xl"></span></span>
+            <h3 class="md:text-xl text-base font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">whoami<span class="terminal-line-cursor-effect text-2xl"></span></span>
             </h3>
             <div class="md:flex py-4 flex flex-col xl:flex-row items-center">
                 <img class="md:w-[280px] md:h-[320px] w-40 h-[12rem] shadow-xl shadow-slate-500 mt-6 box-border rounded-2xl my-10" src="src/assets/img/wrkt.jpg" alt="Picture of Winness Rakotozafy">
-                <p class="md:text-base leading-8 md:leading-10 xl:ml-16">Hi there! Je me nomme Winness, codename 'WRKT.', 24 ans, un grand passionné de nouvelles technologies, et plus particulièrement du domaine du système et réseaux orienté cybersécurité. 
-                    Actuellement en alternance chez la Préfecture du Bas-Rhin, je projette d'évoluer vers un poste d'Administrateur Système et Réseaux, et sur le long terme en tant qu'ingénieur en Cybersécurité 
-                    capable de programmer et automatiser les outils de sécurité pour faire face aux aléas du cyberespace.<br>
-                    Ainsi, je suis à la recherche d'une alternance afin d'atteindre mes objectifs, notamment pour intégrer une formation d'ingénieur
-                    en système d'information.<span class="terminal-line-cursor-effect text-sky-900 text-2xl"></span>
+                <p class="md:text-lg text-sm leading-6 md:leading-10 xl:ml-16">Hi there! Je me nomme Winness, codename 'WRKT.', 24 ans, un grand passionné de nouvelles technologies, et plus particulièrement du domaine du système et réseaux orienté cybersécurité. 
+                    Actuellement en alternance de BTS SIO option Solution d'Infrastructures Systèmes et Réseaux (SISR) à la CCI Campus d'Alsace et chez la Préfecture du Bas-Rhin, je projette d'évoluer vers un poste d'Administrateur Système et Réseaux, et sur le long terme en tant qu'ingénieur en Cybersécurité. 
+                    Ainsi, pour atteindre mes objectifs, je suis à la recherche d'une entreprise d'accueil afin d'y effectuer une alternance en formation d'ingénieur en système d'information.<span class="terminal-line-cursor-effect text-sky-900 text-2xl"></span>
                 </p>
             </div>
         </div>
     </section>
 
     <section id="skills" class="container mx-auto">
-        <h2 class="md:text-7xl text-4xl text-center font-medium textshadow pt-10 tracking-widest font-sans 
-        underline underline-offset-[16px] md:underline-offset-[24px]">SKILLS & TECH</h2>
+        <h2 class="md:text-7xl text-4xl text-center font-medium textshadow pt-20 tracking-widest font-sans underline underline-offset-[16px] md:underline-offset-[24px]">SKILLS & TECH</h2>
         <div class="md:mx-[10rem] mt-10 mb-5 xl:mx-20 mx-14">
-            <h3 class="md:text-xl text-lg font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">whatis <span class="text-orange-400">skills</span><span class="terminal-line-cursor-effect"></span></span>
+            <h3 class="md:text-xl text-base font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">cat <span class="text-orange-400">skills</span><span class="terminal-line-cursor-effect"></span></span>
             </h3>
- 
+            <p class="md:text-lg text-sm">Au cours de mes formations et de mes expériences, j'ai développé de nombreuses compétences techniques, connaissances technologiques, mais également en gestion de projet informatique. Ci-dessous une liste e
+            </p>
         </div>
     </section>
     <section id="projects" class="container mx-auto">
-        <h2 class="md:text-7xl text-4xl text-center font-medium font-sans textshadow pt-10 tracking-widest
-         underline underline-offset-[16px] md:underline-offset-[24px]">PROJECTS</h2>
+        <h2 class="md:text-7xl text-4xl text-center font-medium font-sans textshadow pt-20 tracking-widest underline underline-offset-[16px] md:underline-offset-[24px]">PROJECTS</h2>
         <div class="md:mx-[10rem] mt-10 mb-5 xl:mx-20 mx-14">
-            <h3 class="md:text-xl text-lg font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">ls <span class="text-orange-400">projects/</span><span class="terminal-line-cursor-effect"></span></span>
+            <h3 class="md:text-xl text-base font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">ls <span class="text-orange-400">projects/</span><span class="terminal-line-cursor-effect"></span></span>
             </h3>
             <div>
                 <img src="" alt="">
@@ -90,14 +90,13 @@
         </div>
     </section>
     <section id="resume" class="container mx-auto">
-        <h2 class="md:text-7xl text-4xl text-center font-medium font-sans 
-        textshadow pt-10 tracking-widest underline underline-offset-[16px] md:underline-offset-[24px]">RESUME</h2>
+        <h2 class="md:text-7xl text-4xl text-center font-medium font-sans textshadow pt-20 tracking-widest underline underline-offset-[16px] md:underline-offset-[24px]">RESUME</h2>
         <div class="md:mx-[10rem] mt-10 mb-5 xl:mx-20 mx-14">
-            <h3 class="md:text-xl text-lg font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">more <span class="text-orange-400">resume</span><span class="terminal-line-cursor-effect"></span></span>
+            <h3 class="md:text-xl text-base font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">more <span class="text-orange-400">resume</span><span class="terminal-line-cursor-effect"></span></span>
             </h3>
             <div class="py-4">
-                <p class="md:leading-10">Ma carrière en informatique débute à la Préfecture du Bas-Rhin en tant que Technicien d'Exploitation et de Maintenance. Mes principales missions furent : </p> 
-                <ul class="md:leading-6 list-inside list-disc">
+                <p class="md:leading-10 md:text-lg text-sm">Ma carrière en informatique débute à la Préfecture du Bas-Rhin en tant que Technicien d'Exploitation et de Maintenance. Les principales missions furent : </p> 
+                <ul class="md:leading-8 md:text-lg text-sm list-inside list-disc py-4">
                     <li>Gestion de parc informatique sous GLPI</li>
                     <li>Assistance aux utilisateurs : traitement de ticket N1</li>
                     <li>Deploiement de postes et logiciels</li>
@@ -106,22 +105,30 @@
                 <ul>
                 <div class="text-center">
                     <p class="py-4">Pour plus d'informations, veuillez cliquer sur le bouton ci-dessous :<p>
-                    <button class="text-white font-mono font-semibold text-lg bg-sky-900 rounded-2xl px-8 py-3 hover:bg-sky-700 hover:duration-500">Mon CV</button>
+                    <button class="text-white font-sans font-semibold text-lg xl:text-2xl bg-gray-700 rounded-2xl xl:px-20 xl:py-6 px-8 py-3 hover:bg-sky-900 hover:duration-500">Mon CV</button>
                 </div>
             </div>
         </div>
     </section>
     <section id="contact" class="md:h-screencontainer mx-auto">
-        <h2 class="md:text-7xl text-4xl text-center font-medium font-sans textshadow pt-10 
-        tracking-widest underline underline-offset-[16px] md:underline-offset-[24px]">CONTACT</h2>
+        <h2 class="md:text-7xl text-4xl text-center font-medium font-sans textshadow pt-20 tracking-widest underline underline-offset-[16px] md:underline-offset-[24px]">CONTACT</h2>
     </section>
-    <script>
-    function Menu(e){
-        let list = document.querySelector('ul');
-
-        e.name === 'menu-sharp' ? (e.name = "close",list.classList.add('top-[80px]'), list.classList.add('opacity-100')): (e.name = "menu-sharp",list.classList.remove('top-[80px]'),list.classList.remove('top-[80px]'))
-    }
-    </script>
+    <div class="fixed bottom-0 right-0 m-4">
+        <button id="scroll-button" class="bg-zinc-700 hover:bg-zinc-900 text-white font-bold py-2 px-4 rounded-full">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+    <footer class="bg-zinc-800 text-white py-6 mt-20">
+        <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center">
+          <div class="text-center sm:text-left">
+            <p class="text-sm">Copyright ©2022 - WRKT.</p>
+          </div>
+          <div class="text-center sm:text-right">
+            <a href="#" class="text-white hover:text-gray-500">Mentions Légales</a>
+            <a href="#" class="text-white hover:text-gray-500 ml-4">Conditions d'utilisations</a>
+          </div>
+        </div>
+    </footer>
 </body>
 
 </html>

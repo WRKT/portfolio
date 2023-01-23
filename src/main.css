@@ -25,3 +25,16 @@ html {
       opacity: 0;
     }
   }
+
+  /* Banner properties */
+  .banner {
+    min-height: 100vh; /* occupy full height of the screen */
+    background-image: url('assets/img/banner.jpg'); /* set background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }

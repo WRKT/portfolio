@@ -19,32 +19,33 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-    <header class="text-white">
-        <nav class="p-5 bg-zinc-900 shadow md:flex md:items-center md:justify-between">
-            <div class="flex justify-between items-center z-[2]">
-                <a href="index.html">
-                    <span class="md:text-xl text-base font-mono">
-                        <img class="md:h-12 h-10 inline" src="src/assets/img/logo.png" alt="WRKT logo">
-                        [sysadmin@wrkt]:~$<span class="text-sky-700 font-bold terminal-line-cursor-effect"></span>
-                    </span> 
-                </a>
-                <span class="text-3xl cursor-pointer md:hidden mx-2 block">
-                    <ion-icon name="menu-sharp" onclick="Menu(this)"></ion-icon>
-                </span>
-            </div>
-            <ul class="md:flex md:items-center z-[998] md:z-auto md:static absolute bg-zinc-900 w-full left-0 md:w-auto
-            md:py-0 py-4 md:pl-0 pl-8 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in-out duration-700">
-                <li class="mx-4 my-6 md:my-0"><a href="#skills" class="md:text-2xl hover:underline decoration-orange-300 underline-offset-8">Skills</a></li>
-                <li class="mx-4 my-6 md:my-0"><a href="#projects" class="md:text-2xl hover:underline decoration-orange-300 underline-offset-8">Projects</a></li>
-                <li class="mx-4 my-6 md:my-0"><a href="#resume" class="md:text-2xl  hover:underline decoration-orange-300 underline-offset-8">Resume</a></li>
-                <li class="mx-4 my-6 md:my-0"><a href="#contact" class="md:text-2xl hover:underline decoration-orange-300 underline-offset-8">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
     <section id="mainpage">
+        <header class="text-white">
+            <nav class="p-5 bg-zinc-900 shadow md:flex md:items-center md:justify-between">
+                <div class="flex justify-between items-center z-[2]">
+                    <a href="index.html">
+                        <span class="md:text-xl text-base font-mono">
+                            <img class="md:h-12 h-10 inline" src="src/assets/img/logo.png" alt="WRKT logo">
+                            [sysadmin@wrkt]:~$<span class="text-sky-700 font-bold terminal-line-cursor-effect"></span>
+                        </span> 
+                    </a>
+                    <span class="text-3xl cursor-pointer md:hidden mx-2 block">
+                        <ion-icon name="menu-sharp" onclick="Menu(this)"></ion-icon>
+                    </span>
+                </div>
+                <ul class="md:flex md:items-center z-[998] md:z-auto md:static absolute bg-zinc-900 w-full left-0 md:w-auto
+                md:py-0 py-4 md:pl-0 pl-8 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in-out duration-700">
+                    <li class="mx-4 my-6 md:my-0"><a href="#skills" class="md:text-2xl hover:underline decoration-orange-300 underline-offset-8">Skills</a></li>
+                    <li class="mx-4 my-6 md:my-0"><a href="#projects" class="md:text-2xl hover:underline decoration-orange-300 underline-offset-8">Projects</a></li>
+                    <li class="mx-4 my-6 md:my-0"><a href="#resume" class="md:text-2xl  hover:underline decoration-orange-300 underline-offset-8">Resume</a></li>
+                    <li class="mx-4 my-6 md:my-0"><a href="#contact" class="md:text-2xl hover:underline decoration-orange-300 underline-offset-8">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
         <div class="banner">
-            <h1 class="text-center text-white text-4xl xl:text-6xl font-semibold">Winness RAKOTOZAFY</h1>
-            <p class="text-center text-white text-lg font-medium py-6">Administrateur des systèmes et des réseaux</p>
+            <h1 class="text-center text-white text-3xl md:text-6xl font-semibold">Winness RAKOTOZAFY</h1>
+            <p class="text-center text-white text-lg font-thin md:text-2xl py-6 px-16">Administrateur des systèmes et des réseaux</p>
             <a href="#about" class="bg-white text-black text-lg xl:text-2xl py-4 px-6 rounded-lg hover:bg-black hover:text-white mt-8 font-semibold">En savoir plus...</a>
         </div>
     </section>
@@ -69,7 +70,7 @@
         <div class="md:mx-[10rem] mt-10 mb-5 xl:mx-20 mx-14">
             <h3 class="md:text-xl text-base font-bold font-mono">[sysadmin@wrkt]:~$ <span class="text-sky-900">cat <span class="text-orange-400">skills</span><span class="terminal-line-cursor-effect"></span></span>
             </h3>
-            <p class="md:text-lg text-sm">Au cours de mes formations et de mes expériences, j'ai développé de nombreuses compétences techniques, connaissances technologiques, mais également en gestion de projet informatique. Ci-dessous une liste e
+            <p class="md:text-lg text-sm leading-6 py-4">Au cours de mes formations et de mes expériences, j'ai développé de nombreuses compétences techniques, connaissances technologiques, mais également en gestion de projet informatique. Ci-dessous une liste exhaustive de ces compétences :
             </p>
         </div>
     </section>
@@ -113,10 +114,12 @@
     <section id="contact" class="md:h-screencontainer mx-auto">
         <h2 class="md:text-7xl text-4xl text-center font-medium font-sans textshadow pt-20 tracking-widest underline underline-offset-[16px] md:underline-offset-[24px]">CONTACT</h2>
     </section>
-    <div class="fixed bottom-0 right-0 m-4">
-        <button id="scroll-button" class="bg-zinc-700 hover:bg-zinc-900 text-white font-bold py-2 px-4 rounded-full">
-          <i class="fas fa-arrow-up"></i>
-        </button>
+    <div id="scrollbutton" class="fixed bottom-0 right-0 m-4">
+        <a href="#mainpage">
+            <button class="bg-zinc-700 hover:bg-zinc-900 text-white font-bold py-2 px-4 rounded-full text-lg">
+                <ion-icon name="chevron-up-outline"></ion-icon>
+            </button>
+        </a>
     </div>
     <footer class="bg-zinc-800 text-white py-6 mt-20">
         <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center">

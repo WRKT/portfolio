@@ -28,7 +28,7 @@ html {
 
   /* Banner properties */
   .banner {
-    min-height: 100vh; /* occupy full height of the screen */
+    min-height: 100vh;
     background-image: url('assets/img/banner.jpg'); /* set background image */
     background-size: cover;
     background-position: center;
@@ -37,4 +37,9 @@ html {
     justify-content: center;
     flex-direction: column;
     color: white;
+  }
+
+  /*Arrow button*/
+  #scrollbutton{
+    display: none;
   }

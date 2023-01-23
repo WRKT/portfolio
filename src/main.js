@@ -6,10 +6,10 @@ function Menu(e){
 }
 
 // Arrow button
-let button = document.getElementById("scroll-button");
+let button = document.getElementById("scrollbutton");
 
 window.onscroll = function() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop >20 || document.documentElement.scrollTop > 20) {
     button.style.display = "block";
   } else {
     button.style.display = "none";

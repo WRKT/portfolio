@@ -5,6 +5,7 @@ html {
 /* Shadow options*/
 .textshadow {
   text-shadow: 2px 2px 3px rgb(10, 29, 71);
+
 }
 /*Cursor animation*/
 .terminal-line-cursor-effect::after {

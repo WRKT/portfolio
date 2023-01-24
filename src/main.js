@@ -9,15 +9,15 @@ function write(element, sentence = "Winness", duration = 125, index = 0) {
 }
 
 // Navbar effect
-function navbarEffect() {
-  const randomWords = ["whoami", "skills", "projects", "resume"];
-  let [el, word] = [
-    document.querySelector(".navbar-terminal"),
-    randomWords[Math.floor(Math.random() * randomWords.length)],
-  ];
-  el.href = `#${word}`;
-  write(el, word);
-}
+// function navbarEffect() {
+//   const randomWords = ["whoami", "skills", "projects", "resume"];
+//   let [el, word] = [
+//     document.querySelector(".navbar-terminal"),
+//     randomWords[Math.floor(Math.random() * randomWords.length)],
+//   ];
+//   el.href = `#${word}`;
+//   write(el, word);
+// }
 
 // Navbar responsive function
 function Menu(e) {

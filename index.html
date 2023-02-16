@@ -21,6 +21,7 @@
 <body>
     <section id="mainpage">
         <header class="text-white">
+          <!-- NAVBAR -->
             <nav class="p-5 bg-zinc-900 shadow md:flex md:items-center md:justify-between">
                 <div class="flex justify-between items-center z-[999]">
                     <a href="index.html">
@@ -157,7 +158,7 @@
                   </div>
                 </div>
                 <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-                  <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center min-h-full hover:p-7">
+                  <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center min-h-full">
                     <img src="src/assets/img/sophos.png" alt="Logo Sophos" class="md:w-32 w-20">
                     <p class="mt-4 font-medium text-sm">Mise en service d'un scanner sous Sophos</p>
                   </div>
@@ -196,6 +197,11 @@
             </h3>
             <p class="md:text-lg text-sm leading-6 md:leading-8 py-4">J'ai participé à divers projets au cours de ma formation à la CCI Campus, et de mon expérience à la Préfecture du Bas-Rhin. Aussi, de mon côté personnel, 
                 je teste de nouvelles technologies et applications pour être capable de répondre aux besoins des entreprises et clients en matière de transformation digitale.</p>
+            <h4 class="md:text-lg text-sm leading-6 md:leading-8 py-4 font-mono font-semibold text-sky-900"> # Projet 1. Développement portfolio Vanilla</h4>
+            <h4 class="md:text-lg text-sm leading-6 md:leading-8 py-4 font-mono font-semibold text-sky-900"> # Projet 2. Mise en service d'un portail captif sécurisé ALCASAR</h4>
+            <h4 class="md:text-lg text-sm leading-6 md:leading-8 py-4 font-mono font-semibold text-sky-900"> # Projet 3. Mutualisation d'un système d'information interconnecté</h4>
+            <h4 class="md:text-lg text-sm leading-6 md:leading-8 py-4 font-mono font-semibold text-sky-900"> # Projet 4. Mise en place d'un hébergement web sécurisé sur un VPS</h4>
+            <h4 class="md:text-lg text-sm leading-6 md:leading-8 py-4 font-mono font-semibold text-sky-900"> # Projet 5. Mise en place d'un système de centralisation de logs</h4>
             <div>
                 <img src="" alt="">
             </div>
@@ -223,15 +229,47 @@
                     <li>Sécurisation du réseau par la mise en place des scanners antivirus SOPHOS</li>
                 <ul>
                 <div class="text-center">
-                    <p class="py-4">Pour plus d'informations, veuillez cliquer sur le bouton ci-dessous :<p>
+                    <p class="py-4">Pour plus d'informations sur mon parcours professionnel, veuillez cliquer sur le bouton ci-dessous :<p>
                     <a href="src/assets/doc/CV - Winness Rakotozafy.pdf" target="_blank"><button class="text-white font-sans font-semibold text-lg xl:text-2xl bg-gray-700 rounded-2xl xl:px-20 xl:py-4 px-8 py-3 mt-4 hover:bg-sky-900 hover:duration-500">Mon CV</button></a>
                 </div>
             </div>
         </div>
     </section>
-    <section id="contact" class="md:h-screencontainer mx-auto md:px-10">
+    <section id="contact" class="container mx-auto md:px-10">
         <h2 class="md:text-7xl text-4xl text-center font-medium font-sans textshadow pt-20 tracking-widest underline underline-offset-[16px] md:underline-offset-[24px]">CONTACT</h2>
+        <div class="md:mx-[10rem] md:mt-14 mt-10 mb-5 xl:mx-20 mx-14">
+            <!-- FORMULAIRE DE CONTACT -->
+              <div class="w-full max-w-lg mx-auto my-8">
+                <form action="#" method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                  <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="name">
+                      Nom
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Entrez votre nom">
+                  </div>
+                  <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="email">
+                      Email
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Entrez votre adresse email">
+                  </div>
+                  <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="message">
+                      Message
+                    </label>
+                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="6" placeholder="Entrez votre message"></textarea>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <button class="bg-zinc-700 hover:bg-zinc-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                      Envoyer
+                    </button>
+                  </div>
+                </form>
+              </div>
+      </div>
     </section>
+
+    <!-- FLECHE HAUT -->
     <div id="scrollbutton" class="fixed bottom-0 right-0 m-4">
         <a href="#mainpage">
             <button class="bg-zinc-700 hover:bg-zinc-900 text-white font-bold py-2 px-4 rounded-full text-lg">
@@ -239,6 +277,8 @@
             </button>
         </a>
     </div>
+
+    <!-- FOOTER -->
     <footer class="bg-zinc-800 text-white py-6 mt-20">
         <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center">
           <div class="text-center sm:text-left">

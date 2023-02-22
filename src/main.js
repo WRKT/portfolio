@@ -8,16 +8,6 @@ function write(element, sentence = "Winness", duration = 125, index = 0) {
   }
 }
 
-// Navbar effect
-// function navbarEffect() {
-//   const randomWords = ["whoami", "skills", "projects", "resume"];
-//   let [el, word] = [
-//     document.querySelector(".navbar-terminal"),
-//     randomWords[Math.floor(Math.random() * randomWords.length)],
-//   ];
-//   el.href = `#${word}`;
-//   write(el, word);
-// }
 
 // Navbar responsive function
 function Menu(e) {
@@ -74,7 +64,7 @@ particlesJS("banner", {
       random: true,
       anim: {
         enable: false,
-        speed: 40,
+        speed: 20,
         size_min: 0.1,
         sync: false,
       },
@@ -88,7 +78,7 @@ particlesJS("banner", {
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 3,
       direction: "none",
       random: false,
       straight: false,
@@ -125,7 +115,7 @@ particlesJS("banner", {
         size: 40,
         duration: 2,
         opacity: 8,
-        speed: 3,
+        speed: 2,
       },
       repulse: {
         distance: 200,
@@ -156,7 +146,7 @@ window.addEventListener("DOMContentLoaded", () => {
 let button = document.getElementById("scrollbutton");
 
 window.addEventListener("scroll", () => {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 1024 || document.documentElement.scrollTop > 1024) {
     button.style.display = "block";
   } else {
     button.style.display = "none";

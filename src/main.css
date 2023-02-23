@@ -44,3 +44,19 @@ html {
 .particles-js-canvas-el {
   position: absolute;
 }
+
+.project:hover > .project-content > p {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.project:hover > .project-content > img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-out;
+}
+
+.project:hover > .project-link {
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+}

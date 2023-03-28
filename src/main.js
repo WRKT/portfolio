@@ -22,7 +22,7 @@ function Menu(e) {
       list.classList.remove("top+-[80px]"));
 }
 
-// Tu as juste à configurer ces lignes pour customiser l'élément
+// Edit this for particles
 
 const particleColor = "#fff6cd";
 const particleCount = 80;
@@ -144,6 +144,8 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 let button = document.getElementById("scrollbutton");
+
+button.style.display = "none"
 
 window.addEventListener("scroll", () => {
   if (document.body.scrollTop > 1024 || document.documentElement.scrollTop > 1024) {

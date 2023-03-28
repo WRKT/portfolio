@@ -27,8 +27,11 @@ html {
   }
 }
 
+#mainpage{
+  min-height: 100vh;
+}
 /* Banner properties */
-.banner {
+#banner {
   min-height: 100vh;
   background-image: url("assets/img/banner.jpg"); /* set background image */
   background-size: cover;

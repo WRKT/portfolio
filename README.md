@@ -7,5 +7,5 @@ TailwindCSS is an utility-first CSS framework packed with classes, and enhance t
 However, it is highly recommended to understand how CSS works before using this framework.  
 
 ## Live view
-Site in development [here](https://winnessrakotozafy.github.io/portfolio/)
+Site in development [here](https://wrkt.github.io/portfolio/)
  

@@ -78,7 +78,7 @@ particlesJS("banner", {
     },
     move: {
       enable: true,
-      speed: 3,
+      speed: 6,
       direction: "none",
       random: false,
       straight: false,
@@ -139,10 +139,6 @@ particlesJS("banner", {
   },
 });
 
-window.addEventListener("DOMContentLoaded", () => {
-  navbarEffect();
-});
-
 let button = document.getElementById("scrollbutton");
 
 button.style.display = "none"
@@ -154,3 +150,25 @@ window.addEventListener("scroll", () => {
     button.style.display = "none";
   }
 });
+
+// Bouton afficher plus
+let showMoreSkillsButton = document.getElementById("showmore");
+
+function showMore() {
+  let elements = document.querySelectorAll(".skills")
+  let count = 0;
+  elements.forEach((v,k) => {
+     if (count < 2) {
+      v.style.display = "flex"
+      v.classList.remove('skills')
+    }
+    count++
+  })
+  if (elements.length <= 2) {
+    console.log(elements.length)
+    // showMoreSkillsButton.removeEventListener('click');
+    showMoreSkillsButton.style.display = "none"
+  }
+}
+
+showMoreSkillsButton.addEventListener("click", showMore, true); 

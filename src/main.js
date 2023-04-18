@@ -78,7 +78,7 @@ particlesJS("banner", {
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 10,
       direction: "none",
       random: false,
       straight: false,

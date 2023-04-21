@@ -64,7 +64,7 @@ particlesJS("banner", {
       random: true,
       anim: {
         enable: false,
-        speed: 20,
+        speed: 15,
         size_min: 0.1,
         sync: false,
       },

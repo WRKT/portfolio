@@ -1,11 +1,4 @@
-# Personal Website - WRKT
-## This project
-This is the second version of my Portfolio, by using and learning [Tailwindcss](https://tailwindcss.com/).  
+# Portfolio website - WRKT.
+## About this project
+This is the third version of my Portfolio using static website generator [Hugo](https://gohugo.io/).  
 
-## What is Tailwindcss ?
-TailwindCSS is an utility-first CSS framework packed with classes, and enhance the development speed of your site.  
-However, it is highly recommended to understand how CSS works before using this framework.  
-
-## Live view
-Site in development [here](https://wrkt.github.io/portfolio/)
- 

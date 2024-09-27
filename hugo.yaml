@@ -5,13 +5,36 @@ theme: ["PaperMod"]
 menu:
   main:
     - identifier: home
-      name: home
+      name: Home
       url: / 
       weight: 10
     - identifier: projects
-      name: projects
+      name: Projects
       url: /projects
     - identifier: experiences
-      name: experiences
+      name: Experiences
       url: /experiences
+      weight: 20
+params:
+  profileMode:
+    enabled: true
+    subtitle: "Hello, there! 👋"
+    imageUrl: "<image link>"
+    imageTitle: "<title of image as alt>" 
+    imageWidth: 120 
+    imageHeight: 120 
+    buttons:
+      - name: About
+        url: "/about"
+      - name: Experiences
+        url: "/experiences"
+      - name: Projects
+        url: "/projects"
 
+  socialIcons:  
+    - name: "Github"
+      url: "https://github.com/s4ndalHat"
+    - name: "GitLab"
+      url: "https://gitlab.com/WRKT"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/winness-r/"      

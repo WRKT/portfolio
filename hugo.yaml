@@ -1,0 +1,17 @@
+baseURL: https://wrkt.vercel.app
+languageCode: en-us
+title: Winness R.
+theme: ["PaperMod"]
+menu:
+  main:
+    - identifier: home
+      name: home
+      url: / 
+      weight: 10
+    - identifier: projects
+      name: projects
+      url: /projects
+    - identifier: experiences
+      name: experiences
+      url: /experiences
+

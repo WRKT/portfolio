@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://wrkt.vercel.app/about/</loc>
+    <loc>https://wrkt-portfolio.vercel.app/about/</loc>
   </url><url>
-    <loc>https://wrkt.vercel.app/categories/</loc>
+    <loc>https://wrkt-portfolio.vercel.app/categories/</loc>
   </url><url>
-    <loc>https://wrkt.vercel.app/projects/</loc>
+    <loc>https://wrkt-portfolio.vercel.app/projects/</loc>
   </url><url>
-    <loc>https://wrkt.vercel.app/tags/</loc>
+    <loc>https://wrkt-portfolio.vercel.app/tags/</loc>
   </url><url>
-    <loc>https://wrkt.vercel.app/experiences/</loc>
+    <loc>https://wrkt-portfolio.vercel.app/experiences/</loc>
   </url><url>
-    <loc>https://wrkt.vercel.app/</loc>
+    <loc>https://wrkt-portfolio.vercel.app/</loc>
   </url>
 </urlset>

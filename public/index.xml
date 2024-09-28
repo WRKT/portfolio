@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>WRKT.</title>
-    <link>https://wrkt.vercel.app/</link>
+    <link>https://wrkt-portfolio.vercel.app/</link>
     <description>Recent content on WRKT.</description>
     <generator>Hugo -- 0.123.7</generator>
     <language>en-us</language>
-    <atom:link href="https://wrkt.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wrkt-portfolio.vercel.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>https://wrkt.vercel.app/about/</link>
+      <link>https://wrkt-portfolio.vercel.app/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wrkt.vercel.app/about/</guid>
+      <guid>https://wrkt-portfolio.vercel.app/about/</guid>
       <description>Hey, the name&amp;rsquo;s Winness Rakotozafy, a passionate Linux enthusiast and DevOps engineer.
 In my daytime, I work as a DevOps Engineer at a French data hosting company, Agora Calyce. On top of that, I&amp;rsquo;m also studying to obtain my Engineer&amp;rsquo;s degree at CNAM, where I&amp;rsquo;m focused on advancing my expertise in software engineering.
 At night, I&amp;rsquo;m an active learner, keeping up with Cloud Native technologies, microservices, and new programming languages. My goal is to make my work life smoother, by automating, optimizing, and evolving constantly.</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://wrkt.vercel.app/projects/</link>
+      <link>https://wrkt-portfolio.vercel.app/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wrkt.vercel.app/projects/</guid>
+      <guid>https://wrkt-portfolio.vercel.app/projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Work Experience</title>
-      <link>https://wrkt.vercel.app/experiences/</link>
+      <link>https://wrkt-portfolio.vercel.app/experiences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wrkt.vercel.app/experiences/</guid>
+      <guid>https://wrkt-portfolio.vercel.app/experiences/</guid>
       <description>DevOps Engineer Agora Calycé • Strasbourg, France • September 2023 - August 2026
 Key Responsibilities: Provisioned and managed Kubernetes clusters to facilitate application deployment and scaling. Implemented automated application deployments using ArgoCD and Helm Charts, ensuring efficient and reliable delivery (e.g: GitLab, Harbor, Velero). Established robust backup strategies for applications on Kubernetes clusters, automating processes for data protection and disaster recovery. Monitored and optimized application performance using Prometheus and Grafana. Administered Linux servers, configuring and maintaining system settings for optimal operation.</description>
     </item>

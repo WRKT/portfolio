@@ -18,19 +18,11 @@ menu:
 params:
   profileMode:
     enabled: true
-    subtitle: "Hello, there! 👋"
-    imageUrl: "<image link>"
-    imageTitle: "<title of image as alt>" 
-    imageWidth: 120 
-    imageHeight: 120 
-    buttons:
-      - name: About
-        url: "/about"
-      - name: Experiences
-        url: "/experiences"
-      - name: Projects
-        url: "/projects"
-
+    subtitle: "Hello, there 👋! Welcome to my portfolio"
+    imageUrl: "/images/me.jpg"
+    imageTitle: "My memoji" 
+    imageWidth: 256 
+    imageHeight: 256 
   socialIcons:  
     - name: "Github"
       url: "https://github.com/s4ndalHat"

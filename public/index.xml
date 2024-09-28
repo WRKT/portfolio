@@ -24,11 +24,12 @@ At night, I&amp;rsquo;m an active learner, keeping up with Cloud Native technolo
       <description></description>
     </item>
     <item>
-      <title>Work Experiences</title>
+      <title>Work Experience</title>
       <link>http://localhost:1313/experiences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/experiences/</guid>
-      <description></description>
+      <description>DevOps Engineer Agora Calycé • Strasbourg, France • September 2023 - August 2026
+Key Responsibilities: Provisioned and managed Kubernetes clusters to facilitate application deployment and scaling. Implemented automated application deployments using ArgoCD and Helm Charts, ensuring efficient and reliable delivery (e.g: GitLab, Harbor, Velero). Established robust backup strategies for applications on Kubernetes clusters, automating processes for data protection and disaster recovery. Monitored and optimized application performance using Prometheus and Grafana. Administered Linux servers, configuring and maintaining system settings for optimal operation.</description>
     </item>
   </channel>
 </rss>

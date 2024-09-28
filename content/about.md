@@ -35,17 +35,18 @@ Currently, I’m seeking a **3-month software engineering internship** to furthe
 ## Software I Use
 | ![GNU/Linux](/icons/tux.svg) | ![Docker](/icons/docker-color.svg) | ![Kubernetes](/icons/kubernetes-color.svg) | ![Helm](/icons/helm-color.svg) | ![ArgoCD](/icons/argo-color.svg) |
 | :---: | :---: | :---: | :---: | :---: |
-| **GNU/Linux** | **Docker** | **Kubernetes** | **Helm** | **ArgoCD** |
+| GNU/Linux | Docker | Kubernetes | Helm | ArgoCD |
 
 | ![Git](/icons/git-color.svg) | ![GitLab CI](/icons/gitlab-color.svg) | ![NeoVim](/icons/neovim-color.svg) | ![GoLand](/icons/goland-color.svg) |
 | :---: | :---: | :---: | :---: | 
-| **Git** | **GitLab CI** | **Neovim** | **GoLand**  |
+| Git | GitLab CI | Neovim | GoLand |
 ---
 
 ## Technical Skills
 - CI/CD Pipelines
 - Microservices & Orchestration
 - Cloud native deployments
+- Unit testing
 
 ---
 

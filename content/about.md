@@ -3,8 +3,6 @@ title = 'About Me'
 draft = false
 +++
 
-![Profile Picture](https://www.example.com/profile-picture.jpg)
-
 Hey, the name's **Winness Rakotozafy**, a passionate **Linux enthusiast** and **DevOps engineer**.
 
 In my daytime, I work as a DevOps Engineer at a French data hosting company, **[Agora Calyce](https://www.agoracalyce.com/)**. On top of that, I'm also studying to obtain my Engineer's degree at **CNAM**, where I'm focused on advancing my expertise in software engineering.
@@ -17,40 +15,37 @@ Currently, I’m seeking a **3-month software engineering internship** to furthe
 
 ## Interests
 
-- **DevOps** tools & practices ♾️
-- **Linux** & open-source 🐧
-- **Coding** & exploring new techs 💻
-- **Traveling** the world 🌍
-- **Reading** books 📚
-- **Music** 🎶
+- ♾️ DevOps tools & practices
+- 🐧 Linux & open-source 🐧
+- 💻 Coding & exploring new techs 💻
+- 🌍 Traveling
+- 📚 Reading books 
+- 🎶 Music
 
 ---
 
 ## Programming Languages
-![C programming language](/icons/c.svg) 
-![C++](/icons/cplusplus.svg)
-![Python](/icons/python.svg)
-![Bash](/icons/gnubash.svg)
-![GoLang](/icons/go.svg)
+
+| ![C](/icons/c-color.svg) | ![C++](/icons/cplusplus-color.svg) | ![Python](/icons/python-color.svg) | ![Bash](/icons/gnubash-color.svg) | ![GoLang](/icons/go-color.svg) |
+| :---: | :---: | :---: | :---: | :---: |
+| C | C++ | Python | Bash | Go |
 
 ---
 
 ## Software I Use
-- GNU/Linux
-- Docker
-- Kubernetes
-- Helm
-- ArgoCD
-- Git
-- GitLab CI
+| ![GNU/Linux](/icons/tux.svg) | ![Docker](/icons/docker-color.svg) | ![Kubernetes](/icons/kubernetes-color.svg) | ![Helm](/icons/helm-color.svg) | ![ArgoCD](/icons/argo-color.svg) |
+| :---: | :---: | :---: | :---: | :---: |
+| **GNU/Linux** | **Docker** | **Kubernetes** | **Helm** | **ArgoCD** |
 
+| ![Git](/icons/git-color.svg) | ![GitLab CI](/icons/gitlab-color.svg) | ![NeoVim](/icons/neovim-color.svg) | ![GoLand](/icons/goland-color.svg) |
+| :---: | :---: | :---: | :---: | 
+| **Git** | **GitLab CI** | **Neovim** | **GoLand**  |
 ---
 
 ## Technical Skills
 - CI/CD Pipelines
 - Microservices & Orchestration
 - Cloud native deployments
-- Unit Tests
 
 ---
 

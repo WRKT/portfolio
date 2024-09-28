@@ -27,11 +27,11 @@ Currently, I’m seeking a **3-month software engineering internship** to furthe
 ---
 
 ## Programming Languages
-- C programming language
-- C++
-- Python
-- Bash
-- Go
+![C programming language](/icons/c.svg) 
+![C++](/icons/cplusplus.svg)
+![Python](/icons/python.svg)
+![Bash](/icons/gnubash.svg)
+![GoLang](/icons/go.svg)
 
 ---
 
@@ -50,6 +50,7 @@ Currently, I’m seeking a **3-month software engineering internship** to furthe
 - CI/CD Pipelines
 - Microservices & Orchestration
 - Cloud native deployments
+- Unit Tests
 
 ---
 

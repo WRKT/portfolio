@@ -1,4 +1,4 @@
-# Portfolio website - WRKT.
+# Personal website - WRKT.
 ## About this project
-This is the third version of my Portfolio using static website generator [Hugo](https://gohugo.io/).  
+This is the third version (v3.0.0) of my website using static website generator [Hugo](https://gohugo.io/).  
 

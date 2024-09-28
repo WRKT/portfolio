@@ -16,13 +16,16 @@ menu:
       url: /experiences
       weight: 20
 params:
+  label:
+    icon: "images/coding.png"
+    iconHeight: 32
   profileMode:
     enabled: true
     title: "Winness Rakotozafy"
-    subtitle: "DevOps Engineer Junior | Linux Enthusiast 🐧"
+    subtitle: "DevOps Engineer Junior • Linux Enthusiast 🐧"
     imageUrl: "/images/me.jpg"
     imageTitle: "My memoji" 
-    imageWidth: 256 
+    imageWidth: 256
     imageHeight: 256 
   socialIcons:  
     - name: "Github"
@@ -30,4 +33,10 @@ params:
     - name: "GitLab"
       url: "https://gitlab.com/WRKT"
     - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/winness-r/"      
+      url: "https://www.linkedin.com/in/winness-r/"
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg" 

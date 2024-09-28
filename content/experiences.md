@@ -1,4 +1,4 @@
 +++
-title = 'Work experiences'
+title = 'Work Experiences'
 draft = false
 +++

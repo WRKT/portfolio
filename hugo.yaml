@@ -1,12 +1,12 @@
 baseURL: https://wrkt.vercel.app
 languageCode: en-us
-title: Winness R.
+title: WRKT.
 theme: ["PaperMod"]
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: / 
+    - identifier: about
+      name: About 
+      url: /about
       weight: 10
     - identifier: projects
       name: Projects
@@ -18,7 +18,8 @@ menu:
 params:
   profileMode:
     enabled: true
-    subtitle: "Hello, there 👋! Welcome to my portfolio"
+    title: "Winness Rakotozafy"
+    subtitle: "DevOps Engineer Junior | Linux Enthusiast 🐧"
     imageUrl: "/images/me.jpg"
     imageTitle: "My memoji" 
     imageWidth: 256 

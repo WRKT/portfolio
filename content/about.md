@@ -27,15 +27,29 @@ Currently, I’m seeking a **3-month software engineering internship** to furthe
 ---
 
 ## Programming Languages
-Those are the programming language that I learned during my education, and use during day or night projects.
+- C programming language
+- C++
+- Python
+- Bash
+- Go
 
 ---
 
 ## Software I Use
+- GNU/Linux
+- Docker
+- Kubernetes
+- Helm
+- ArgoCD
+- Git
+- GitLab CI
 
 ---
 
 ## Technical Skills
+- CI/CD Pipelines
+- Microservices & Orchestration
+- Cloud native deployments
 
 ---
 

@@ -6,7 +6,9 @@ draft: false
 
 ### DevOps Engineer
 
-**Agora Calycé** • Strasbourg, France • September 2023 - August 2026
+**Agora Calyce** • Strasbourg, France • September 2023 - August 2026
+
+![Agora Calyce](/images/agora.png)
 
 * **Key Responsibilities:**
   * Designed and created custom Docker images for containerized applications.
@@ -21,7 +23,9 @@ draft: false
 
 ### IT Support Technician
 
-**Préfecture du Bas-Rhin**  • Strasbourg, France • September 2021 - August 2023
+**Préfecture of Bas-Rhin** • Strasbourg, France • September 2021 - August 2023
+
+![Prefecture of Bas-Rhin](/images/prefecture.png)
 
 * **Key Achievements:**
   * Streamlined IT asset management processes using GLPI, improving inventory accuracy and efficiency.

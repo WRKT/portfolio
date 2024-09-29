@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>WRKT.</title>
-    <link>https://wrkt-portfolio.vercel.app/en/</link>
+    <link>http://localhost:1313/en/</link>
     <description>Recent content on WRKT.</description>
     <generator>Hugo -- 0.123.7</generator>
     <language>en</language>
-    <atom:link href="https://wrkt-portfolio.vercel.app/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>https://wrkt-portfolio.vercel.app/en/about/</link>
+      <link>http://localhost:1313/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wrkt-portfolio.vercel.app/en/about/</guid>
+      <guid>http://localhost:1313/en/about/</guid>
       <description>Hey, the name&amp;rsquo;s Winness Rakotozafy, a passionate Linux enthusiast and DevOps engineer.
 In my daytime, I work as a DevOps Engineer at a French data hosting company, Agora Calyce. On top of that, I&amp;rsquo;m also studying to obtain my Engineer&amp;rsquo;s degree at CNAM, where I&amp;rsquo;m focused on advancing my expertise in software engineering.
 At night, I&amp;rsquo;m an active learner, keeping up with Cloud Native technologies, microservices, and new programming languages. My goal is to make my work life smoother, by automating, optimizing, and evolving constantly.</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://wrkt-portfolio.vercel.app/en/projects/</link>
+      <link>http://localhost:1313/en/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wrkt-portfolio.vercel.app/en/projects/</guid>
+      <guid>http://localhost:1313/en/projects/</guid>
       <description>🚀 Data restoration pipeline 🐔 Crossy Road Remake Crossy Road game remake using C# and Unity framework. This project was a team project made during the CNAM cursus. This project taught me how to work in team for a big project, and enlight me of how game development can be tricky and difficult if not planned correctly.
 View Repository
 🛩️ Arkanoid Remake Another game development project using C programming language and the SDL2 library.</description>
     </item>
     <item>
       <title>Work Experience</title>
-      <link>https://wrkt-portfolio.vercel.app/en/experiences/</link>
+      <link>http://localhost:1313/en/experiences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wrkt-portfolio.vercel.app/en/experiences/</guid>
+      <guid>http://localhost:1313/en/experiences/</guid>
       <description>DevOps Engineer Agora Calyce • Strasbourg, France • September 2023 - August 2026
 Key Responsibilities: Designed and created custom Docker images for containerized applications. Built and maintained CI/CD pipelines using GitLab CI Provisioned and managed Kubernetes clusters to facilitate application deployment and scaling. Implemented automated application deployments using ArgoCD and Helm Charts, ensuring efficient and reliable delivery (e.g: GitLab, Harbor, Velero). Established robust backup strategies for applications on Kubernetes clusters, automating processes for data protection and disaster recovery.</description>
     </item>

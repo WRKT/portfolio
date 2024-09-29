@@ -9,6 +9,8 @@ draft: false
 **Agora Calycé** • Strasbourg, France • September 2023 - August 2026
 
 * **Key Responsibilities:**
+  * Designed and created custom Docker images for containerized applications.
+  * Built and maintained CI/CD pipelines using GitLab CI
   * Provisioned and managed Kubernetes clusters to facilitate application deployment and scaling.
   * Implemented automated application deployments using ArgoCD and Helm Charts, ensuring efficient and reliable delivery (e.g: GitLab, Harbor, Velero).
   * Established robust backup strategies for applications on Kubernetes clusters, automating processes for data protection and disaster recovery.

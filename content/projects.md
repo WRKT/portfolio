@@ -3,6 +3,10 @@ title = 'Projects'
 draft = false
 +++
 
+## Data restoration pipeline
+
+---
+
 ## 🐔 Crossy Road Remake
 ![](/project-img/Crossy-Road-Starting.png)
 
@@ -22,11 +26,10 @@ Another game development project using C programming language and the SDL2 libra
 ---
 
 ## 💲Angular WebApp
+![](/project-img/angular-webapp.png)
 
 An e-commerce web application developed using Angular. This project taught me the MVVM arcitecture on web applications, REST API architecture, and how an ORM work and useful in various cases.
 
-[View Repository](https://gitlab.com/WRKT/projet-angular) | [Live Demo]()
+[View Repository](https://gitlab.com/WRKT/projet-angular)
 
 ---
-
-

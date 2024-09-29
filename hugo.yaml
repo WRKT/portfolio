@@ -58,6 +58,9 @@ params:
       url: "https://gitlab.com/WRKT"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/winness-r/"
+    - name: "Email"
+      url: "mailto:winness.it@gmail.com"
+      icon: "fas fa-envelope"
   assets:
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"

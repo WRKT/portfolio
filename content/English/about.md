@@ -26,14 +26,14 @@ Currently, I’m seeking a **3-month software engineering internship** to furthe
 
 ## Programming Languages
 
-| ![C](/icons/c-color.svg) | ![C++](/icons/cplusplus-color.svg) | ![Python](/icons/python-color.svg) | ![Bash](/icons/gnubash-color.svg) | ![GoLang](/icons/go-color.svg) |
+| ![C](/icons/c-color.svg) | ![C++](/icons/cplusplus-color.svg) | ![Python](/icons/python.svg) | ![Bash](/icons/bash.svg) | ![GoLang](/icons/go-color.svg) |
 | :---: | :---: | :---: | :---: | :---: |
 | C | C++ | Python | Bash | Go |
 
 ---
 
 ## Software I Use
-| ![GNU/Linux](/icons/tux.svg) | ![Docker](/icons/docker-color.svg) | ![Kubernetes](/icons/kubernetes-color.svg) | ![Helm](/icons/helm-color.svg) | ![ArgoCD](/icons/argo-color.svg) |
+| ![GNU/Linux](/icons/linux.png) | ![Docker](/icons/docker-color.svg) | ![Kubernetes](/icons/kubernetes-color.svg) | ![Helm](/icons/helm-color.svg) | ![ArgoCD](/icons/argo-color.svg) |
 | :---: | :---: | :---: | :---: | :---: |
 | GNU/Linux | Docker | Kubernetes | Helm | ArgoCD |
 

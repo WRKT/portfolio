@@ -2,6 +2,15 @@ baseURL: https://wrkt-portfolio.vercel.app
 languageCode: en-us
 title: WRKT.
 theme: ["PaperMod"]
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  en:
+    languageName: "English"
+    contentDir: content/English
+  fr:
+    languageName: "Français"
+    contentDir: content/French
 menu:
   main:
     - identifier: about

@@ -2,10 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>WRKT.</title>
-    <link>http://localhost:1313/fr/</link>
+    <link>https://wrkt-portfolio.vercel.app/fr/</link>
     <description>Recent content on WRKT.</description>
     <generator>Hugo -- 0.123.7</generator>
     <language>fr</language>
-    <atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wrkt-portfolio.vercel.app/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>À propos de moi</title>
+      <link>https://wrkt-portfolio.vercel.app/fr/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wrkt-portfolio.vercel.app/fr/about/</guid>
+      <description>Salut, je m&amp;rsquo;appelle Winness Rakotozafy, un passionné de Linux et ingénieur DevOps.
+Pendant la journée, je travaille en tant qu&amp;rsquo;ingénieur DevOps chez une société d&amp;rsquo;hébergement de données française, Agora Calyce. En parallèle, je poursuis un diplôme d&amp;rsquo;ingénieur à CNAM, où je me concentre sur l&amp;rsquo;approfondissement de mes compétences en ingénierie logicielle.
+Le soir, je suis un apprenant actif, toujours à jour avec les technologies Cloud Native, les microservices, et les nouveaux langages de programmation.</description>
+    </item>
+    <item>
+      <title>Experience Professionnelle</title>
+      <link>https://wrkt-portfolio.vercel.app/fr/experiences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wrkt-portfolio.vercel.app/fr/experiences/</guid>
+      <description>Ingénieur DevOps Agora Calyce • Strasbourg, France • Septembre 2023 - Août 2026
+Principales responsabilités : Conception et création d&amp;rsquo;images Docker personnalisées pour des applications conteneurisées. Création et maintenance de pipelines CI/CD à l&amp;rsquo;aide de GitLab CI. Provisionnement et gestion de clusters Kubernetes pour faciliter le déploiement et la mise à l&amp;rsquo;échelle des applications. Mise en place de déploiements d&amp;rsquo;applications automatisés avec ArgoCD et Helm Charts, assurant une livraison efficace et fiable (ex : GitLab, Harbor, Velero).</description>
+    </item>
+    <item>
+      <title>Projets</title>
+      <link>https://wrkt-portfolio.vercel.app/fr/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wrkt-portfolio.vercel.app/fr/projects/</guid>
+      <description>🚀 Pipeline de restauration de données 🐔 Remake de Crossy Road Remake du jeu Crossy Road en utilisant C# et le framework Unity. Ce projet a été réalisé en équipe dans le cadre de mon cursus au CNAM. Il m&amp;rsquo;a appris à travailler en équipe sur un projet de grande envergure et m&amp;rsquo;a montré à quel point le développement de jeux peut être complexe et difficile sans une planification adéquate.</description>
+    </item>
   </channel>
 </rss>

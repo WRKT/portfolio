@@ -1,8 +1,8 @@
----
-title: Work Experience
-introduction: "A dedicated DevOps Engineer with a focus on Kubernetes management and automation. Proven track record in deploying and maintaining scalable applications, leveraging tools like ArgoCD and Helm Charts."
-draft: false
----
++++
+title = 'Work Experience'
+introduction = "A dedicated DevOps Engineer with a focus on Kubernetes management and automation. Proven track record in deploying and maintaining scalable applications, leveraging tools like ArgoCD and Helm Charts."
+draft = false
++++
 
 ### DevOps Engineer
 

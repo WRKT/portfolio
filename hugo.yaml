@@ -4,26 +4,41 @@ title: WRKT.
 theme: ["PaperMod"]
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
+
 languages:
   en:
     languageName: "English"
     contentDir: content/English
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /about
+          weight: 10
+        - identifier: projects
+          name: Projects
+          url: /projects
+        - identifier: experiences
+          name: Experiences
+          url: /experiences
+          weight: 20
   fr:
     languageName: "Français"
     contentDir: content/French
-menu:
-  main:
-    - identifier: about
-      name: About 
-      url: /about
-      weight: 10
-    - identifier: projects
-      name: Projects
-      url: /projects
-    - identifier: experiences
-      name: Experiences
-      url: /experiences
-      weight: 20
+    menu:
+      main:
+        - identifier: about
+          name: À propos
+          url: /fr/about
+          weight: 10
+        - identifier: projects
+          name: Projets
+          url: /fr/projects
+        - identifier: experiences
+          name: Expériences
+          url: /fr/experiences
+          weight: 20
+
 params:
   label:
     icon: "images/coding.png"
@@ -31,12 +46,12 @@ params:
   profileMode:
     enabled: true
     title: "Winness Rakotozafy"
-    subtitle: "DevOps Engineer Junior • Linux Enthusiast 🐧"
+    subtitle: "Ingénieur DevOps Junior • Passionné de Linux 🐧"
     imageUrl: "/images/me.jpg"
-    imageTitle: "My memoji" 
+    imageTitle: "My memoji"
     imageWidth: 256
-    imageHeight: 256 
-  socialIcons:  
+    imageHeight: 256
+  socialIcons:
     - name: "Github"
       url: "https://github.com/s4ndalHat"
     - name: "GitLab"
@@ -48,4 +63,5 @@ params:
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
-    safari_pinned_tab: "/safari-pinned-tab.svg" 
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+

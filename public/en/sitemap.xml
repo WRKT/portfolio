@@ -2,46 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://wrkt-portfolio.vercel.app/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
+                href="https://wrkt-portfolio.vercel.app/fr/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://wrkt-portfolio.vercel.app/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/projects/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://wrkt-portfolio.vercel.app/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="https://wrkt-portfolio.vercel.app/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://wrkt-portfolio.vercel.app/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/experiences/</loc>
-  </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://wrkt-portfolio.vercel.app/en/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="https://wrkt-portfolio.vercel.app/fr/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://wrkt-portfolio.vercel.app/en/projects/"
+                />
+  </url><url>
+    <loc>https://wrkt-portfolio.vercel.app/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://wrkt-portfolio.vercel.app/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wrkt-portfolio.vercel.app/en/tags/"
+                />
+  </url><url>
+    <loc>https://wrkt-portfolio.vercel.app/en/experiences/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://wrkt-portfolio.vercel.app/fr/experiences/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wrkt-portfolio.vercel.app/en/experiences/"
+                />
+  </url><url>
+    <loc>https://wrkt-portfolio.vercel.app/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://wrkt-portfolio.vercel.app/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wrkt-portfolio.vercel.app/en/"
                 />
   </url>
 </urlset>

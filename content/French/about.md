@@ -26,20 +26,20 @@ Actuellement, je recherche un **stage en ingénieur informatique de 3 mois** pou
 
 ## Langages de programmation
 
-| ![C](/icons/c-color.svg) | ![C++](/icons/cplusplus-color.svg) | ![Python](/icons/python.svg) | ![Bash](/icons/bash.svg) | ![GoLang](/icons/go-color.svg) |
+| ![C](/icons/C.svg) | ![C++](/icons/C++.svg) | ![Python](/icons/python.svg) | ![Bash](/icons/bash.svg) | ![GoLang](/icons/GoLand.svg) |
 | :---: | :---: | :---: | :---: | :---: |
 | C | C++ | Python | Bash | Go |
 
 ---
 
 ## Logiciels que j’utilise
-| ![GNU/Linux](/icons/linux.png) | ![Docker](/icons/docker-color.svg) | ![Kubernetes](/icons/kubernetes-color.svg) | ![Helm](/icons/helm-color.svg) | ![ArgoCD](/icons/argo-color.svg) |
+| ![GNU/Linux](/icons/Linux.svg) | ![Docker](/icons/Docker.svg) | ![Kubernetes](/icons/kubernetes.svg) | ![Helm](/icons/helm.svg) | ![ArgoCD](/icons/argo-color.svg) |
 | :---: | :---: | :---: | :---: | :---: |
 | GNU/Linux | Docker | Kubernetes | Helm | ArgoCD |
 
-| ![Git](/icons/git-color.svg) | ![GitLab CI](/icons/gitlab-color.svg) | ![NeoVim](/icons/neovim-color.svg) | ![GoLand](/icons/goland-color.svg) |
+| ![Git](/icons/Git.svg) | ![GitLab CI](/icons/GitLab.svg) | ![NeoVim](/icons/Vim.svg) | ![GoLand](/icons/GoLand.svg) |
 | :---: | :---: | :---: | :---: |
-| Git | GitLab CI | Neovim | GoLand |
+| Git | GitLab CI | Vim | GoLand |
 
 ---
 

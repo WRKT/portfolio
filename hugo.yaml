@@ -4,6 +4,7 @@ title: WRKT.
 theme: ["PaperMod"]
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
+defaultContentLanguageFallback: true
 
 languages:
   en:
@@ -67,4 +68,9 @@ params:
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "/safari-pinned-tab.svg"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 

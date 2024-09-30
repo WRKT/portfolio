@@ -3,6 +3,13 @@ title = 'Projects'
 draft = false
 +++
 
+## 🔐 Containerized PKI
+![PKI Project repository](/project-img/pki-project.png)  
+A personal project to create a containerized PKI infrastructure for generating signed certificates. The goal of this project was to build a simple, ready-to-use environment that can generate certificates with a custom domain for an internal network. Feel free to provide feedback.
+
+[<i class="fab fa-gitlab"></i> View Repository](https://gitlab.com/WRKT/pki-project)
+
+---
 ## 🐔 Crossy Road Remake
 ![Crossy Road in-game](/project-img/Crossy-Road-Starting.png)
 

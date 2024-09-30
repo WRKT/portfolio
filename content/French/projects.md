@@ -3,6 +3,13 @@ title = 'Projets'
 draft = false
 +++
 
+## 🔐 Architecture conteneurisée PKI
+![Dépôt du projet PKI](/project-img/pki-project.png)  
+Projet personnel visant à créer une infrastructure PKI conteneurisée pour générer des certificats signés. L'objectif de ce projet était de créer un environnement simple à utiliser permettant de générer des certificats avec un domaine personnalisé pour un réseau interne. N'hésitez pas à donner votre avis.
+
+[<i class="fab fa-gitlab"></i> Voir le dépôt](https://gitlab.com/WRKT/pki-project)
+
+---
 ## 🐔 Crossy Road
 ![Crossy Road in-game](/project-img/Crossy-Road-Starting.png)
 

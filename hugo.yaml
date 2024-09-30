@@ -47,7 +47,7 @@ params:
   profileMode:
     enabled: true
     title: "Winness Rakotozafy"
-    subtitle: "Ingénieur DevOps Junior • Passionné de Linux 🐧"
+    subtitle: "DevOps Engineer Junior • Linux Enthusiast 🐧"
     imageUrl: "/images/me.jpg"
     imageTitle: "My memoji"
     imageWidth: 256

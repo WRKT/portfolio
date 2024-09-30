@@ -26,7 +26,7 @@ Actuellement, je recherche un **stage en ingénieur informatique de 3 mois** pou
 
 ## Langages de programmation
 
-| ![C](/icons/C.svg) | ![C++](/icons/C++.svg) | ![Python](/icons/python.svg) | ![Bash](/icons/bash.svg) | ![GoLang](/icons/GoLand.svg) |
+| ![C](/icons/C.svg) | ![C++](/icons/C++.svg) | ![Python](/icons/python.svg) | ![Bash](/icons/bash.svg) | ![GoLang](/icons/Go.svg) |
 | :---: | :---: | :---: | :---: | :---: |
 | C | C++ | Python | Bash | Go |
 

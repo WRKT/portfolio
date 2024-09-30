@@ -29,9 +29,9 @@ Principales responsabilités : Conception et création d&amp;rsquo;images Docker
       <link>https://wrkt-portfolio.vercel.app/fr/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wrkt-portfolio.vercel.app/fr/projects/</guid>
-      <description>🐔 Crossy Road Remake du jeu Crossy Road en utilisant C# et le framework Unity. Ce projet a été réalisé en équipe dans le cadre de mon cursus au CNAM. Il m&amp;rsquo;a appris à travailler en équipe sur un projet de grande envergure et m&amp;rsquo;a montré à quel point le développement de jeux peut être complexe et difficile sans une planification adéquate.
+      <description>🔐 Architecture conteneurisée PKI Projet personnel visant à créer une infrastructure PKI conteneurisée pour générer des certificats signés. L&amp;rsquo;objectif de ce projet était de créer un environnement simple à utiliser permettant de générer des certificats avec un domaine personnalisé pour un réseau interne. N&amp;rsquo;hésitez pas à donner votre avis.
 Voir le dépôt
-🛩️ Arkanoid Un autre projet de développement de jeu en utilisant le langage C et la bibliothèque SDL2.</description>
+🐔 Crossy Road Remake du jeu Crossy Road en utilisant C# et le framework Unity. Ce projet a été réalisé en équipe dans le cadre de mon cursus au CNAM.</description>
     </item>
   </channel>
 </rss>

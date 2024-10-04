@@ -15,7 +15,7 @@ Currently, I’m seeking a **3-month software engineering internship** to furthe
 
 ## Interests
 
-- ♾️  DevOps tools & practices
+- ♾️ DevOps tools & practices
 - 🐧 Linux & open-source
 - 💻 Coding & exploring new techs
 - 🌍 Traveling

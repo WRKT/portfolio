@@ -15,7 +15,7 @@ Actuellement, je recherche un **stage en ingénieur informatique de 3 mois** pou
 
 ## Centres d'intérêt
 
-- ♾️  Outils et pratiques DevOps
+- ♾️ Outils et pratiques DevOps
 - 🐧 Linux & open-source
 - 💻 Programmation & découverte de nouvelles technologies
 - 🌍 Voyages

@@ -64,7 +64,7 @@ params:
     iconHeight: 32
   socialIcons:
     - name: "Github"
-      url: "https://github.com/s4ndalHat"
+      url: "https://github.com/WRKT"
     - name: "GitLab"
       url: "https://gitlab.com/WRKT"
     - name: "LinkedIn"

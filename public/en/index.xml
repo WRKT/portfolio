@@ -1,32 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>WRKT.</title>
-    <link>https://wrkt-portfolio.vercel.app/en/</link>
+    <link>http://localhost:1313/en/</link>
     <description>Recent content on WRKT.</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <atom:link href="https://wrkt-portfolio.vercel.app/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>https://wrkt-portfolio.vercel.app/en/about/</link>
+      <link>http://localhost:1313/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wrkt-portfolio.vercel.app/en/about/</guid>
-      <description>Hey, the name&amp;rsquo;s Winness Rakotozafy, a passionate Linux enthusiast and DevOps engineer.&#xA;In my daytime, I work as a DevOps Engineer at a French data hosting company, Agora Calyce. On top of that, I&amp;rsquo;m also studying to obtain my Engineer&amp;rsquo;s degree at CNAM, where I&amp;rsquo;m focused on advancing my expertise in software engineering.&#xA;At night, I&amp;rsquo;m an active learner, keeping up with Cloud Native technologies, microservices, and new programming languages. My goal is to make my work life smoother, by automating, optimizing, and evolving constantly.</description>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description>&lt;p&gt;Hey, the name&amp;rsquo;s &lt;strong&gt;Winness Rakotozafy&lt;/strong&gt;, a passionate &lt;strong&gt;Linux enthusiast&lt;/strong&gt; and &lt;strong&gt;DevOps engineer&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In my daytime, I work as a DevOps Engineer at a French data hosting company, &lt;strong&gt;&lt;a href=&#34;https://www.agoracalyce.com/&#34;&gt;Agora Calyce&lt;/a&gt;&lt;/strong&gt;. On top of that, I&amp;rsquo;m also studying to obtain my Engineer&amp;rsquo;s degree at &lt;strong&gt;CNAM&lt;/strong&gt;, where I&amp;rsquo;m focused on advancing my expertise in software engineering.&lt;/p&gt;
+&lt;p&gt;At night, I&amp;rsquo;m an active learner, keeping up with &lt;strong&gt;Cloud Native&lt;/strong&gt; technologies, &lt;strong&gt;microservices&lt;/strong&gt;, and new programming languages. My goal is to make my work life smoother, by automating, optimizing, and evolving constantly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://wrkt-portfolio.vercel.app/en/projects/</link>
+      <link>http://localhost:1313/en/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wrkt-portfolio.vercel.app/en/projects/</guid>
-      <description>🔐 Containerized PKI A personal project to create a containerized PKI infrastructure for generating signed certificates. The goal of this project was to build a simple, ready-to-use environment that can generate certificates with a custom domain for an internal network. Feel free to provide feedback.&#xA;View Repository&#xA;🐔 Crossy Road Remake Crossy Road game remake using C# and Unity framework. This project was a team project made during the CNAM cursus.</description>
+      <guid>http://localhost:1313/en/projects/</guid>
+      <description>&lt;h2 id=&#34;-containerized-pki&#34;&gt;🔐 Containerized PKI&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;PKI Project repository&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/project-img/pki-project.png&#34;&gt;&lt;br&gt;
+A personal project to create a containerized PKI infrastructure for generating signed certificates. The goal of this project was to build a simple, ready-to-use environment that can generate certificates with a custom domain for an internal network. Feel free to provide feedback.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gitlab.com/WRKT/pki-project&#34;&gt;&lt;i class=&#34;fab fa-gitlab&#34;&gt;&lt;/i&gt; View Repository&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-crossy-road-remake&#34;&gt;🐔 Crossy Road Remake&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Crossy Road in-game&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/project-img/Crossy-Road-Starting.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Crossy Road game remake using C# and Unity framework. This project was a team project made during the CNAM cursus. This project taught me how to work in team for a big project, and enlight me of how game development can be tricky and difficult if not planned correctly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Work Experience</title>
-      <link>https://wrkt-portfolio.vercel.app/en/experiences/</link>
+      <link>http://localhost:1313/en/experiences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wrkt-portfolio.vercel.app/en/experiences/</guid>
-      <description>DevOps Engineer Agora Calyce • Strasbourg, France • September 2023 - August 2026&#xA;Key Responsibilities: Designed and created custom Docker images for containerized applications. Built and maintained CI/CD pipelines using GitLab CI Provisioned and managed Kubernetes clusters to facilitate application deployment and scaling. Implemented automated application deployments using ArgoCD and Helm Charts, ensuring efficient and reliable delivery (e.g: GitLab, Harbor, Velero). Established robust backup strategies for applications on Kubernetes clusters, automating processes for data protection and disaster recovery.</description>
+      <guid>http://localhost:1313/en/experiences/</guid>
+      <description>&lt;h3 id=&#34;devops-engineer&#34;&gt;DevOps Engineer&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Agora Calyce&lt;/strong&gt; • Strasbourg, France • September 2023 - August 2026&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Agora Calyce&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/agora.png&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Key Responsibilities:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and created custom Docker images for containerized applications.&lt;/li&gt;
+&lt;li&gt;Built and maintained CI/CD pipelines using GitLab CI&lt;/li&gt;
+&lt;li&gt;Provisioned and managed Kubernetes clusters to facilitate application deployment and scaling.&lt;/li&gt;
+&lt;li&gt;Implemented automated application deployments using ArgoCD and Helm Charts, ensuring efficient and reliable delivery (e.g: GitLab, Harbor, Velero).&lt;/li&gt;
+&lt;li&gt;Established robust backup strategies for applications on Kubernetes clusters, automating processes for data protection and disaster recovery.&lt;/li&gt;
+&lt;li&gt;Monitored and optimized application performance using Prometheus and Grafana.&lt;/li&gt;
+&lt;li&gt;Administered Linux servers, configuring and maintaining system settings for optimal operation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;it-support-technician&#34;&gt;IT Support Technician&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Préfecture of Bas-Rhin&lt;/strong&gt; • Strasbourg, France • September 2021 - August 2023&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

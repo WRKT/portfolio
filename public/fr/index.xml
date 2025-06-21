@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>WRKT.</title>
-    <link>http://localhost:1313/fr/</link>
+    <link>https://wrkt-portfolio.vercel.app/fr/</link>
     <description>Recent content on WRKT.</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>fr</language>
-    <atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wrkt-portfolio.vercel.app/fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>À propos de moi</title>
-      <link>http://localhost:1313/fr/about/</link>
+      <link>https://wrkt-portfolio.vercel.app/fr/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/about/</guid>
+      <guid>https://wrkt-portfolio.vercel.app/fr/about/</guid>
       <description>&lt;p&gt;Salut, je m&amp;rsquo;appelle &lt;strong&gt;Winness Rakotozafy&lt;/strong&gt;, un &lt;strong&gt;passionné de Linux&lt;/strong&gt; et &lt;strong&gt;ingénieur DevOps&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Pendant la journée, je travaille en tant qu&amp;rsquo;ingénieur DevOps chez une société d&amp;rsquo;hébergement de données française, &lt;strong&gt;&lt;a href=&#34;https://www.agoracalyce.com/&#34;&gt;Agora Calyce&lt;/a&gt;&lt;/strong&gt;. En parallèle, je poursuis un diplôme d&amp;rsquo;ingénieur à &lt;strong&gt;CNAM&lt;/strong&gt;, où je me concentre sur l&amp;rsquo;approfondissement de mes compétences en ingénierie logicielle.&lt;/p&gt;
 &lt;p&gt;Le soir, je suis un apprenant actif, toujours à jour avec les technologies &lt;strong&gt;Cloud Native&lt;/strong&gt;, les &lt;strong&gt;microservices&lt;/strong&gt;, et les nouveaux langages de programmation. Mon objectif est de rendre mon quotidien plus fluide en automatisant, optimisant et en évoluant en permanence.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Experience Professionnelle</title>
-      <link>http://localhost:1313/fr/experiences/</link>
+      <link>https://wrkt-portfolio.vercel.app/fr/experiences/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/experiences/</guid>
+      <guid>https://wrkt-portfolio.vercel.app/fr/experiences/</guid>
       <description>&lt;h3 id=&#34;ingénieur-devops&#34;&gt;Ingénieur DevOps&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Agora Calyce&lt;/strong&gt; • Strasbourg, France • Septembre 2023 - Août 2026&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Agora Calyce&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/agora.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Agora Calyce&#34; loading=&#34;lazy&#34; src=&#34;https://wrkt-portfolio.vercel.app/images/agora.png&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Principales responsabilités :&lt;/strong&gt;
 &lt;ul&gt;
@@ -43,16 +43,16 @@
     </item>
     <item>
       <title>Projets</title>
-      <link>http://localhost:1313/fr/projects/</link>
+      <link>https://wrkt-portfolio.vercel.app/fr/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/projects/</guid>
+      <guid>https://wrkt-portfolio.vercel.app/fr/projects/</guid>
       <description>&lt;h2 id=&#34;-architecture-conteneurisée-pki&#34;&gt;🔐 Architecture conteneurisée PKI&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&#34;Dépôt du projet PKI&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/project-img/pki-project.png&#34;&gt;&lt;br&gt;
+&lt;p&gt;&lt;img alt=&#34;Dépôt du projet PKI&#34; loading=&#34;lazy&#34; src=&#34;https://wrkt-portfolio.vercel.app/project-img/pki-project.png&#34;&gt;&lt;br&gt;
 Projet personnel visant à créer une infrastructure PKI conteneurisée pour générer des certificats signés. L&amp;rsquo;objectif de ce projet était de créer un environnement simple à utiliser permettant de générer des certificats avec un domaine personnalisé pour un réseau interne. N&amp;rsquo;hésitez pas à donner votre avis.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://gitlab.com/WRKT/pki-project&#34;&gt;&lt;i class=&#34;fab fa-gitlab&#34;&gt;&lt;/i&gt; Voir le dépôt&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-crossy-road&#34;&gt;🐔 Crossy Road&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&#34;Crossy Road in-game&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/project-img/Crossy-Road-Starting.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Crossy Road in-game&#34; loading=&#34;lazy&#34; src=&#34;https://wrkt-portfolio.vercel.app/project-img/Crossy-Road-Starting.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Remake du jeu Crossy Road en utilisant C# et le framework Unity. Ce projet a été réalisé en équipe dans le cadre de mon cursus au CNAM. Il m&amp;rsquo;a appris à travailler en équipe sur un projet de grande envergure et m&amp;rsquo;a montré à quel point le développement de jeux peut être complexe et difficile sans une planification adéquate.&lt;/p&gt;</description>
     </item>
   </channel>
